@@ -1,0 +1,59 @@
+main
+    position: absolute
+    top: 45%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 90%
+    text-align: center
+    
+    .johnny 
+        width: 10em
+        height: @width
+        display: block
+        margin: 0 auto 2em
+        
+        path
+            fill: none
+            stroke-width: 4
+            stroke: #9C0001
+            transition: none
+            
+            &.go
+                transition: stroke-dashoffset 3s ease-in-out
+        
+    .icon
+        width: 1.4em
+        height: @height
+        display: inline-block
+        padding: 0 0.2em
+        opacity: 0.8
+
+        path
+            fill: #666
+        
+
+    nav
+        display: block
+        padding: 30px 0 0
+        
+        &.links
+            border-top: 1px solid #ccc
+            
+            a
+                border-bottom: 1px dotted #999    
+    h1
+    a
+        display: inline
+        font-size: 1em
+        padding: 0 0 0 0.4em
+        font-style: italic
+        opacity: 1
+        letter-spacing: 0.02em
+        line-height: 1.6
+        
+    a
+        opacity: 0.7
+        text-decoration: none
+
+        &:hover
+            opacity: 1
