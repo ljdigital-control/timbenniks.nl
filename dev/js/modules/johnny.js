@@ -1,4 +1,4 @@
-var Johnny = function( app ){
+window.Johnny = function(){
 	
 	var path, 
 		length,
@@ -26,4 +26,6 @@ var Johnny = function( app ){
 	init();
 };
 
-module.exports = Johnny;
+window.onLoad = function(){
+	new Johnny();
+}

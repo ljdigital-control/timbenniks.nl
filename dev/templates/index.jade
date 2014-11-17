@@ -9,9 +9,22 @@ html( lang="en" )
 		meta( name="description" content="I am a web-developer with a passion for simple interfaces on complex websites. I'm also a guitarist and a fitness enthousiast." )
 		meta( name="keywords" content="web-developer, interfaces, fitness, guitarist, BluesMotel, AKQA" )
 
+		meta( name="google-site-verification" content="El5Wtr19CHQY1u_sQOjbuusrXqYCt6I6n3OJSyZEPAg" )
+		
+		link( rel="apple-touch-icon-precomposed" href="./assets/favicon.png" )
+		link( rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/favicon.png" )
+		link( rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicon.png" )
+		link( rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/favicon.png" )
+		link( rel="shortcut icon" href="./assets/favicon.png" )
+
+		meta( property="og:title" content="Tim Benniks, web-developer, guitarist and fitness enthusiast" )
+		meta( property="og:image" content="./assets/favicon.png" )
+		meta( property="og:site_name" content="Tim Benniks, web-developer" )
+		meta( property="og:description" content="I am a web-developer with a passion for simple interfaces on complex websites. I'm also a guitarist and a fitness enthousiast." )
+
 		title Tim Benniks, webdeveloper, guitarist and fitness enthusiast
 
-		link( rel="stylesheet" href="./css/styles.css" )
+		link( rel="stylesheet" href="./css/styles.css", "inline" )
 	body
 		main( role="main" )
 			svg( class="johnny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve" )
@@ -45,4 +58,7 @@ html( lang="en" )
 					svg( class="icon instagram" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" )
 						path( d="M88.2,1H11.8C5.85,1,1.026,5.827,1.026,11.781V88.22C1.026,94.174,5.85,99,11.8,99H88.2c5.95,0,10.774-4.826,10.774-10.78 V11.781C98.973,5.827,94.149,1,88.2,1z M49.946,31.184c10.356,0,18.752,8.4,18.752,18.762c0,10.361-8.396,18.761-18.752,18.761 s-18.752-8.4-18.752-18.761S39.589,31.184,49.946,31.184z M87.513,83.615c0,2.165-1.753,3.919-3.917,3.919H16.341 c-2.164,0-3.917-1.755-3.917-3.919v-41.06h8.508c-0.589,2.35-0.904,4.807-0.904,7.34c0,16.612,13.459,30.079,30.063,30.079 s30.063-13.466,30.063-30.079c0-2.533-0.315-4.99-0.904-7.34h8.263L87.513,83.615L87.513,83.615z M87.764,27.124 c0,2.165-1.754,3.919-3.918,3.919H72.723c-2.164,0-3.917-1.755-3.917-3.919v-11.13c0-2.165,1.754-3.919,3.917-3.919h11.123 c2.165,0,3.918,1.755,3.918,3.919V27.124z" )
 
-		script( src="./js/app.js" )
+		script.
+			document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".johnny path");length=e.getTotalLength();e.classList.remove("go");e.style.strokeDasharray=length+" "+length;e.style.strokeDashoffset=length;e.getBoundingClientRect();e.classList.add("go");e.style.strokeDashoffset="0"})
+			var _gaq=[['_setAccount','UA-6797812-3'],['_trackPageview']];
+			(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()

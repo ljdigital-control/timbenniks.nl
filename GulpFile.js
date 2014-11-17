@@ -4,8 +4,10 @@ var gulp = require( 'gulp' ),
 	jade = require( 'gulp-jade' ),
 	nib = require( 'nib' ),
 	browserSync = require( 'browser-sync' ),
-	browserify = require('gulp-browserify'),
-	uglify = require('gulp-uglify');
+	browserify = require( 'gulp-browserify' ),
+	uglify = require( 'gulp-uglify' ),
+	marked = require( 'marked' ),
+	inlinesource = require( 'gulp-inline-source' );
 
 
 gulp.task( 'connect', function(){
@@ -38,7 +40,7 @@ gulp.task( 'pages', function(){
 	gulp
 		.src( 'dev/templates/*.jade' )
     	.pipe( jade( { pretty: true } ) )
-    	.pipe( gulp.dest( 'publish' ) );
+    	.pipe( gulp.dest( 'publish' ) )
 });
 
 
@@ -68,4 +70,12 @@ gulp.task( 'assets', function(){
 		.pipe( gulp.dest( 'publish/assets' ) )
 });
 
-gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages' ] );
+
+gulp.task( 'inline', function(){
+    gulp
+    	.src('publish/*.html')
+        .pipe( inlinesource() )
+        .pipe( gulp.dest('publish') );
+});
+
+gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages', 'inline' ] );
