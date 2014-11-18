@@ -1,12 +1,12 @@
-window.Johnny = function(){
-	
-	var path, 
+var Johnny = function(){
+
+	var path,
 		length,
-	
+
 	init = function(){
 		path = document.querySelector( '.johnny path' );
 		length = path.getTotalLength();
-		
+
 		reset();
 		go();
 	},
@@ -21,11 +21,9 @@ window.Johnny = function(){
 	go = function(){
 		path.classList.add( 'go' );
 		path.style.strokeDashoffset = '0';
-	}
+	};
 
 	init();
 };
 
-window.onLoad = function(){
-	new Johnny();
-}
+module.exports = Johnny;

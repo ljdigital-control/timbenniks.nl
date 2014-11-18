@@ -36,14 +36,6 @@ gulp.task( 'styles', function(){
 });
 
 
-gulp.task( 'pages', function(){
-	gulp
-		.src( 'dev/templates/*.jade' )
-    	.pipe( jade( { pretty: true } ) )
-    	.pipe( gulp.dest( 'publish' ) )
-});
-
-
 gulp.task( 'lint', function(){
 	gulp
 		.src( [ 'dev/js/*.js', 'dev/js/**/*.js', '!dev/js/helpers/*.js', '!dev/js/vendors/*.js', '!dev/js/modernizr.js' ] )
@@ -60,22 +52,30 @@ gulp.task( 'scripts', function(){
 			debug: false
 		} ) )
 		.pipe( uglify() )
-		.pipe( gulp.dest( 'publish/js' ) )
+		.pipe( gulp.dest( 'publish/js' ) );
 });
 
 
 gulp.task( 'assets', function(){
 	gulp
 		.src( [ 'dev/assets/**/*' ] )
-		.pipe( gulp.dest( 'publish/assets' ) )
+		.pipe( gulp.dest( 'publish/assets' ) );
 });
 
 
-gulp.task( 'inline', function(){
+gulp.task( 'pages', function(){
+	gulp
+		.src( 'dev/templates/*.jade' )
+		.pipe( jade( { pretty: true } ) )
+		.pipe( gulp.dest( 'publish' ) );
+});
+
+
+gulp.task( 'inline', [ 'pages' ], function(){
     gulp
-    	.src('publish/*.html')
-        .pipe( inlinesource() )
-        .pipe( gulp.dest('publish') );
+		.src('publish/*.html')
+		.pipe( inlinesource() )
+		.pipe( gulp.dest('publish') );
 });
 
 gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages', 'inline' ] );
