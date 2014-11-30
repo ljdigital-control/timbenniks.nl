@@ -1,12 +1,17 @@
-var Johnny = require( './modules/johnny' ),
-	
-App = function( window ){
-	this.hdpi = ( window.matchMedia && window.matchMedia( '(min-resolution: 1.5dppx),(min-resolution: 144dpi),(-webkit-min-device-pixel-ratio: 1.5)' ).matches );
+var App = function( window ){
 	this.touch = ( ( 'ontouchstart' in window ) || ( navigator.MaxTouchPoints > 0 ) || ( navigator.msMaxTouchPoints > 0 ) );
-	this.bigScreen = ( window.matchMedia && window.matchMedia( '( min-width: 700px )' ).matches );
-	this.isIE8 = document.all && !document.addEventListener ? true : false;
+	this.body = document.querySelector( 'body' );
 	
-	this.johnny = new Johnny( this );
+	if( this.body.classList.contains( 'article' ) || this.body.classList.contains( 'home' ) ){
+		var Johnny = require( './modules/johnny' );
+		this.johnny = new Johnny( this );
+	}
+
+	if( this.body.classList.contains( 'marathon' ) ){
+		console.log( 'marathon' );
+	}
 };
 
-new App( window );
+document.addEventListener( 'DOMContentLoaded', function(){
+	new App( window );
+} );
