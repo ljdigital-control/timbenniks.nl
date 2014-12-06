@@ -8,7 +8,9 @@ var gulp = require( 'gulp' ),
 	uglify = require( 'gulp-uglify' ),
 	marked = require( 'marked' ),
 	inlinesource = require( 'gulp-inline-source' ),
-	download = require( 'gulp-download' );
+	download = require( 'gulp-download' ),
+	convert = require( 'gulp-convert' );
+
 
 gulp.task( 'connect', function(){
     browserSync({
