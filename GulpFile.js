@@ -80,11 +80,8 @@ gulp.task( 'inline', [ 'pages' ], function(){
 
 gulp.task( 'marathon', function(){
 
-	download( 'http://nike.timbenniks.nl/nike.php?get=totals', 'totals' )
+	download( 'http://nike.timbenniks.nl/totals', 'totals' )
     	.pipe( gulp.dest( 'dev/assets/marathon/' ) );
-
-    download( 'http://nike.timbenniks.nl/nike.php?get=activities', 'activities' )
-		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
 
 } );
 
