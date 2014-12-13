@@ -8,9 +8,7 @@ var gulp = require( 'gulp' ),
 	uglify = require( 'gulp-uglify' ),
 	marked = require( 'marked' ),
 	inlinesource = require( 'gulp-inline-source' ),
-	download = require( 'gulp-download' ),
-	convert = require( 'gulp-convert' );
-
+	download = require( 'gulp-download' );
 
 gulp.task( 'connect', function(){
     browserSync({
@@ -82,7 +80,10 @@ gulp.task( 'inline', [ 'pages' ], function(){
 
 gulp.task( 'marathon', function(){
 
-	download( 'http://nike.timbenniks.nl/totals', 'totals' )
+	download( 'http://nike.timbenniks.nl/totals?from=2014-11-01', 'totals' )
+    	.pipe( gulp.dest( 'dev/assets/marathon/' ) );
+
+	download( 'http://nike.timbenniks.nl/runs?from=2014-11-01', 'runs' )
     	.pipe( gulp.dest( 'dev/assets/marathon/' ) );
 
 } );
