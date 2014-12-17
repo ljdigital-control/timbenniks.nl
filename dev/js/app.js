@@ -1,14 +1,16 @@
-var App = function( window ){
-	this.touch = ( ( 'ontouchstart' in window ) || ( navigator.MaxTouchPoints > 0 ) || ( navigator.msMaxTouchPoints > 0 ) );
-	this.body = document.querySelector( 'body' );
+var Marathon = require( './modules/marathon' ),
+	Johnny = require( './modules/johnny' ),
+
+App = function( window ){
+	var touch = ( ( 'ontouchstart' in window ) || ( navigator.MaxTouchPoints > 0 ) || ( navigator.msMaxTouchPoints > 0 ) ),
+		body = document.querySelector( 'body' );
 	
-	if( this.body.classList.contains( 'article' ) || this.body.classList.contains( 'home' ) ){
-		var Johnny = require( './modules/johnny' );
-		this.johnny = new Johnny( this );
+	if( body.classList.contains( 'article' ) || body.classList.contains( 'home' ) ){
+		var johnny = new Johnny();
 	}
 
-	if( this.body.classList.contains( 'marathon' ) ){
-		console.log( 'marathon' );
+	if( body.classList.contains( 'marathon' ) ){
+		var marathon = new Marathon();
 	}
 };
 

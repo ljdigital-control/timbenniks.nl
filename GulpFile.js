@@ -20,7 +20,7 @@ gulp.task( 'connect', function(){
 
 
 gulp.task( 'serve', [ 'connect' ], function (){
-	gulp.watch( [ 'dev/js/*.js', 'static/js/**/*.js' ], [ 'lint', 'scripts' ] );
+	gulp.watch( [ 'dev/js/**/*' ], [ 'lint', 'scripts' ] );
 	gulp.watch( [ 'dev/css/**/*.styl' ], [ 'styles' ] );
 	gulp.watch( [ 'dev/assets/**/*' ], [ 'assets' ] );
 	gulp.watch( [ 'dev/templates/*.jade' ], [ 'pages', browserSync.reload ] );
@@ -51,7 +51,7 @@ gulp.task( 'scripts', function(){
 			insertGlobals: true,
 			debug: false
 		} ) )
-		.pipe( uglify() )
+		//.pipe( uglify() )
 		.pipe( gulp.dest( 'publish/js' ) );
 });
 
