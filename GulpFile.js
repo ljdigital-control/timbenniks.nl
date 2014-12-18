@@ -8,7 +8,8 @@ var gulp = require( 'gulp' ),
 	uglify = require( 'gulp-uglify' ),
 	marked = require( 'marked' ),
 	inlinesource = require( 'gulp-inline-source' ),
-	download = require( 'gulp-download' );
+	download = require( 'gulp-download' ),
+	rimraf = require('rimraf');
 
 gulp.task( 'connect', function(){
     browserSync({
@@ -57,9 +58,11 @@ gulp.task( 'scripts', function(){
 
 
 gulp.task( 'assets', function(){
-	gulp
-		.src( [ 'dev/assets/**/*' ] )
-		.pipe( gulp.dest( 'publish/assets' ) );
+	rimraf('publish/assets', function(){
+		gulp
+			.src( [ 'dev/assets/**/*' ] )
+			.pipe( gulp.dest( 'publish/assets' ) );
+	});
 });
 
 
@@ -81,10 +84,12 @@ gulp.task( 'inline', [ 'pages' ], function(){
 gulp.task( 'marathon', function(){
 
 	download( 'http://nike.timbenniks.nl/totals?from=2014-11-01', 'totals' )
-    	.pipe( gulp.dest( 'dev/assets/marathon/' ) );
+		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
 
-	download( 'http://nike.timbenniks.nl/runs?from=2014-11-01', 'runs' )
-    	.pipe( gulp.dest( 'dev/assets/marathon/' ) );
+	download( 'http://nike.timbenniks.nl/runs', 'runs' )
+		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
+
+	gulp.run( 'assets' );
 
 } );
 

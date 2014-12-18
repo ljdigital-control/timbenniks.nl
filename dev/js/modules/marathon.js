@@ -8,12 +8,12 @@ Marathon = function(){
 		var chart = c3.generate( {
 			bindto: '.chart',
 			data: {
-    			url: '/assets/marathon/runs.json',
-    			mimeType: 'json',
-    			type: 'spline',
-    			keys: {
-                	value: ['distance']
-            	}
+				url: '/assets/marathon/runs.json',
+				mimeType: 'json',
+				type: 'spline',
+				keys: {
+					value: ['distance']
+				}
             },
 			size: {
 				width: 900
