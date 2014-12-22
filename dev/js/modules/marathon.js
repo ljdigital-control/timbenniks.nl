@@ -1,25 +1,17 @@
-var d3 = require( 'd3' ),
-	c3 = require( 'c3' ),
-
+var Chartist = require( 'chartist' ),
+	
 Marathon = function(){
 
 	var init = function(){
 
-		var chart = c3.generate( {
-			bindto: '.chart',
-			data: {
-				url: '/assets/marathon/runs.json',
-				mimeType: 'json',
-				type: 'spline',
-				keys: {
-					value: ['distance']
-				}
-            },
-			size: {
-				width: 900
-			}
+		new Chartist.Line('.ct-chart', {
+			labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+			series: [
+				[12, 9, 7, 8, 5],
+				[2, 1, 3.5, 7, 3],
+				[1, 3, 4, 5, 6]
+			]
 		});
-
 	};
 
 	init();

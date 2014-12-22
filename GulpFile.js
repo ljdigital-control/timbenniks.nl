@@ -83,7 +83,7 @@ gulp.task( 'inline', [ 'pages' ], function(){
 
 gulp.task( 'marathon', function(){
 
-	download( 'http://nike.timbenniks.nl/totals?from=2014-11-01', 'totals' )
+	download( 'http://nike.timbenniks.nl/totals', 'totals' )
 		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
 
 	download( 'http://nike.timbenniks.nl/runs', 'runs' )

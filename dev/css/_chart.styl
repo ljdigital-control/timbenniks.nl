@@ -1,216 +1,558 @@
-/*-- Chart --*/
-
-.c3 svg {
-  font: 10px sans-serif;
-}
-.c3 path, .c3 line {
-  fill: none;
-  stroke: #000;
-}
-.c3 text {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+.ct-chart .ct-label,.ct-chart .ct-label.ct-horizontal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: rgba(0,0,0,.4);
+  color: rgba(0,0,0,.4);
+  font-size: .75rem;
+  text-align: left;
 }
 
-.c3-legend-item-tile,
-.c3-xgrid-focus,
-.c3-ygrid,
-.c3-event-rect,
-.c3-bars path {
-  shape-rendering: crispEdges;
-}
-
-.c3-chart-arc path {
-  stroke: #fff;
-
-}
-.c3-chart-arc text {
-  fill: #fff;
-  font-size: 13px;
-}
-
-/*-- Axis --*/
-
-.c3-axis-x .tick {
-}
-.c3-axis-x-label {
-}
-
-.c3-axis-y .tick {
-}
-.c3-axis-y-label {
-}
-
-.c3-axis-y2 .tick {
-}
-.c3-axis-y2-label {
-}
-
-/*-- Grid --*/
-
-.c3-grid line {
-  stroke: #aaa;
-}
-.c3-grid text {
-  fill: #aaa;
-}
-.c3-xgrid, .c3-ygrid {
-  stroke-dasharray: 3 3;
-}
-.c3-xgrid-focus {
-}
-
-/*-- Text on Chart --*/
-
-.c3-text {
-}
-
-.c3-text.c3-empty {
-  fill: #808080;
-  font-size: 2em;
-}
-
-/*-- Line --*/
-
-.c3-line {
-  stroke-width: 1px;
-}
-/*-- Point --*/
-
-.c3-circle._expanded_ {
-  stroke-width: 1px;
-  stroke: white;
-}
-.c3-selected-circle {
-  fill: white;
-  stroke-width: 2px;
-}
-
-/*-- Bar --*/
-
-.c3-bar {
-  stroke-width: 0;
-}
-.c3-bar._expanded_ {
-  fill-opacity: 0.75;
-}
-
-/*-- Arc --*/
-
-.c3-chart-arcs-title {
-  font-size: 1.3em;
-}
-
-/*-- Focus --*/
-
-.c3-target.c3-focused {
-  opacity: 1;
-}
-.c3-target.c3-focused path.c3-line, .c3-target.c3-focused path.c3-step {
-  stroke-width: 2px;
-}
-.c3-target.c3-defocused {
-  opacity: 0.3 !important;
-}
-
-
-/*-- Region --*/
-
-.c3-region {
-  fill: steelblue;
-  fill-opacity: .1;
-}
-
-/*-- Brush --*/
-
-.c3-brush .extent {
-  fill-opacity: .1;
-}
-
-/*-- Select - Drag --*/
-
-.c3-dragarea {
-}
-
-/*-- Legend --*/
-
-.c3-legend-item {
-  font-size: 12px;
-}
-.c3-legend-item-hidden {
-  opacity: 0.15;
-}
-
-.c3-legend-background {
-  opacity: 0.75;
-  fill: white;
-  stroke: lightgray;
-  stroke-width: 1
-}
-
-/*-- Tooltip --*/
-
-.c3-tooltip-container {
-  z-index: 10;
-}
-.c3-tooltip {
-  border-collapse:collapse;
-  border-spacing:0;
-  background-color:#fff;
-  empty-cells:show;
-  -webkit-box-shadow: 7px 7px 12px -9px rgb(119,119,119);
-     -moz-box-shadow: 7px 7px 12px -9px rgb(119,119,119);
-          box-shadow: 7px 7px 12px -9px rgb(119,119,119);
-  opacity: 0.9;
-}
-.c3-tooltip tr {
-  border:1px solid #CCC;
-}
-.c3-tooltip th {
-  background-color: #aaa;
-  font-size:14px;
-  padding:2px 5px;
-  text-align:left;
-  color:#FFF;
-}
-.c3-tooltip td {
-  font-size:13px;
-  padding: 3px 6px;
-  background-color:#fff;
-  border-left:1px dotted #999;
-}
-.c3-tooltip td > span {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-right: 6px;
-}
-.c3-tooltip td.value{
+.ct-chart .ct-label.ct-vertical {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: rgba(0,0,0,.4);
+  color: rgba(0,0,0,.4);
+  font-size: .75rem;
   text-align: right;
 }
 
-.c3-area {
-  stroke-width: 0;
-  opacity: 0.2;
+.ct-chart .ct-grid {
+  stroke: rgba(0,0,0,.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
 }
 
-.c3-chart-arcs .c3-chart-arcs-background {
-  fill: #e0e0e0;
+.ct-chart .ct-point {
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.ct-chart .ct-line {
+  fill: none;
+  stroke-width: 4px;
+}
+
+.ct-chart .ct-area {
   stroke: none;
-}
-.c3-chart-arcs .c3-chart-arcs-gauge-unit {
-  fill: #000;
-  font-size: 16px;
-}
-.c3-chart-arcs .c3-chart-arcs-gauge-max {
-  fill: #777;
-}
-.c3-chart-arcs .c3-chart-arcs-gauge-min {
-  fill: #777;
+  fill-opacity: .1;
 }
 
-.c3-chart-arc .c3-gauge-value {
-  fill: #000;
-/*  font-size: 28px !important;*/
+.ct-chart .ct-bar {
+  fill: none;
+  stroke-width: 10px;
+}
+
+.ct-chart .ct-slice.ct-donut {
+  fill: none;
+  stroke-width: 60px;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-bar,.ct-chart .ct-series.ct-series-a .ct-line,.ct-chart .ct-series.ct-series-a .ct-point,.ct-chart .ct-series.ct-series-a .ct-slice.ct-donut {
+  stroke: #d70206;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-area,.ct-chart .ct-series.ct-series-a .ct-slice:not(.ct-donut) {
+  fill: #d70206;
+}
+
+.ct-chart .ct-series.ct-series-b .ct-bar,.ct-chart .ct-series.ct-series-b .ct-line,.ct-chart .ct-series.ct-series-b .ct-point,.ct-chart .ct-series.ct-series-b .ct-slice.ct-donut {
+  stroke: #F05B4F;
+}
+
+.ct-chart .ct-series.ct-series-b .ct-area,.ct-chart .ct-series.ct-series-b .ct-slice:not(.ct-donut) {
+  fill: #F05B4F;
+}
+
+.ct-chart .ct-series.ct-series-c .ct-bar,.ct-chart .ct-series.ct-series-c .ct-line,.ct-chart .ct-series.ct-series-c .ct-point,.ct-chart .ct-series.ct-series-c .ct-slice.ct-donut {
+  stroke: #F4C63D;
+}
+
+.ct-chart .ct-series.ct-series-c .ct-area,.ct-chart .ct-series.ct-series-c .ct-slice:not(.ct-donut) {
+  fill: #F4C63D;
+}
+
+.ct-chart .ct-series.ct-series-d .ct-bar,.ct-chart .ct-series.ct-series-d .ct-line,.ct-chart .ct-series.ct-series-d .ct-point,.ct-chart .ct-series.ct-series-d .ct-slice.ct-donut {
+  stroke: #453D3F;
+}
+
+.ct-chart .ct-series.ct-series-d .ct-area,.ct-chart .ct-series.ct-series-d .ct-slice:not(.ct-donut) {
+  fill: #453D3F;
+}
+
+.ct-chart.ct-square {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-square:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.ct-chart.ct-square:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-square>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-minor-second {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-minor-second:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 93.75%;
+}
+
+.ct-chart.ct-minor-second:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-minor-second>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-second {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-second:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 88.8888888889%;
+}
+
+.ct-chart.ct-major-second:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-second>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-minor-third {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-minor-third:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 83.3333333333%;
+}
+
+.ct-chart.ct-minor-third:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-minor-third>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-third {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-third:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 80%;
+}
+
+.ct-chart.ct-major-third:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-third>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-perfect-fourth {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-perfect-fourth:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 75%;
+}
+
+.ct-chart.ct-perfect-fourth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-perfect-fourth>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-perfect-fifth {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-perfect-fifth:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 66.6666666667%;
+}
+
+.ct-chart.ct-perfect-fifth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-perfect-fifth>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-minor-sixth {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-minor-sixth:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 62.5%;
+}
+
+.ct-chart.ct-minor-sixth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-minor-sixth>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-golden-section {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-golden-section:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 61.804697157%;
+}
+
+.ct-chart.ct-golden-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-golden-section>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-sixth {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-sixth:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 60%;
+}
+
+.ct-chart.ct-major-sixth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-sixth>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-minor-seventh {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-minor-seventh:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.ct-chart.ct-minor-seventh:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-minor-seventh>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-seventh {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-seventh:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 53.3333333333%;
+}
+
+.ct-chart.ct-major-seventh:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-seventh>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-octave {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-octave:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 50%;
+}
+
+.ct-chart.ct-octave:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-octave>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-tenth {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-tenth:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 40%;
+}
+
+.ct-chart.ct-major-tenth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-tenth>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-eleventh {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-eleventh:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 37.5%;
+}
+
+.ct-chart.ct-major-eleventh:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-eleventh>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-major-twelfth {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-major-twelfth:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 33.3333333333%;
+}
+
+.ct-chart.ct-major-twelfth:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-major-twelfth>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ct-chart.ct-double-octave {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.ct-chart.ct-double-octave:before {
+  display: block;
+  float: left;
+  content: "";
+  width: 0;
+  height: 0;
+  padding-bottom: 25%;
+}
+
+.ct-chart.ct-double-octave:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ct-chart.ct-double-octave>svg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
