@@ -89,6 +89,9 @@ gulp.task( 'marathon', function(){
 	download( 'http://nike.timbenniks.nl/runs', 'runs' )
 		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
 
+	download( 'http://nike.timbenniks.nl/heatmap', 'heatmap' )
+		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
+
 	gulp.run( 'assets' );
 
 } );
