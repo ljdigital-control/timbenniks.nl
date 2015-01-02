@@ -1,13 +1,14 @@
 var Chartist = require( 'chartist' ),
 	GoogleMapsLoader = require( 'google-maps' ),
 	heatMap = require( '../../assets/marathon/heatmap.json' ),
+	totals = require( '../../assets/marathon/totals.json' ),
+	runs = require( '../../assets/marathon/runs.json' ),
 	
 Marathon = function(){
 
 	var heatMapData = [],
 
 	init = function(){
-
 		GoogleMapsLoader.LIBRARIES = [ 'visualization' ];
 		GoogleMapsLoader.load(function( google ){
 
@@ -17,6 +18,8 @@ Marathon = function(){
 
 			google.maps.event.addDomListener( window, 'load', initializeMap );
 		});
+
+		console.log( totals, runs );
 
 		// new Chartist.Line('.ct-chart', {
 		// 	labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
@@ -30,11 +33,10 @@ Marathon = function(){
 
 	initializeMap = function(){
 		var map = document.getElementById( 'map' );
-		map.style.height = window.innerHeight + 'px';
 
 		var mapOptions = {
 			zoom: 14,
-			center: new google.maps.LatLng( 48.817963, 2.330475 ),
+			center: heatMapData[ 0 ],
 			styles: [{"featureType":"water","stylers":[{"color":"#e5dada"},{"visibility":"on"}]},{"featureType":"landscape","stylers":[{"color":"#f2f2f2"}]},{"featureType":"road","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]}],
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			panControl: false,
@@ -49,20 +51,12 @@ Marathon = function(){
 			}
 		},
 
-		gradient = [
-			'rgba( 156, 0, 1, 0 )',
-			'rgba( 156, 0, 1, 1 )',
-			'rgba( 156, 0, 1, 0.5 )',
-			'rgba( 156, 0, 1, 0.1 )'
-		],
-
 		map = new google.maps.Map( map, mapOptions ),
 		pointArray = new google.maps.MVCArray( heatMapData ),
 		heatmap = new google.maps.visualization.HeatmapLayer( { data: pointArray } );
 
 		heatmap.setMap( map );
 
-		//heatmap.set( 'gradient', gradient );
 		heatmap.set( 'radius', 20 );
 		heatmap.set( 'opacity', 0.7 );
 	}

@@ -24,15 +24,20 @@ html( lang="en" )
 
 		title Marathon dashboard
 
-		link( rel="stylesheet", href="./css/styles.css" )
+		link( rel="stylesheet", href="./css/styles.css", "inline" )
 
 	body.marathon
 		main( role="main" aria-labelledby="aria-content-label" )
 
 			header
-				h1#aria-content-label Marathon dashboard
+				p date selector
 
 			#map
+
+			article
+				ul
+					li runs per time range
+					li stats per timerange
 
 		script( src="./js/app.js" )
 		//- script.
