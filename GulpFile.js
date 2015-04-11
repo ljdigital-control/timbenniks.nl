@@ -24,7 +24,7 @@ gulp.task( 'serve', [ 'connect' ], function (){
 	gulp.watch( [ 'dev/js/**/*' ], [ 'lint', 'scripts' ] );
 	gulp.watch( [ 'dev/css/**/*.styl' ], [ 'styles' ] );
 	gulp.watch( [ 'dev/assets/**/*' ], [ 'assets' ] );
-	gulp.watch( [ 'dev/templates/*.jade' ], [ 'pages', 'inline', browserSync.reload ] );
+	gulp.watch( [ 'dev/templates/*.jade' ], [ 'pages' ] );
 });
 
 
