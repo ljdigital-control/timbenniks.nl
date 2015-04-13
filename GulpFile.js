@@ -81,4 +81,4 @@ gulp.task( 'inline', [ 'pages' ], function(){
 		.pipe( gulp.dest('publish') );
 });
 
-gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages', 'inline' ] );
+gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages' ] );
