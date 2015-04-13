@@ -81,19 +81,4 @@ gulp.task( 'inline', [ 'pages' ], function(){
 		.pipe( gulp.dest('publish') );
 });
 
-gulp.task( 'marathon', function(){
-
-	download( 'http://nike.timbenniks.nl/totals', 'totals' )
-		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
-
-	download( 'http://nike.timbenniks.nl/runs', 'runs' )
-		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
-
-	download( 'http://nike.timbenniks.nl/heatmap', 'heatmap' )
-		.pipe( gulp.dest( 'dev/assets/marathon/' ) );
-
-	gulp.run( 'assets' );
-
-} );
-
 gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages', 'inline' ] );
