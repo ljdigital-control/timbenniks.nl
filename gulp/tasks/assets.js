@@ -8,7 +8,11 @@ gulp.task( 'assets', function(){
     .pipe( gulp.dest( config.dist + 'assets' ) );
 
   gulp
-    .src( [ config.dev + 'assets/**/*', '!' + config.dev + 'assets/**/*.svg' ] )
+    .src( [ config.dev + 'assets/**/*.gpx' ] )
+    .pipe( gulp.dest( config.dist + 'assets' ) );
+
+  gulp
+    .src( [ config.dev + 'assets/**/*', '!' + config.dev + 'assets/**/*.svg', '!' + config.dev + 'assets/**/*.gpx' ] )
     .pipe( imagemin( {
       progressive: true
     } ) )
