@@ -1,11 +1,11 @@
 /* globals google */
 import GoogleMapsLoader from 'google-maps';
 import GPX from '../helpers/GPX';
+import chartist from 'chartist';
 
 class GarminNike {
 
   constructor(){
-    GoogleMapsLoader.LIBRARIES = [ 'visualization' ];
     GoogleMapsLoader.KEY = 'AIzaSyBom_Va46C1Qh66p6d4e9QWd8J7U6oMElM';
 
     GoogleMapsLoader.load( ( google )=> {
@@ -34,15 +34,18 @@ class GarminNike {
 
     this.map = new google.maps.Map( map, mapOptions );
 
-    this.plotGPXData( '/assets/garmin-nike/activity_849956023.gpx', 'garmin' );
-    this.plotGPXData( '/assets/garmin-nike/timbenniks_2015_07_27.gpx', 'nike' );
+    this.plotGPXData( '/assets/garmin-nike/activity_854027028.gpx', 'garmin' );
+    this.plotGPXData( '/assets/garmin-nike/timbenniks_2015_08_03.gpx', 'nike' );
   }
 
   plotGPXData( url, type ){
     GPX
       .get( url )
       .then( ( gpxContents ) => {
-        this.plotRouteOnMap( GPX.parse( gpxContents ), type );
+        var geoJSON = GPX.parse( gpxContents );
+
+        this.showElevationChart( geoJSON, type );
+        this.plotRouteOnMap( geoJSON, type );
       } );
   }
 
@@ -100,6 +103,15 @@ class GarminNike {
       }.bind( this ));
     }
 
+  }
+
+  showElevationChart( data ){
+    console.log(chartist);
+    var elevation = data.features[ 0 ].geometry.coordinates.map( function( coordinate ){
+      return coordinate[ 2 ];
+    } );
+
+    console.log( elevation );
   }
 }
 
