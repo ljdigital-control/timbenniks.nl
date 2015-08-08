@@ -22,7 +22,19 @@ class GPX {
     return deferred.promise;
   }
 
-  static parse( data ){
+  static elevation( data ){
+    let parser = new DOMParser(),
+        xmlDoc = parser.parseFromString( data, 'application/xml' ),
+        elevation = [];
+
+    [].forEach.call( xmlDoc.querySelectorAll( 'trkpt' ), ( point )=> {
+      elevation.push( point.querySelector( 'ele' ).textContent );
+    });
+
+    return elevation;
+  }
+
+  static toGeoJSON( data ){
     let parser = new DOMParser(),
         xmlDoc = parser.parseFromString( data, 'application/xml' );
 
