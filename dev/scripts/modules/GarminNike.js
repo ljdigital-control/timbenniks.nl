@@ -12,7 +12,7 @@ class GarminNike {
     GoogleMapsLoader.KEY = 'AIzaSyBom_Va46C1Qh66p6d4e9QWd8J7U6oMElM';
 
     let set1 = [{
-      url: '/assets/garmin-nike/activity_854027028.gpx',
+      url: '/assets/garmin-nike/set1/activity_854027028.gpx',
       type: 'garmin',
       styles: {
         strokeColor: '#9c0001',
@@ -20,7 +20,7 @@ class GarminNike {
         strokeOpacity: 0.7
       }
     },{
-      url: '/assets/garmin-nike/timbenniks_2015_08_03.gpx',
+      url: '/assets/garmin-nike/set1/timbenniks_2015_08_03.gpx',
       type: 'nike',
       styles: {
         strokeColor: '#000000',
