@@ -1,0 +1,43 @@
+[
+
+
+  [{
+    "url": "/assets/garmin-nike/activity_854027028.gpx",
+    "type": "garmin",
+    "styles": {
+      "strokeColor": "#9c0001",
+      "strokeWeight": 2,
+      "strokeOpacity": 0.7
+    }
+  },{
+    "url": "/assets/garmin-nike/timbenniks_2015_08_03.gpx",
+    "type": "nike",
+    "styles": {
+      "strokeColor": "#000000",
+      "strokeWeight": 2,
+      "strokeOpacity": 0.7
+    }
+  }],
+
+
+
+  [{
+    "url": "/assets/garmin-nike/activity_858686831.gpx",
+    "type": "garmin",
+    "styles": {
+      "strokeColor": "#9c0001",
+      "strokeWeight": 2,
+      "strokeOpacity": 0.7
+    }
+  },{
+    "url": "/assets/garmin-nike/timbenniks_2015_08_08.gpx",
+    "type": "nike",
+    "styles": {
+      "strokeColor": "#000000",
+      "strokeWeight": 2,
+      "strokeOpacity": 0.7
+    }
+  }],
+
+
+]

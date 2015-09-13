@@ -1,8 +1,8 @@
 /* globals google */
 import GoogleMapsLoader from 'google-maps';
 import GPX from '../helpers/GPX';
-import Chartist from 'chartist';
 import Q from 'q';
+import sets from '../../assets/garmin-nike/sets.json';
 
 class GarminNike {
 
@@ -11,29 +11,8 @@ class GarminNike {
     // settings
     GoogleMapsLoader.KEY = 'AIzaSyBom_Va46C1Qh66p6d4e9QWd8J7U6oMElM';
 
-    let set1 = [{
-      url: '/assets/garmin-nike/activity_854027028.gpx',
-      type: 'garmin',
-      styles: {
-        strokeColor: '#9c0001',
-        strokeWeight: 2,
-        strokeOpacity: 0.7
-      }
-    },{
-      url: '/assets/garmin-nike/timbenniks_2015_08_03.gpx',
-      type: 'nike',
-      styles: {
-        strokeColor: '#000000',
-        strokeWeight: 2,
-        strokeOpacity: 0.7
-      }
-    }];
-
-    this.data = [ set1 ];
-
     this.mapOptions = {
       zoom: 15,
-      center: { lat: 48.82803626209759, lng: 2.3226445449829303 },
       styles: [{"featureType":"water","stylers":[{"color":"#e5dada"},{"visibility":"on"}]},{"featureType":"landscape","stylers":[{"color":"#f2f2f2"}]},{"featureType":"road","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]}],
       panControl: false,
       zoomControl: false,
@@ -44,6 +23,12 @@ class GarminNike {
       scrollwheel: false
     };
 
+    // set initial dataset
+    this.setDataset( 0 );
+
+    this.dropdownSelector = document.querySelector( '[name="set"]' );
+    this.dropdownSelector.addEventListener( 'change', this.changeDataset.bind( this ), false );
+
     // initialize the map
     GoogleMapsLoader.load( ( google )=> {
       google.maps.event.addDomListener( window, 'load', this.initializeMap.bind( this ) );
@@ -51,6 +36,7 @@ class GarminNike {
   }
 
   initializeMap(){
+
     // map building
     this.mapOptions.mapTypeId = google.maps.MapTypeId.ROADMAP;
     this.mapOptions.zoomControlOptions = { style: google.maps.ZoomControlStyle.SMALL };
@@ -58,8 +44,8 @@ class GarminNike {
 
     // plot the data
     this.getData( 0 ).then( ( set ) => {
-      this.data[ set ].forEach( ( item ) => {
-        this.plotRouteOnMap( item );
+      this.data[ set ].forEach( ( data ) => {
+        this.plotRouteOnMap( data );
       } );
     } );
   }
@@ -74,8 +60,10 @@ class GarminNike {
           // enriching dataset
           this.data[ set ][ index ].geoJSON = GPX.toGeoJSON( gpxContents );
           this.data[ set ][ index ].elevation = GPX.elevation( gpxContents );
+          this.data[ set ][ index ].mapData = new google.maps.Data();
+          this.data[ set ][ index ].features = null;
 
-          if( index === 1 ){
+          if( index === this.data[ set ].length - 1 ){
             deferred.resolve( set );
           }
         });
@@ -84,12 +72,34 @@ class GarminNike {
     return deferred.promise;
   }
 
-  plotRouteOnMap( data ){
-    let mapData = new google.maps.Data();
+  setDataset( index ){
+    this.data = [ sets[ index ] ];
+  }
 
-    mapData.addGeoJson( data.geoJSON );
-    mapData.setStyle( data.styles );
-    mapData.setMap( this.map );
+  changeDataset( e ){
+    let set = e.target.value;
+
+    this.setDataset( set );
+
+    this.getData( 0 ).then( ( set ) => {
+      this.data[ set ].forEach( ( data ) => {
+
+        data.features.forEach( ( feature ) => {
+          this.map.data.remove( feature );
+        } );
+
+        this.plotRouteOnMap( data );
+      } );
+    } );
+  }
+
+  plotRouteOnMap( data ){
+
+    data.features = data.mapData.addGeoJson( data.geoJSON );
+    data.mapData.setStyle( data.styles );
+    data.mapData.setMap( this.map );
+
+    this.zoomMapToBounds( data.mapData );
   }
 
   zoomMapToBounds( datapoints ){
