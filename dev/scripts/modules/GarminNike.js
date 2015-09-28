@@ -23,7 +23,6 @@ class GarminNike {
       scrollwheel: false
     };
 
-    // set initial dataset
     this.setDataset( 0 );
 
     this.dropdownSelector = document.querySelector( '[name="set"]' );
@@ -42,29 +41,24 @@ class GarminNike {
     this.mapOptions.zoomControlOptions = { style: google.maps.ZoomControlStyle.SMALL };
     this.map = new google.maps.Map( document.getElementById( 'map' ), this.mapOptions );
 
-    // plot the data
-    this.getData( 0 ).then( ( set ) => {
-      this.data[ set ].forEach( ( data ) => {
-        this.plotRouteOnMap( data );
-      } );
-    } );
+    this.changeDataset();
   }
 
-  getData( set )  {
+  getData() {
     let deferred = Q.defer();
 
-    this.data[ set ].forEach( ( item, index ) => {
+    this.data[ 0 ].forEach( ( item, index ) => {
       GPX
         .get( item.url )
         .then( ( gpxContents ) => {
           // enriching dataset
-          this.data[ set ][ index ].geoJSON = GPX.toGeoJSON( gpxContents );
-          this.data[ set ][ index ].elevation = GPX.elevation( gpxContents );
-          this.data[ set ][ index ].mapData = new google.maps.Data();
-          this.data[ set ][ index ].features = null;
+          this.data[ 0 ][ index ].geoJSON = GPX.toGeoJSON( gpxContents );
+          this.data[ 0 ][ index ].elevation = GPX.elevation( gpxContents );
+          this.data[ 0 ][ index ].mapData = new google.maps.Data();
+          this.data[ 0 ][ index ].features = null;
 
-          if( index === this.data[ set ].length - 1 ){
-            deferred.resolve( set );
+          if( index === this.data[ 0 ].length - 1 ){
+            deferred.resolve( this.data[ 0 ] );
           }
         });
     });
@@ -77,29 +71,35 @@ class GarminNike {
   }
 
   changeDataset( e ){
-    let set = e.target.value;
+    let set = 0;
+
+    if( e && e.target ){
+      set = e.target.value;
+    }
 
     this.setDataset( set );
 
-    this.getData( 0 ).then( ( set ) => {
-      this.data[ set ].forEach( ( data ) => {
+    this.getData().then( ( d ) => {
 
-        data.features.forEach( ( feature ) => {
-          this.map.data.remove( feature );
-        } );
-
-        this.plotRouteOnMap( data );
+      d.forEach( ( data, index ) => {
+        this.plotRouteOnMap( index );
       } );
     } );
   }
 
-  plotRouteOnMap( data ){
+  plotRouteOnMap( index ){
 
-    data.features = data.mapData.addGeoJson( data.geoJSON );
-    data.mapData.setStyle( data.styles );
-    data.mapData.setMap( this.map );
+    if( this.data[ 0 ][ index ].features !== null ){
+      this.data[ 0 ][ index ].features.forEach( ( feature ) => {
+        this.map.data.remove( feature );
+      } );
+    }
 
-    this.zoomMapToBounds( data.mapData );
+    this.data[ 0 ][ index ].features = this.data[ 0 ][ index ].mapData.addGeoJson( this.data[ 0 ][ index ].geoJSON );
+    this.data[ 0 ][ index ].mapData.setStyle( this.data[ 0 ][ index ].styles );
+    this.data[ 0 ][ index ].mapData.setMap( this.map );
+
+    this.zoomMapToBounds( this.data[ 0 ][ index ].mapData );
   }
 
   zoomMapToBounds( datapoints ){
