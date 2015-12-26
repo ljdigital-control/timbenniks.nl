@@ -1,9 +1,8 @@
 for run in runs
-  ul
-    li type: #{run.type}
-    li distance: #{run.distance.toFixed(2)}km
-    li pace: #{run.pace.minutes}:#{run.pace.seconds}
-    li start: #{run.duration.start_formatted}
-    li end: #{run.duration.end_formatted}
+  ul.run-data-type
+    li.run
+      span( class=run.type )
+      | #{run.type}
+    li #{run.distance.toFixed(2)} km
+    li #{run.pace.minutes}:#{run.pace.seconds} km/min
     li time: #{run.duration.total_formatted}
-    li max elevation: #{run.elevation.max}

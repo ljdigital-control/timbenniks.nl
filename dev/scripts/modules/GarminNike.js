@@ -102,8 +102,9 @@ class GarminNike {
       this.data[ set ][ item ].features = this.data[ set ][ item ].mapData.addGeoJson( this.data[ set ][ item ].geoJSON );
       this.data[ set ][ item ].mapData.setStyle( this.data[ set ][ item ].styles );
       this.data[ set ][ item ].mapData.setMap( this.map );   
-      this.zoomMapToBounds( this.data[ set ][ item ].mapData );
     }
+
+    this.zoomMapToBounds( this.data[ set ][ 0 ].mapData );
 
     document.querySelector( '.run-data' ).innerHTML = runDataTmpl({
       runs: this.data[ set ]
@@ -124,17 +125,14 @@ class GarminNike {
     if( geometry instanceof google.maps.LatLng ){
       callback.call( thisArg, geometry );
     }
-
     else if( geometry instanceof google.maps.Data.Point ){
       callback.call( thisArg, geometry.get() );
     }
-
     else {
       geometry.getArray().forEach( ( g ) => {
         this.processPoints( g, callback, thisArg );
       } );
     }
-
   }
 }
 
