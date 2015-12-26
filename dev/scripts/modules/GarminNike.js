@@ -23,10 +23,9 @@ class GarminNike {
       scrollwheel: false
     };
 
-    this.setDataset( 0 );
+    this.data = sets;
 
-    this.dropdownSelector = document.querySelector( '[name="set"]' );
-    this.dropdownSelector.addEventListener( 'change', this.changeDataset.bind( this ), false );
+    document.querySelector( '[name="set"]' ).addEventListener( 'change', this.changeDataset.bind( this ), false );
 
     // initialize the map
     GoogleMapsLoader.load( ( google )=> {
@@ -41,65 +40,62 @@ class GarminNike {
     this.mapOptions.zoomControlOptions = { style: google.maps.ZoomControlStyle.SMALL };
     this.map = new google.maps.Map( document.getElementById( 'map' ), this.mapOptions );
 
-    this.changeDataset();
+    this.enrichData().then( ()=>{
+      this.plotSetOnMap( 'set1' );
+    } );
   }
 
-  getData() {
+  enrichData(){
+    const promises = [];
     let deferred = Q.defer();
 
-    this.data[ 0 ].forEach( ( item, index ) => {
-      GPX
-        .get( item.url )
-        .then( ( gpxContents ) => {
-          // enriching dataset
-          this.data[ 0 ][ index ].geoJSON = GPX.toGeoJSON( gpxContents );
-          this.data[ 0 ][ index ].elevation = GPX.elevation( gpxContents );
-          this.data[ 0 ][ index ].mapData = new google.maps.Data();
-          this.data[ 0 ][ index ].features = null;
+    for( let set in this.data ){
+      for( let type in this.data[ set ] ){
+        promises.push( GPX.get( this.data[ set ][ type ].url ).then( ( gpxContents )=> {
+          this.data[ set ][ type ].gpx = gpxContents;
+          this.data[ set ][ type ].geoJSON = GPX.toGeoJSON( gpxContents );
+          this.data[ set ][ type ].elevation = GPX.elevation( gpxContents );
+          this.data[ set ][ type ].features = null;
+          this.data[ set ][ type ].mapData = new google.maps.Data();
+        } ) );
+      }
+    }
 
-          if( index === this.data[ 0 ].length - 1 ){
-            deferred.resolve( this.data[ 0 ] );
-          }
-        });
-    });
+    Q.allSettled( promises ).then( ( promiseResults )=> {
+      for ( let result in promiseResults ){
+        if( promiseResults[ result ].state === 'rejected' ){
+          deferred.reject( 'Could not get all data' );
+        }
+      }
+
+      deferred.resolve( this.data );
+    } );
 
     return deferred.promise;
   }
 
-  setDataset( index ){
-    this.data = [ sets[ index ] ];
-  }
-
   changeDataset( e ){
-    let set = 0;
-
-    if( e && e.target ){
-      set = e.target.value;
-    }
-
-    this.setDataset( set );
-
-    this.getData().then( ( d ) => {
-
-      d.forEach( ( data, index ) => {
-        this.plotRouteOnMap( index );
-      } );
-    } );
+    this.deleteDataFromMap();
+    this.plotSetOnMap( e.target.value );  
   }
 
-  plotRouteOnMap( index ){
-
-    if( this.data[ 0 ][ index ].features !== null ){
-      this.data[ 0 ][ index ].features.forEach( ( feature ) => {
-        this.map.data.remove( feature );
-      } );
+  deleteDataFromMap(){
+    for( let set in this.data ){
+      for( let item in this.data[ set ] ){
+        if( this.data[ set ][ item ].features ){
+          this.data[ set ][ item ].mapData.setMap( null );
+        }
+      }
     }
+  }
 
-    this.data[ 0 ][ index ].features = this.data[ 0 ][ index ].mapData.addGeoJson( this.data[ 0 ][ index ].geoJSON );
-    this.data[ 0 ][ index ].mapData.setStyle( this.data[ 0 ][ index ].styles );
-    this.data[ 0 ][ index ].mapData.setMap( this.map );
-
-    this.zoomMapToBounds( this.data[ 0 ][ index ].mapData );
+  plotSetOnMap( set ){
+    for( let item in this.data[ set ] ){
+      this.data[ set ][ item ].features = this.data[ set ][ item ].mapData.addGeoJson( this.data[ set ][ item ].geoJSON );
+      this.data[ set ][ item ].mapData.setStyle( this.data[ set ][ item ].styles );
+      this.data[ set ][ item ].mapData.setMap( this.map );   
+      this.zoomMapToBounds( this.data[ set ][ item ].mapData );
+    }
   }
 
   zoomMapToBounds( datapoints ){
