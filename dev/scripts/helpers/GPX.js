@@ -1,6 +1,7 @@
 import request from 'superagent';
 import Q from 'q';
 import toGeoJSON from './togeojson';
+import moment from 'moment';
 
 class GPX {
 
@@ -47,8 +48,8 @@ class GPX {
       'elevation': elevation,
       'max': Math.max.apply( null, elevation ),
       'min': Math.min.apply( null, elevation ),
-      'diff-': dm,
-      'diff+': dp
+      'loss': dm,
+      'gain': dp
     }
   }
 
@@ -80,6 +81,29 @@ class GPX {
     }
 
     return distance;
+  }
+
+  static duration( data ){
+    let parser = new DOMParser(),
+        xmlDoc = parser.parseFromString( data, 'application/xml' ),
+        waypoints = xmlDoc.querySelectorAll( 'trkpt' ),
+        start = moment( waypoints[ 0 ].querySelector( 'time' ).textContent ),
+        end = moment( waypoints[ waypoints.length - 1 ].querySelector( 'time' ).textContent ),
+        total = moment.duration( end.diff( start ) );
+
+    return {
+      start: start,
+      end: end,
+      total: total
+    }
+  }
+
+  static pace( duration, distance ){
+    var toKm = function( distance ){
+      return distance / 1000;
+    };
+
+    return duration / toKm( distance );
   }
 
   static toGeoJSON( data ){

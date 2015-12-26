@@ -52,6 +52,9 @@ class GarminNike {
     for( let set in this.data ){
       for( let type in this.data[ set ] ){
         promises.push( GPX.get( this.data[ set ][ type ].url ).then( ( gpxContents )=> {
+
+          console.log( GPX.duration( gpxContents ) );
+
           this.data[ set ][ type ].gpx = gpxContents;
           this.data[ set ][ type ].geoJSON = GPX.toGeoJSON( gpxContents );
           this.data[ set ][ type ].elevation = GPX.elevation( gpxContents );
