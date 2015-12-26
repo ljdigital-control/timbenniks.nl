@@ -23,9 +23,9 @@ class GPX {
     return deferred.promise;
   }
 
-  static elevation( data ){
+  static elevation( gpxContent ){
     let parser = new DOMParser(),
-        xmlDoc = parser.parseFromString( data, 'application/xml' ),
+        xmlDoc = parser.parseFromString( gpxContent, 'application/xml' ),
         elevation = [],
         waypoints = xmlDoc.querySelectorAll( 'trkpt' ),
         dp = 0, dm = 0;
@@ -45,17 +45,17 @@ class GPX {
     }
 
     return {
-      'elevation': elevation,
-      'max': Math.max.apply( null, elevation ),
-      'min': Math.min.apply( null, elevation ),
-      'loss': dm,
-      'gain': dp
+      elevation: elevation,
+      max: Math.max.apply( null, elevation ),
+      min: Math.min.apply( null, elevation ),
+      loss: dm,
+      gain: dp
     }
   }
 
-  static distance( data ){
+  static distance( gpxContent ){
     let parser = new DOMParser(),
-        xmlDoc = parser.parseFromString( data, 'application/xml' ),
+        xmlDoc = parser.parseFromString( gpxContent, 'application/xml' ),
         waypoints = xmlDoc.querySelectorAll( 'trkpt' ),
         distance = 0,
         calcDistanceBetweenPoints = function( wp1, wp2 ){
@@ -83,9 +83,9 @@ class GPX {
     return distance;
   }
 
-  static duration( data ){
+  static duration( gpxContent ){
     let parser = new DOMParser(),
-        xmlDoc = parser.parseFromString( data, 'application/xml' ),
+        xmlDoc = parser.parseFromString( gpxContent, 'application/xml' ),
         waypoints = xmlDoc.querySelectorAll( 'trkpt' ),
         start = moment( waypoints[ 0 ].querySelector( 'time' ).textContent ),
         end = moment( waypoints[ waypoints.length - 1 ].querySelector( 'time' ).textContent ),
@@ -99,16 +99,26 @@ class GPX {
   }
 
   static pace( duration, distance ){
-    var toKm = function( distance ){
-      return distance / 1000;
-    };
+    let minutes = 0, 
+        seconds = 0,
+        pace = 0,
+        durationInSeconds = duration.asSeconds();
+    
+    if( durationInSeconds > 0 ){
+      pace = durationInSeconds / distance;
+      minutes = Math.floor( pace / 60 );
+      seconds = Math.round( 60 * ( ( pace / 60 ) - Math.floor( pace / 60 ) ) );
+    }
 
-    return duration / toKm( distance );
+    return {
+      minutes: minutes,
+      seconds: seconds
+    }
   }
 
-  static toGeoJSON( data ){
+  static toGeoJSON( gpxContent ){
     let parser = new DOMParser(),
-        xmlDoc = parser.parseFromString( data, 'application/xml' );
+        xmlDoc = parser.parseFromString( gpxContent, 'application/xml' );
 
     return toGeoJSON.gpx( xmlDoc );
   }

@@ -51,14 +51,17 @@ class GarminNike {
 
     for( let set in this.data ){
       for( let type in this.data[ set ] ){
-        promises.push( GPX.get( this.data[ set ][ type ].url ).then( ( gpxContents )=> {
+        promises.push( GPX.get( this.data[ set ][ type ].url ).then( ( gpxContent )=> {
+          let distance = GPX.distance( gpxContent ),
+              duration = GPX.duration( gpxContent ),
+              pace = GPX.pace( duration.total, distance );
 
-          console.log( GPX.duration( gpxContents ) );
-
-          this.data[ set ][ type ].gpx = gpxContents;
-          this.data[ set ][ type ].geoJSON = GPX.toGeoJSON( gpxContents );
-          this.data[ set ][ type ].elevation = GPX.elevation( gpxContents );
-          this.data[ set ][ type ].elevation = GPX.distance( gpxContents );
+          this.data[ set ][ type ].gpx = gpxContent;
+          this.data[ set ][ type ].geoJSON = GPX.toGeoJSON( gpxContent );
+          this.data[ set ][ type ].elevation = GPX.elevation( gpxContent );
+          this.data[ set ][ type ].distance = distance;
+          this.data[ set ][ type ].duration = duration;
+          this.data[ set ][ type ].pace = pace;
           this.data[ set ][ type ].features = null;
           this.data[ set ][ type ].mapData = new google.maps.Data();
         } ) );
@@ -99,6 +102,8 @@ class GarminNike {
       this.data[ set ][ item ].mapData.setStyle( this.data[ set ][ item ].styles );
       this.data[ set ][ item ].mapData.setMap( this.map );   
       this.zoomMapToBounds( this.data[ set ][ item ].mapData );
+
+      console.log( this.data[ set ][ item ] );
     }
   }
 
