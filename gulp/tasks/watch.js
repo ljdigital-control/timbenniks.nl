@@ -6,4 +6,5 @@ gulp.task( 'watch', function(){
   gulp.watch( [ config.dev + 'styles/*.styl' ], [ 'styles' ] );
   gulp.watch( [ config.dev + 'assets/**/*' ], [ 'assets' ] );
   gulp.watch( [ config.dev + 'pages/**/*.jade' ], [ 'pages' ] );
+  gulp.watch( [ config.dev + 'assets/**/*.jade' ], [ 'scripts' ] );
 });

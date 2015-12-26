@@ -3,6 +3,7 @@ import GoogleMapsLoader from 'google-maps';
 import GPX from '../helpers/GPX';
 import Q from 'q';
 import sets from '../../assets/garmin-nike/sets.json';
+import runDataTmpl from '../../assets/garmin-nike/run_data.jade';
 
 class GarminNike {
 
@@ -96,15 +97,17 @@ class GarminNike {
     }
   }
 
-  plotSetOnMap( set ){
+  plotSetOnMap( set ){  
     for( let item in this.data[ set ] ){
       this.data[ set ][ item ].features = this.data[ set ][ item ].mapData.addGeoJson( this.data[ set ][ item ].geoJSON );
       this.data[ set ][ item ].mapData.setStyle( this.data[ set ][ item ].styles );
       this.data[ set ][ item ].mapData.setMap( this.map );   
       this.zoomMapToBounds( this.data[ set ][ item ].mapData );
-
-      console.log( this.data[ set ][ item ] );
     }
+
+    document.querySelector( '.run-data' ).innerHTML = runDataTmpl({
+      runs: this.data[ set ]
+    });
   }
 
   zoomMapToBounds( datapoints ){

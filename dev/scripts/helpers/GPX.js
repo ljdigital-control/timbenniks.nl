@@ -89,12 +89,16 @@ class GPX {
         waypoints = xmlDoc.querySelectorAll( 'trkpt' ),
         start = moment( waypoints[ 0 ].querySelector( 'time' ).textContent ),
         end = moment( waypoints[ waypoints.length - 1 ].querySelector( 'time' ).textContent ),
-        total = moment.duration( end.diff( start ) );
+        total = moment.duration( end.diff( start ) ),
+        totalHours = total.asHours();
 
     return {
       start: start,
+      start_formatted: start.format( 'dddd D MMM YYYY, HH:mm:ss' ),
       end: end,
-      total: total
+      end_formatted: end.format( 'dddd D MMM YYYY, HH:mm:ss' ),
+      total: total,
+      total_formatted: ( totalHours >= 1 ) ? moment.utc( total.asMilliseconds() ).format( 'HH:mm:ss' ) : moment.utc( total.asMilliseconds() ).format( 'mm:ss' )
     }
   }
 
@@ -105,9 +109,11 @@ class GPX {
         durationInSeconds = duration.asSeconds();
     
     if( durationInSeconds > 0 ){
-      pace = durationInSeconds / distance;
-      minutes = Math.floor( pace / 60 );
-      seconds = Math.round( 60 * ( ( pace / 60 ) - Math.floor( pace / 60 ) ) );
+      pace = moment.duration( durationInSeconds / distance, 'seconds' );
+        
+      // moment.duration does not have a format feature so using a moment in moment inception for formatting purposes.
+      minutes = moment.utc( pace.asMilliseconds() ).format( 'mm' );
+      seconds = moment.utc( pace.asMilliseconds() ).format( 'ss' );
     }
 
     return {
