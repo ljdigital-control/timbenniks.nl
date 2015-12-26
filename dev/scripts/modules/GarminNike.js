@@ -55,6 +55,7 @@ class GarminNike {
           this.data[ set ][ type ].gpx = gpxContents;
           this.data[ set ][ type ].geoJSON = GPX.toGeoJSON( gpxContents );
           this.data[ set ][ type ].elevation = GPX.elevation( gpxContents );
+          this.data[ set ][ type ].elevation = GPX.distance( gpxContents );
           this.data[ set ][ type ].features = null;
           this.data[ set ][ type ].mapData = new google.maps.Data();
         } ) );
