@@ -1,5 +1,6 @@
 import Johnny from './modules/johnny';
 import GarminNike from './modules/GarminNike';
+import French from './modules/GarminNike';
 
 class App {
   constructor(){
@@ -11,6 +12,10 @@ class App {
 
     if( body.classList.contains( 'garmin-nike' ) ){
       new GarminNike();
+    }
+
+    if( body.classList.contains( 'fremch' ) ){
+      new French();
     }
   }
 }
