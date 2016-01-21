@@ -33,7 +33,6 @@
     "moment": "^2.10.6",
     "q": "^1.4.1",
     "superagent": "^1.2.0",
-    "superagent-xml2jsparser": "^0.1.1",
-    "xmldom": "^0.1.19"
+    "superagent-xml2jsparser": "^0.1.1"
   }
 }
