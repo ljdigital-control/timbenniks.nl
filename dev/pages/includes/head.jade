@@ -1,0 +1,24 @@
+include ../includes/og
+
+meta( charset="utf-8" )
+meta( http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" )
+meta( name="viewport" content="width=device-width,initial-scale=1,user-scalable=1,minimum-scale=1,maximum-scale=1" )
+
+block og
+  - var title = "Tim Benniks, web developer, guitarist and fitness enthusiast"
+  - var description = "I'm a web developer with a passion for simple interfaces on complex websites. I'm also a guitarist and a fitness enthusiast."
+  - var image = "http://timbenniks.nl/assets/favicon.png"
+  - var url = "http://timbenniks.nl/"
+
+  +og( title, description, image, url )
+
+meta( name="author" content="Tim Benniks" )
+meta( name="google-site-verification" content="El5Wtr19CHQY1u_sQOjbuusrXqYCt6I6n3OJSyZEPAg" )
+
+link( rel="apple-touch-icon-precomposed" href="http://timbenniks.nl/assets/favicon.png" )
+link( rel="apple-touch-icon-precomposed" sizes="http://timbenniks.nl/assets/favicon.png" )
+link( rel="apple-touch-icon-precomposed" sizes="http://timbenniks.nl/assets/favicon.png" )
+link( rel="apple-touch-icon-precomposed" sizes="http://timbenniks.nl/assets/favicon.png" )
+link( rel="shortcut icon" href="http://timbenniks.nl/assets/favicon.png" )
+
+link( rel="stylesheet" href="./css/styles.css" )

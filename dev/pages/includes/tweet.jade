@@ -1,0 +1,5 @@
+mixin tweet( align, tweet, id, date, explanation )
+  .tweet( class=align )
+    blockquote.twitter-tweet( data-lang="en" )
+      p( lang="fr" dir="ltr" ) #{tweet} #[a( href="https://twitter.com/hashtag/learningfrench?src=hash") #learningfrench ] &mdash; Tim Benniks (@timbenniks) #[a(href="https://twitter.com/timbenniks/status/#{id}") #{date} ]
+    p.explanation!= explanation
