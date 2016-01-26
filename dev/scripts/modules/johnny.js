@@ -1,6 +1,10 @@
 class Johnny {
 
 	constructor(){
+		if( matchMedia( 'only screen and (max-width: 480px)' ).matches ){
+			return;
+		}
+
 		this.path = document.querySelector( '.johnny path' );
 		this.length = this.path.getTotalLength();
 

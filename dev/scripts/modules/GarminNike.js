@@ -8,7 +8,6 @@ import runDataTmpl from '../../assets/garmin-nike/run_data.jade';
 class GarminNike {
 
   constructor(){
-
     // settings
     GoogleMapsLoader.KEY = 'AIzaSyBom_Va46C1Qh66p6d4e9QWd8J7U6oMElM';
 
@@ -26,12 +25,14 @@ class GarminNike {
 
     this.data = sets;
 
-    document.querySelector( '[name="set"]' ).addEventListener( 'change', this.changeDataset.bind( this ), false );
+    if( document.body.classList.contains( 'garmin-nike' ) ){
+      document.querySelector( '[name="set"]' ).addEventListener( 'change', this.changeDataset.bind( this ), false );
 
-    // initialize the map
-    GoogleMapsLoader.load( ( google )=> {
-      google.maps.event.addDomListener( window, 'load', this.initializeMap.bind( this ) );
-    });
+      // initialize the map
+      GoogleMapsLoader.load( ( google )=> {
+        google.maps.event.addDomListener( window, 'load', this.initializeMap.bind( this ) );
+      });
+    }
   }
 
   initializeMap(){
