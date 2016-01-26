@@ -5,9 +5,10 @@ var gulp = require( 'gulp' ),
     plumber = require( 'gulp-plumber' ),
     sourcemaps = require( 'gulp-sourcemaps' ),
     babelify = require( 'babelify' ),
-    jadeify = require( 'jadeify' );
+    jadeify = require( 'jadeify' ),
+    rename = require( 'gulp-rename' );
 
-gulp.task( 'scripts', function(){
+gulp.task( 'scripts', [ 'gitVersion' ], function(){
   gulp
     .src( config.dev + 'scripts/app.js' )
     .pipe( plumber() )
@@ -20,10 +21,11 @@ gulp.task( 'scripts', function(){
         loadMaps: true
     } ) )
     .pipe( sourcemaps.write( './' ) )
-    .pipe( gulp.dest( config.dist + 'js' ) );
+    .pipe( rename( 'app-' + config.gitVersion + '.js' ) )
+    .pipe( gulp.dest( config.dist ) );
 });
 
-gulp.task( 'scripts_release', function(){
+gulp.task( 'scripts_release', [ 'gitVersion' ], function(){
   gulp
     .src( config.dev + 'scripts/app.js' )
     .pipe( browserify( {
@@ -32,5 +34,6 @@ gulp.task( 'scripts_release', function(){
       debug: false
     } ) )
     .pipe( uglify() )
-    .pipe( gulp.dest( config.dist + 'js' ) );
+    .pipe( rename( 'app-' + config.gitVersion + '.js' ) )
+    .pipe( gulp.dest( config.dist ) );
 });
