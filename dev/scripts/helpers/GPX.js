@@ -1,4 +1,4 @@
-// keep in mind for ptoper parsing: https://github.com/tkafka/Javascript-GPX-track-viewer/blob/master/app/js/gpxtools/gpxtools.js
+// keep in mind for proper parsing: https://github.com/tkafka/Javascript-GPX-track-viewer/blob/master/app/js/gpxtools/gpxtools.js
 
 import request from 'superagent';
 import Q from 'q';
