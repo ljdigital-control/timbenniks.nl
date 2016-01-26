@@ -1,0 +1,16 @@
+mixin author( date, humanized )
+  address.author 
+    | By&nbsp;
+    span( rel="author", itemprop="author", itemscope, itemtype="http://schema.org/Person" )
+      span( itemprop="name" ) Tim Benniks&nbsp;
+    | on&nbsp;
+    time( itemprop="datePublished", content=date, pubdate="", datetime=date, title=humanized)=humanized
+
+    span( itemprop="publisher", itemscope, itemtype="https://schema.org/Organization" )
+      meta( itemprop="name" content="Tim Benniks" )
+      
+      span( itemprop="logo" itemscope itemtype="https://schema.org/ImageObject" )
+        img.hide( src="http://timbenniks.nl/assets/favicon.png" )
+        meta( itemprop="url" content="http://timbenniks.nl/assets/favicon.png" )
+        meta( itemprop="width" content="144" )
+        meta( itemprop="height" content="144" )

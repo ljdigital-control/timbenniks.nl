@@ -11,7 +11,7 @@ gulp.task( 'styles', [ 'gitVersion' ], function(){
     .pipe( plumber() )
     .pipe( stylus( {
       use: autoprefixer( { browsers: [ 'ie > 8', 'last 1 version'] } ),
-      compress: true
+      compress: false
     } ) )
     .pipe( rename( 'styles-' + config.gitVersion + '.css' ) )
     .pipe( gulp.dest( config.dist ) );

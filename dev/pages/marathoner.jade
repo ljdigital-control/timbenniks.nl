@@ -1,6 +1,7 @@
 extends ./layouts/layout
 include ./includes/og
 include ./includes/image
+include ./includes/author
 
 block og
   - var title = "The 2015 Paris Marathon"
@@ -11,12 +12,13 @@ block og
 
 block content
   body.article
-    main( role="main" aria-labelledby="aria-content-label" )
+    main( role="main" aria-labelledby="aria-content-label", itemscope, itemtype="http://schema.org/Article" )
       include ./includes/johnny.jade
 
       header
-        h1#aria-content-label The 2015 Paris Marathon
-        h2 My frst marathon experience.
+        meta( itemscope, itemprop="mainEntityOfPage", itemType="https://schema.org/WebPage", itemid=url )
+        h1#aria-content-label( itemprop="name" ) The 2015 Paris Marathon
+        h2( itemprop="headline" ) My first marathon experience.
 
       article
         p Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue Saint-Antoine. Seeing all these people swooshing by impressed me so much that I signed-up for the 2015 marathon on the spot. The goal was set, the easy part was over.
@@ -94,7 +96,12 @@ block content
 
         p It took me four hours and forty six minutes. A total pain train. While riding home on the metro I felt a little shit because I walked so much. Should I have gone deeper? But while writing this piece, pride is taking over. I actually did this. My first marathon in the heat in under five hours. #putain.
 
-        +image( '/assets/marathon/post-run.jpg', 'Proud' )
+        figure( itemprop="image", itemscope, itemtype="https://schema.org/ImageObject" )
+          img( src='/assets/marathon/post-run.jpg', alt='Proud' )
+          meta( itemprop="url" content="http://timbenniks.nl/assets/marathon/post-run.jpg" )
+          meta( itemprop="width" content="1280" )
+          meta( itemprop="height" content="640" )
+          figcaption Proud
 
         h3 Some numbers
         ul
@@ -104,6 +111,8 @@ block content
           li I slept 7h 50m a night on average
           li I ate 1840kcal a day on average (probably not enough)
           li I took 12609 steps a day on average
+
+        +author( '2015-04-20', 'April 20th, 2015' )
 
         .fb-comments( data-href="http://timbenniks.nl/marathoner.html" data-numposts="5" data-colorscheme="light" )
 

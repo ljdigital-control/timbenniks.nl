@@ -5,6 +5,6 @@ requireDir('./tasks', { recurse: true });
 
 gulp.task( 'build', [ 'clean', 'styles', 'scripts', 'assets', 'pages', 'copy' ] );
 gulp.task( 'work', [ 'connect', 'sync', 'watch' ] );
-gulp.task( 'release', [ 'clean', 'styles', 'scripts_release', 'assets', 'pages', 'copy' ] );
+gulp.task( 'release', [ 'clean', 'styles', 'scripts_release', 'assets', 'pages', 'copy', 'inline' ] );
 
 gulp.task( 'default', [ 'build', 'work' ] );

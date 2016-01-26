@@ -2,6 +2,7 @@ extends ./layouts/layout
 include ./includes/tweet
 include ./includes/og
 include ./includes/image
+include ./includes/author
 
 block og
   - var title = "Things Parisians say"
@@ -12,18 +13,24 @@ block og
 
 block content
   body.article.french
-    main( role="main" aria-labelledby="aria-content-label" )
+    main( role="main" aria-labelledby="aria-content-label", itemscope, itemtype="http://schema.org/Article" )
       include ./includes/johnny.jade
 
       header
-        h1#aria-content-label Things Parisians say
-        h2 I've been learning amazing French proverbs. This page tries to explain them.
+        meta( itemscope, itemprop="mainEntityOfPage", itemType="https://schema.org/WebPage", itemid=url )
+        h1#aria-content-label( itemprop="name" ) Things Parisians say
+        h2( itemprop="headline" ) I've been learning amazing French proverbs. This page tries to explain them.
 
       article
         p My French mates have been teaching me typical things Parisians say. Most of these things are not really on the radar of expats so I thought it would be fun to collect all of them on this page. I've tried my best to explain them as best I can.
-
-        +image( "/assets/french/french.jpg", "Ze big Franlish baguette" )
         
+        figure( itemprop="image", itemscope, itemtype="https://schema.org/ImageObject" )
+          img( src='/assets/french/french.jpg', alt='Ze big Franlish baguette' )
+          meta( itemprop="url" content="http://timbenniks.nl/assets/french/french.jpg" )
+          meta( itemprop="width" content="1280" )
+          meta( itemprop="height" content="640" )
+          figcaption Ze big Franlish baguette
+
         p If the below explanations have errors or make no sense, please reply to the tweet with the proper explanation so I can update this page. 
 
         section.tweets
@@ -48,6 +55,8 @@ block content
           +tweet( "align-left", "J'en ai plein le cul!", "690186815832219648", "January 21, 2016", "Literaly I have a full ass. It means like you are fed up with something. \"J’en ai plein le cul de tes conneries.\"" )
           +tweet( "align-left", "Chose promise chose due", "690186793476571136", "January 21, 2016", "A promise is a promise." )
           +tweet( "align-left", "J'ai la chiasse.", "690186769501966336", "January 21, 2016", "Having explosive diarrhea." )
+
+        +author( '2015-01-20', 'January 24th, 2016' )
 
         .fb-comments( data-href="http://timbenniks.nl/french.html" data-numposts="5" data-colorscheme="light" )
 
