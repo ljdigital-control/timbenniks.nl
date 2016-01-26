@@ -26,7 +26,8 @@
     "jadeify": "^4.3.0",
     "jshint-stylish": "^2.0.1",
     "q": "^1.4.1",
-    "require-dir": "^0.3.0"
+    "require-dir": "^0.3.0",
+    "rimraf": "^2.5.1"
   },
   "dependencies": {
     "domready": "^1.0.8",
