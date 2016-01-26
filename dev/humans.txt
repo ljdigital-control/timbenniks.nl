@@ -1,0 +1,11 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  lead developer: Tim Benniks
+  Site: www.timbenniks.nl
+  Twitter: @timbenniks
+  Location: paris
+
+/* SITE */
+  Standards: HTML5, CSS3
