@@ -1,36 +1,18 @@
-doctype
-html( lang="en" )
-  head
-    meta( charset="utf-8" )
-    meta( http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" )
-    meta( name="viewport" content="width=device-width,initial-scale=1,user-scalable=1,minimum-scale=1,maximum-scale=1" )
+extends ./layouts/layout
+include ./includes/og
+include ./includes/image
 
-    meta( name="author" content="Tim Benniks" )
-    meta( name="description" content="The 2015 Paris Marathon. My first marathon experience" )
-    meta( name="keywords" content="Marathon, paris" )
+block og
+  - var title = "The 2015 Paris Marathon"
+  - var description = "The 2015 Paris Marathon. My first marathon experience"
+  - var image = "http://www.timbenniks.nl/assets/marathon/pre-race.jpg"
+  - var url = "http://timbenniks.nl/marathoner.html"
+  +og( title, description, image, url )
 
-    meta( name="google-site-verification" content="El5Wtr19CHQY1u_sQOjbuusrXqYCt6I6n3OJSyZEPAg" )
-
-    link( rel="apple-touch-icon-precomposed" href="http://timbenniks.nl/assets/favicon.png" )
-    link( rel="apple-touch-icon-precomposed" sizes="72x72" href="http://timbenniks.nl/assets/favicon.png" )
-    link( rel="apple-touch-icon-precomposed" sizes="114x114" href="http://timbenniks.nl/assets/favicon.png" )
-    link( rel="apple-touch-icon-precomposed" sizes="144x144" href="http://timbenniks.nl/assets/favicon.png" )
-    link( rel="shortcut icon" href="http://timbenniks.nl/assets/favicon.png" )
-
-    meta( property="og:title" content="The 2015 Paris Marathon" )
-    meta( property="og:image" content="http://www.timbenniks.nl/assets/marathon/pre-race.jpg" )
-    meta( property="og:url" content="http://timbenniks.nl/marathoner.html" )
-    meta( property="og:site_name" content="Tim Benniks, web-developer" )
-    meta( property="og:description" content="My first marathon experience" )
-    meta( property="og:type" content="Website" )
-
-    title The 2015 Paris Marathon
-
-    link( rel="stylesheet" href="styles-#{gitVersion}.css" )
+block content
   body.article
     main( role="main" aria-labelledby="aria-content-label" )
-      svg( class="johnny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve" )
-        path( d="M241.888,175.27 c0.091-1.763,0.073-3.459-0.051-5.315c-14.666,3.224-7.177-17.058-12.481-24.962c-1.352-1.352-3.641-0.417-5.409-0.728 c8.113-13.627,0.79-30.482-0.354-45.044c-16.539-17.266-31.786-35.982-30.85-59.488c1.873-4.057,4.681-7.698,9.361-8.633 c8.12,1.562,15.089,6.243,22.578,9.363c11.025,1.456,18.201,11.857,28.916,14.042c14.77,9.984,31.307,19.137,45.973,31.203 c-1.562,17.162-11.336,32.763-18.723,48.365c8.217,12.065,15.188,24.546,21.113,37.444c23.924,0.521,46.6,5.825,63.136,22.674 c12.481,32.763-15.394,56.687-15.602,88.098c-4.16,23.195-4.785,44.934-5.41,69.479c13.521,9.776,23.612,23.09,31.204,37.444 c5.097,16.849,1.04,35.778-5.513,50.653c8.735-2.705,5.513,7.177,6.241,11.754c8.112-1.979,20.594-2.812,28.082,3.12 c4.161,2.807,8.529,6.968,7.802,12.479l-7.802,1.562h-38.173c-1.56-2.08-2.807-4.994-4.68-6.24 c-2.496,1.039-1.247,3.535-1.562,5.407l-14.04,0.833l-0.833-14.041c-3.12-0.521-7.177,1.246-9.36-1.562v-13.312h10.193 c3.952-16.645-2.081-32.35-15.603-41.294c-6.138-2.288-11.857-7.488-18.722-5.513c-16.33,10.609-22.261,29.123-20.282,47.639 c9.152-0.938,5.098,10.505,6.24,16.328l-10.92,1.561l-1.562,10.194h-15.603c-0.104-0.833,0.104-1.873-0.832-2.394 c-2.705-0.938-1.872,2.184-3.12,3.12h-49.094c1.249-8.425,7.801-13.938,14.77-18.723c6.553-1.561,13.938-0.729,19.553,2.394 c5.928,0.416,1.354-7.801,3.85-10.921l12.48-1.561c-7.802-21.843-5.307-48.886,8.633-67.087 c-18.408-14.354-28.915-35.363-42.957-52.317c-1.455-2.913-2.6-6.138-5.408-8.528c-14.874,10.297-31.411,16.433-47.637,23.402 c-3.017,10.088-7.697,19.45-14.042,28.083c-7.385,6.968-11.753-10.506-16.33,0c-5.201,1.562-9.464-1.978-10.921-6.24 c1.144-9.882-12.169-2.811-14.042-11.755c-3.848-6.969,7.593-13.418-0.832-19.449c-0.832-9.36,4.369-17.578,12.481-21.843 c7.697-1.56,13.001,2.704,20.282,2.288c11.961-16.643,23.818-33.389,38.275-49.093c-18.721-4.267-34.323-15.602-51.485-23.403 c-11.024,4.265-22.986,1.56-34.324,2.288c-11.129-0.625-6.241-13.21-14.042-17.162c3.745-9.569-7.697-18.619,0.728-27.251 c6.241-3.952,13.417,1.56,18.722-4.681c6.552-0.937,15.498-5.305,21.114,0.729c6.033,3.744,5.617,10.088,10.921,14.041 c24.547,0.416,47.637-4.992,69.375,4.681c7.281-7.073,15.082-15.914,24.234-20.282c0.619-1.72,1.124-3.495,1.509-5.328 c0.433-2.063,0.711-4.199,0.826-6.407" )
+      include ./includes/johnny.jade
 
       header
         h1#aria-content-label The 2015 Paris Marathon
@@ -39,9 +21,7 @@ html( lang="en" )
       article
         p Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue Saint-Antoine. Seeing all these people swooshing by impressed me so much that I signed-up for the 2015 marathon on the spot. The goal was set, the easy part was over.
 
-        figure
-          img(src='http://ourparisadventure.com/wp-content/uploads/2014/04/marathon.jpg', alt="2014. The Paris marathon in Rue Saint-Antoine.")
-          figcaption 2014. The Paris marathon in Rue Saint-Antoine.
+        +image( 'http://ourparisadventure.com/wp-content/uploads/2014/04/marathon.jpg', '2014. The Paris marathon in Rue Saint-Antoine.' )
 
         p I gave myself five months to conquer the beast. 42.195 kilometres. After running on and off for a couple of years it was time to get serious. As I work for #[a(href='http://akqa.com/work') AKQA] I naturally chose to train with the nike+ app and all the related products.
         p Nike's marathon training program was brutal. Even at the rookie level it made me run five times a week from the get-go. After living the good life for eight months in Paris both my endurance and cardio vascular strength were shit. It's safe to say I was happy that the distances were short for the first couple of weeks.
@@ -54,9 +34,7 @@ html( lang="en" )
         h3 January
         p After two months of pain I had finally found a balance. Turns out that eating super low fat and high carb was the best for my recovery. I was basically eating according to the 80/10/10 principle. 80% carbs, 10% fats, 10% protein. I'm not preaching this way of eating, it was just great for me.
 
-        figure
-          img(src='/assets/marathon/fruit.jpg', alt="Fruit fruit fruit")
-          figcaption Fruit fruit fruit
+        +image( '/assets/marathon/fruit.jpg', 'Fruit fruit fruit' )
 
         p To achieve eating this macro ratio I had to cut out all animal products. If I ate too much fat on a rest day, like when you go out to dinner and you don't want to be the asshole who can't eat anything, I would have heavy legs the next day.
 
@@ -65,9 +43,7 @@ html( lang="en" )
         h3 February
         p We went on a ski trip in the beginning of February. I was an amazing holiday with loads of skiing, good food and laughs. I did some workouts in the gym and a proper mountain walk. I really hoped I hadn't lost my running gains.
 
-        figure
-          img(src='/assets/marathon/ski.jpg', alt="Wengen, Feb 2015")
-          figcaption Wengen, Feb 2015
+        +image( '/assets/marathon/ski.jpg', 'Wengen, Feb 2015' )
 
         p The first Monday back I had a nasty cough but decided to at least try my fast 8km run I had planned for that day. Bad decision. Over the course of the week I developed a bronchitis and both the doctor and my wife (the boss and a bad ass physiotherapist) forbade me to run the following two weeks.
 
@@ -80,9 +56,7 @@ html( lang="en" )
 
         p I had been in training for 4 months by now and I had been sick the month before. The exhaustion was setting in a bit. I didn't particularly feel it in my legs, but I started having problems staying focused on evening runs. One time I had to jump aside while a policeman was arresting someone. I flipped my ankle and had to walk home for an hour.
 
-        figure
-          img(src='/assets/marathon/hurt.jpg', alt="Frozen green beans FTW.")
-          figcaption Frozen green beans FTW.
+        +image( '/assets/marathon/hurt.jpg', 'Frozen green beans FTW.' )
 
         p I felt stupid for being distracted. Even though I had super light shoes without much cushioning I stopped being in touch with the ground I was running on. Sounds like I'm a hippy aye? It's a runners thing.
 
@@ -90,18 +64,13 @@ html( lang="en" )
         p Only two weeks left. I did a 27km run in a very busy, rainy and hilly Paris. After that I was so exhausted that I decided to start my tapering period a week early. I thought I'd hurt my feet too much and suddenly got very nervous. My marathon veteran colleagues told me this is normal and I should just chill out.
 
         p I only ran a handful of runs up until the big day. The thing I liked most about the tapering period was the carbo-loading. My food intake doubled in the week before the big race. #CTFU. I felt amazing and started dropping weight. I should have eaten much more the past four months.
-
-        figure
-          img(src='/assets/marathon/carbo-load.jpg', alt="Carb the fuck up...")
-          figcaption Carb the fuck up...
-
+        
+        +image( '/assets/marathon/carbo-load.jpg', 'Carb the fuck up... #ctfu' )
 
         h3 D-Day
         p I was so nervous I hardly even looked at the enormous amount of runners around me. I was standing on the Champs Elysees with 50.000 other athletes. This was going to be the most epic challenge of my life.
 
-        figure
-          img(src='/assets/marathon/pre-race.jpg', alt="Good times")
-          figcaption Good times
+        +image( '/assets/marathon/pre-race.jpg', 'Good times' )
 
         p The first bit felt like heaven. Especially because my mate #[a(href='https://www.facebook.com/chrisfinch') Chris] had just given me an amazing pep-talk over the phone. The Champs Elysees was mine and mine alone. Turns out I clocked the first kilometre at a 6:12 pace. Slow as fuck but a nice start to a long day. After that I slowly picked up the pace to a nice average between 5:25 and 5:35.
         p Around the 7km point my awesome friend #[a(href='https://www.facebook.com/mademoiselle.klug') Henrike] spotted me from the sidelines and joined me for about 1.5km. We picked up the pace and race had properly started.
@@ -125,9 +94,7 @@ html( lang="en" )
 
         p It took me four hours and forty six minutes. A total pain train. While riding home on the metro I felt a little shit because I walked so much. Should I have gone deeper? But while writing this piece, pride is taking over. I actually did this. My first marathon in the heat in under five hours. #putain.
 
-        figure
-          img(src='/assets/marathon/post-run.jpg', alt="Proud")
-          figcaption Proud
+        +image( '/assets/marathon/post-run.jpg', 'Proud' )
 
         h3 Some numbers
         ul
@@ -136,21 +103,17 @@ html( lang="en" )
           li I went from 95 to 86.7 kilos (and lost all gains)
           li I slept 7h 50m a night on average
           li I ate 1840kcal a day on average (probably not enough)
-          li I did 12609 steps a day on average
+          li I took 12609 steps a day on average
 
-        <div class="fb-comments" data-href="http://timbenniks.nl/marathoner.html" data-numposts="5" data-colorscheme="light"></div>
+        .fb-comments( data-href="http://timbenniks.nl/marathoner.html" data-numposts="5" data-colorscheme="light" )
 
-    script( src='app-#{gitVersion}.js' )
-    script.
-      var _gaq=[['_setAccount','UA-6797812-3'],['_trackPageview']];
-      (function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
-
-    div#fb-root
-    script.
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+block custom_scripts
+  div#fb-root
+  script.
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
