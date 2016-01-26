@@ -3,6 +3,6 @@ var gulp = require( 'gulp' ),
 
 requireDir('./tasks', { recurse: true });
 
-gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages' ] );
+gulp.task( 'build', [ 'styles', 'scripts', 'assets', 'pages', 'copy' ] );
 gulp.task( 'work', [ 'connect', 'sync', 'watch' ] );
 gulp.task( 'default', [ 'build', 'work' ] );
