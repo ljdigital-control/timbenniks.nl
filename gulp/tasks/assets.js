@@ -1,7 +1,5 @@
 var gulp = require( 'gulp' ),
-    config = require( '../config' ),
-    imagemin = require( 'gulp-imagemin' );
-
+    config = require( '../config' );
 gulp.task( 'assets', function(){
   gulp
     .src( [ config.dev + 'assets/**/*.svg' ] )
@@ -13,8 +11,5 @@ gulp.task( 'assets', function(){
 
   gulp
     .src( [ config.dev + 'assets/**/*', '!' + config.dev + 'assets/**/*.svg', '!' + config.dev + 'assets/**/*.gpx' ] )
-    .pipe( imagemin( {
-      progressive: true
-    } ) )
     .pipe( gulp.dest( config.dist + 'assets' ) );
 });
