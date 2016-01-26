@@ -3,9 +3,9 @@ import GarminNike from './modules/GarminNike';
 
 class App {
   constructor(){
-    let body = document.querySelector( 'body' );
+    const body = document.querySelector( 'body' );
 
-    if( body.classList.contains( 'article' ) || body.classList.contains( 'home' ) ){
+    if( body.classList.contains( 'article' ) || body.classList.contains( 'home' ) && matchMedia( 'only screen and (min-width: 480px)' ).matches ){
       new Johnny();
     }
 

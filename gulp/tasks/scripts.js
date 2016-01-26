@@ -20,10 +20,17 @@ gulp.task( 'scripts', function(){
         loadMaps: true
     } ) )
     .pipe( sourcemaps.write( './' ) )
-    //.pipe( uglify() )
     .pipe( gulp.dest( config.dist + 'js' ) );
+});
 
+gulp.task( 'scripts_release', function(){
   gulp
-    .src( config.dev + 'scripts/modernizr.js' )
+    .src( config.dev + 'scripts/app.js' )
+    .pipe( browserify( {
+      insertGlobals: true,
+      transform: [ 'babelify', 'jadeify' ],
+      debug: false
+    } ) )
+    .pipe( uglify() )
     .pipe( gulp.dest( config.dist + 'js' ) );
 });
