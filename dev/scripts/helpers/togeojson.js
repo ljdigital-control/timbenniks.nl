@@ -82,7 +82,8 @@ var toGeoJSON = (function() {
     // only require xmldom in a node environment
     // } else if (typeof exports === 'object' && typeof process === 'object' && !process.browser) {
     //     serializer = new (require('xmldom').XMLSerializer)();
-    // }
+    }
+    
     function xml2str(str) {
         // IE9 will create a new XMLSerializer but it'll crash immediately.
         // This line is ignored because we don't run coverage tests in IE9
