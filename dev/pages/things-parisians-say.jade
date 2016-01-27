@@ -25,41 +25,21 @@ block content
         p My French mates have been teaching me typical things Parisians say. Most of these things are not really on the radar of expats so I thought it would be fun to collect all of them on this page. I've tried my best to explain them as best I can.
         
         figure( itemprop="image", itemscope, itemtype="https://schema.org/ImageObject" )
-          img( src='/assets/french/french.jpg', alt='Ze big Franlish baguette' )
+          img( src='/assets/french/french.jpg', alt='Ze big Franglish baguette' )
           meta( itemprop="url" content="http://timbenniks.nl/assets/french/french.jpg" )
           meta( itemprop="width" content="1280" )
           meta( itemprop="height" content="640" )
-          figcaption Ze big Franlish baguette
+          figcaption Ze big Franglish baguette
 
         p If the below explanations have errors or make no sense, please reply to the tweet with the proper explanation so I can update this page. 
 
         section.tweets
-          +tweet( "align-left", "Tim a essuyé quelques plâtres.", "692322401615548416", "January 27, 2016", "Literally: Tim wiped off some casts. It means (I think): \"Tim dealt with it but it wasn't without consquences.\"" )
-          +tweet( "align-left", "Comment tu frimes!", "690539347955838976", "January 22, 2016", "This means you are gloating about something you are doing. In my case: I replied to an email saying I would finish some work while waiting backstage at the Hermès 2016 mens hiver fashion show." )
-          +tweet( "align-left", "J'ai la crève", "690496933908107264", "January 22, 2016", "Literally: \"I'm dying\". This is a throwback to before modern medicine, when you could actually die from the common cold. Mostly used to say you have a cold and you are feeling shitty." )
-          +tweet( "align-left", "Coder comme un cochon...", "690221053596012544", "January 21, 2016", "The code this developer wrote is as dirty as a pig. \"Cochon\" is also used to describe somebody who pesters incessantly for sex." )
-          +tweet( "align-left", "ça me saoule", "690187876240355328", "January 21, 2016", "Se saouler or se soûler literally means to get drunk. However, in this case (while working with a difficult client) \"ça me saoule\" means: \"I am getting tired of this shit\"." )
-          +tweet( "align-left", "Est-ce que tu as la patate?", "690187839217274880", "January 21, 2016", "Literally: \"Do you have the potato?\". Mostly used to ask if you are ready to kick ass at a day full of meetings or any other event which needs determination and energy." )
-          +tweet( "align-left", "Fait chier", "690187807193731072", "January 21, 2016", "Literally \"to cause someone to shit\". Used in this context: \"Tu me fais chier avec tes conneries\". You piss me off with your bullshit. Or as many of my Parisian workmates use it: \"Je me fais chier aujourd'hui\". Today is such a pain in the ass." )
-          +tweet( "align-left", "Ça part en couille", "690187711337070593", "January 21, 2016", "Going down the crapper or to go pear-shaped. Or as many Parisians would say it: My whole life is going to crap." )
-          +tweet( "align-left", "Bordel de dieu", "690187688583000064", "January 21, 2016", "Often combined with \"putain de bordel de merde\"; \"putain de merde\". Means something like: \"Jesus fucking Christ or holy fucking shit\"." )
-          +tweet( "align-left", "Hyper casse couille!", "690187655175344128", "January 21, 2016", "Extreme ball-buster or pain in the ass. Could refer to a situation (like a project at work) or to a person." )
-          +tweet( "align-left", "Panne d'oreiller ce matin.", "690187602708807680", "January 21, 2016", "When you have slept through your alarm in the morning." )
-          +tweet( "align-left", "Ça caille", "690187577882722308", "January 21, 2016", "It's freezing. To be very cold. \"Ça caille ici !\" Means \"it's bloody freezing here!\"" )
-          +tweet( "align-left", "Mon cul est entre deux chaises", "690187528905826305", "January 21, 2016", "Literally means your ass sits on two chairs at once. You're supposed to say it like this: \"J'ai le cul entre deux chaises\". It means eyou feel uncomfortable of two choices you have to make." )
-          +tweet( "align-left", "LA VIE D’MA MERE", "690187419635834880", "January 21, 2016", "When telling an unlikely story and you say: \"My mother must die if it's not true\". This phrase is mainly used by French-Morrocan people." )
-          +tweet( "align-left", "Un traquenard", "690187379165020161", "January 21, 2016", "This means it's a trap or a bad surprise. Like ordering an exotic and expensive beer but it taste like piss." )
-          +tweet( "align-left", "Ça fouette", "690187350031405057", "January 21, 2016", "It stinks." )
-          +tweet( "align-left", "T'as pécho ?", "690187279764197377", "January 21, 2016", "Did you chat her up and have you kissed her yet?" )
-          +tweet( "align-left", "Porter la culotte", "690187254422245378", "January 21, 2016", "The French version of who is wearing the pants in the relationship." )
-          +tweet( "align-left", "Tremper le biscuit", "690186908555673600", "January 21, 2016", "Literally dipping your biscuit in tea. In French this obviously means having sex." )
-          +tweet( "align-left", "J'en ai plein le cul!", "690186815832219648", "January 21, 2016", "Literaly I have a full ass. It means like you are fed up with something. \"J’en ai plein le cul de tes conneries.\"" )
-          +tweet( "align-left", "Chose promise chose due", "690186793476571136", "January 21, 2016", "A promise is a promise." )
-          +tweet( "align-left", "J'ai la chiasse.", "690186769501966336", "January 21, 2016", "Having explosive diarrhea." )
+          for tweet in pages[ 'things-parisians-say' ].tweets
+            +tweet( "align-left", tweet.tweet, tweet.id, tweet.id, tweet.desc )
 
         +author( '2015-01-20', 'January 24th, 2016' )
 
-        .fb-comments( data-href="http://timbenniks.nl/french.html" data-numposts="5" data-colorscheme="light" )
+        .fb-comments( data-href="http://timbenniks.nl/french.html" data-numposts="25" data-colorscheme="light" )
 
 block custom_scripts
   script.
