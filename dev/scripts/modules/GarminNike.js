@@ -6,8 +6,8 @@ import sets from '../../assets/garmin-nike/sets.json';
 import runDataTmpl from '../../assets/garmin-nike/run_data.jade';
 
 class GarminNike {
-
   constructor(){
+    
     // settings
     GoogleMapsLoader.KEY = 'AIzaSyBom_Va46C1Qh66p6d4e9QWd8J7U6oMElM';
 

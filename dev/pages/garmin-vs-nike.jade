@@ -10,6 +10,9 @@ block og
   - var url = "http://timbenniks.nl/garmin-vs-nike.html"
   +og( title, description, image, url )
 
+//- block extra_css
+//-   link( rel="stylesheet" href="/assets/garmin-nike/chartist.css" )
+
 block content
   body.article.garmin-nike
 
@@ -18,11 +21,11 @@ block content
 
       header
         meta( itemscope, itemprop="mainEntityOfPage", itemType="https://schema.org/WebPage", itemid=url )
-        h1#aria-content-label( itemprop="name" ) Garmin Forerunner 220 vs Nike+ on iPhone
-        h2( itemprop="headline" ) A GPS accuracy comparison
+        h1#aria-content-label( itemprop="name" ) Garmin vs Nike+
+        h2( itemprop="headline" ) A comparison
 
       article
-        p As my running career is getting a bit more serious nowadays I've decided to ditch good old Nike+ in favour of Garmin. This post describes my experiences with the switch and will show the accuracy differences between the Nike+ app and my new shiny Garmin toy.
+        p As my running career is getting a bit more serious lately I've decided to ditch good old Nike+ in favour of Garmin. This post describes the difference between a Garmin Forerunner 220 and Nike+ on a phone.
         
         figure( itemprop="image", itemscope, itemtype="https://schema.org/ImageObject" )
           img( src='http://timbenniks.nl/assets/garmin-nike/nike-vs-garmin.jpg', alt='Garmin Forerunner vs Nike+ on iPhone' )
@@ -31,15 +34,15 @@ block content
           meta( itemprop="height" content="460" )
           figcaption Garmin Forerunner vs Nike+ on iPhone
         
-        p I've chosen Garmin as most of my running buddies (not my work mates; they all use Nike) use garmin equipment. From research it seems Garmin is marketed towards the more serious runners and cyclists. My weapon of choice is the #[a(href="https://buy.garmin.com/en-US/US/into-sports/forerunner-220/prod129397.html", target="_blank") Garmin Forerunner 220 ] from 2013.
+        p I've chosen Garmin as most of my running buddies (not my work mates; they all use Nike) use Garmin equipment. From research it seems Garmin markets itself towards the more serious runners. My weapon of choice is the #[a(href="https://buy.garmin.com/en-US/US/into-sports/forerunner-220/prod129397.html", target="_blank") Garmin Forerunner 220 ] from 2013.
 
-        p I've chosen a bit of an older model as the new models are quite expensive and boast a bunch of features I'm not interested in. Actually the GPS chip of the 220 is the same as the chip in the new 225 model. 
+        p I've chosen a bit of an older model as the new ones are expensive and boast a bunch of features I'm not interested in. Actually the GPS chip of the 220 is the same as the chip in the new 225 model.
 
-        p I just need speedy GPS connection time, proper accuracy and clear pace, time and distance feedback during my runs. At the time of buying the Forerunner 220 came out beating the rest of the watches in almost all reviews.
+        p I only need speedy GPS connection time, proper accuracy and feedback during my runs. At the time of buying the Forerunner 220 beat the rest of the watches in almost all reviews.
         
         h3 After four months
 
-        p I've had the Garmin watch for about four months now and I've used both the new watch and Nike+ simultaniously for each run. For Nike+ I used an iPhone 5s strapped to my arm.
+        p For the past four months I've used both the new watch and Nike+ at the same time for each run. For Nike+ I used an iPhone 5s strapped to my arm.
 
         p I've taken three random runs and plotted them on the map below. You can see the accuracy differences between Nike+ on a phone and the Garmin watch. Use the dropdown on the right to switch between runs.
 
@@ -67,42 +70,43 @@ block content
 
         h3 Run time and pace
         
-        p As you can see Nike+ is usually faster even though the distance is similar (within 200m). The longer the run, the bigger the difference. I attribute the shorter run time due to the fact that Nike+ removes pauses from the exported GPS.
+        p As you can see Nike+ is usually faster even though the distance is similar (within 200m). The longer the run, the bigger the difference. I attribute the time difference to the fact that Nike+ removes pauses from the exported GPS.
 
         h3 GPS connection
 
-        p The main reason I decided to buy the Garmin Forerunner was speedy GPS connection and high precision. As the Garmin watch is a dedicated running device with GPS at the center of its features, I assumed excellent results. Nothing could be further from the truth. #[em It seriously sucked.] 
+        p The main reason for choosing this watch is that it is a dedicated running device with GPS at the core of its features. The Garmin is supposed to have fast GPS connection and high precision. I expected excellent performance but nothing could be further from the truth.
 
-        p Finding the initial connection ranged from 5 minutes to 15 minutes to not finding any connection at all. In comparison to Nike+ these numbers are rediculous. The phone usually found a GPS signal in about 10 seconds. Obviousy having the assisted GPS (AGPS) is awesome. iPhone uses Wi-Fi hotspot and cell tower data to quickly find GPS satellites.
+        p The initial connection time ranged from 5 minutes to 15 minutes to not finding any connection at all. In comparison to Nike+ these numbers are ridiculous. The phone usually found a GPS signal in about 10 seconds. iPhone has assisted GPS and uses Wi-Fi hotspot and cell tower data to find GPS satellites.
 
         h3 GPS precision
-        p On the Garmin I had the auto pause function turned on (I used the same feature on Nike+). The watch would pause itself at random intervals as it thought I wasn't running. If I didn't manually click resume the watch would sometimes take about a minute to find a signal again. As a data nerd this is highly frustrating. It did provide a good oppurtunity to practise my newly learnt French swearwords.
 
-        p Sharp bends where difficult for both devices and I usualy ran through buildings. The weird thing is that on some days both devices where much more accurate than on other days. See run 3.
+        p On the Garmin I had the auto pause function turned on (I used the same feature on Nike+). The watch would pause itself at random intervals as it thought I wasn't running. If I didn't click the resume button myself the watch would sometimes take about a minute to find a signal again. As a data nerd this is frustrating. It did provide a good opportunity to practice my newly learnt French swear words.
+
+        p Sharp bends where difficult for both devices and I ran through buildings on most runs. The weird thing is that on some days both devices where much more accurate than on other days. See run 3.
 
         p 
-         em I have to caveat the fact that I'm a city runner and that I can't expect amazing GPS results due to high buildings and trees blocking the GPS triangulation. It seems that the Garmin watch has similar results to other watches. When I used the Garmin watch while running in the Greek mountains I experienced much better results.
+         em I have to caveat the fact that I'm a city runner and that I shouldn't expect amazing GPS results. High buildings and trees block the GPS triangulation and challenge the connection lock. It seems that the Garmin watch has similar results to other watches. When I used the watch for runs in the Greek mountains I experienced much better results.
 
         h3 Conclusion
-        p I didn't want to loose all my Nike+ data (4 years of running) when I switched to Garmin so I imported all my data into Strava. Both Nike+ and Garmin connect can push GPX data files there.
+        p I didn't want to loose all my Nike+ data (4 years of running) when I switched so I imported all my data into Strava. Both Nike+ and Garmin connect can push GPX data files there.
 
-        p The Garmin watch always took so long to connect that I got cold and frustrated. On many occasions I switched to the Nike+ app on my phone. But, the Nike+ app on the phone was extremely buggy and drained the battery like crazy. The longer the run the shittier the experience. I could literally pull out a 10 point buglist and send it to Nike. It seems they are more interested in adding features (integrating with Spotify etc) than fixing the original software.
+        p The Garmin watch always took so long to connect that I got cold and frustrated. On many occasions I switched to the Nike+ app on my phone. But, the Nike+ app on the phone was full of bugs and drained the battery like crazy. The longer the run the shittier the experience. I noticed at least 10 P1 (must fix) bugs which all crash the app or cause it to loose run data. Rather than fixing the issues Nike seems to be more interested in adding new features.
 
-        p When you run daily, these little things get annoying, especially if you are a programmer yourself and you know an app should not behave that shitty on your modern device.
+        p One day I decided to run with the Strava app instead of the Nike+. It was just a test but it was so awesome I haven't looked back since. For runs longer than a half marathon I always use the Garmin as its battery live is great. For all other runs I now use the Strava app.
 
-        p One day I decided to run with the Strava app on my iPhone directly. It was awesome and I haven't looked back since. For runs longer than a half marathon I always default to the Garmin as its battery live is great. For all other runs I now use Strava directly on my iPhone.
+        p If you are into data collection I would not recommend using a dedicated sports watch in the big city. A smartphone will always be more precise as it has assisted GPS. If you are a trail or countryside runner the Garmin is awesome.
 
         +author( '2016-02-04', 'February 4th, 2016' )
 
         .fb-comments( data-href="http://timbenniks.nl/garmin-vs-nike.html" data-numposts="5" data-colorscheme="light" )
 
 block custom_scripts
-  //- div#fb-root
-  //- script.
-  //-   (function(d, s, id) {
-  //-     var js, fjs = d.getElementsByTagName(s)[0];
-  //-     if (d.getElementById(id)) return;
-  //-     js = d.createElement(s); js.id = id;
-  //-     js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
-  //-     fjs.parentNode.insertBefore(js, fjs);
-  //-   }(document, 'script', 'facebook-jssdk'));
+  div#fb-root
+  script.
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));

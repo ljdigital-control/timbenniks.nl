@@ -6,3 +6,5 @@ for run in runs
     li #{run.distance.toFixed(2)} km
     li #{run.pace.minutes}:#{run.pace.seconds} km/min
     li time: #{run.duration.total_formatted}
+    li elevation gained: #{run.elevation.gain.toFixed(0)}m
+    li elevation max: #{run.elevation.max.toFixed(0)}m
