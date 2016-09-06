@@ -3,7 +3,7 @@ import GarminNike from './modules/GarminNike';
 
 class App {
   constructor(){
-    this.Johnny = new Johnny();
+    //this.Johnny = new Johnny();
     this.GarminNike = new GarminNike();
   }
 }

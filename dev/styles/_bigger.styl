@@ -5,17 +5,29 @@ body.article
     font-size: 1.875em;
 
 main
-  width: 500px
+  width: 520px
 
-body.garmin-nike 
+  nav.links
+    ul li
+      display: inline-block
+      margin: 0 0.2em 0
+
+      &:first-child
+        display: block
+
+    &.alt
+      ul li
+        display: block
+
+body.garmin-nike
   .run-data .run-data-type
     width: 25%
-  
+
   #map
     height: 600px
-    
+
 body.french
-  .tweet 
+  .tweet
     display: flex
     flex-direction: row
 
@@ -27,11 +39,11 @@ body.french
       width: 40%
       padding: 0.8em 0 0 1em
       font-size: 80%
-    
+
     &.align-right
       .twitter-tweet
         order: 2
-        
+
       .explanation
         order: 1
         padding: 0.8em 1em 0 0
