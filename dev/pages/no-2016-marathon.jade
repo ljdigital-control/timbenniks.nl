@@ -1,0 +1,67 @@
+extends ./layouts/layout
+include ./includes/og
+include ./includes/image
+include ./includes/author
+include ./includes/strava_embed
+
+block og
+  - var title = "Why I'm not running the 2016 Amsterdam Marathon"
+  - var description = "The 2016 Amsterdam Marathon is closing in and I've decided to stop training. This post explains why."
+  - var image = "http://www.timbenniks.nl/assets/marathon/pre-race.jpg"
+  - var url = "http://timbenniks.nl/no-2016-marathon.html"
+  +og( title, description, image, url )
+
+block content
+  body.article
+    main( role="main" aria-labelledby="aria-content-label", itemscope, itemtype="http://schema.org/Article" )
+
+      header
+        meta( itemscope, itemprop="mainEntityOfPage", itemType="https://schema.org/WebPage", itemid=url )
+        h1#aria-content-label( itemprop="name" ) I'm not running a marathon in 2016
+        h2( itemprop="headline" ) I've decided not to run the Amsterdam marathon this year, meh...
+
+      article
+        p After four and a half months of full on training I've decided not to run the Amsterdam marathon on October 16th 2016. This year I've learnt a valuable life lesson about the balance between the load and capacity of the body while training for an extreme event like a marathon.
+
+        blockquote
+          p tl;dr No matter the dedication to training, a great food plan or sheer willpower, circumstances and external stressors will make your body say stop at a certain point. If the load is higher than the capacity for too long the body will get pushed too far and won't be able to cope with the added stress.
+
+        h3 The Load-Capacity Model
+        
+        p The Load-Capacity model was created in 1990 by A.T.M Bernards and L.H.A Hagenaars, two Dutch physiotherapists. The MDBB (Dutch abbreviation) model is meant to be a conceptual model for physiotherapy. #[a(target="_blank", href="https://www.researchgate.net/publication/224983108_Het_meerdimensionale_belasting-belastbaarheidsmodel_een_conceptueel_model_voor_de_fysiotherapie") This is one of their publications from 1999]. They created this model to add the #[a(href="https://en.wikipedia.org/wiki/Biopsychosocial_model") biopsychosocial] element to physiotherapy treatments.
+        
+        p: em I just want to caveat that even though there is some merit to the claims made in this post, the Load-Capacity model is generally taught at physiotherapy school, most of the conclusions I ended up with are anecdotal. I'll be using the Load-Capacity model specifically for my personal experience so my writing will be somewhat onesided.
+        
+        p On the physical side, the Load-Capacity model is a key concept in preventing and managing running injuries. It is all about understanding the balance between training load and the body's capacity to handle that load. In a nutshell it’s a case of working within your limits and not pushing the training beyond what the body can cope with. 
+
+        p Then there is the mental side. External stressors will also impact the balance between capacity and load. If you keep the load the same but your capacity goes down due to grief or work stress, the body will be pushed over the edge of what the it would normally tolerate.
+
+        p The load-capacity balance is different for everybody and could also change over time. As it did for me. I upped the load in a steady way by training for the marathon but my body's capacity went down due to external stressors which I wasn't able to identify. For one, I have a thick skull but I also wasn't used to the fact that my body would tell me to stop. I could do whatever I wanted to it without stretching or any kind of warmup. If I twisted my ankle the pain would go away in a day.
+
+        p This year I was always stiff and I had to concentrate way harder to stick to proper form. Suddenly I got little pains like plantar fasciitis and an inflamed Achillis tendon. Even after stretching out my hips and calves it felt like I was running on stilts during morning runs. The pains and stiffness started two months into training. Four months in I started to get extremely tired, I developed a rash and I my IBS started to play up way more often. I also got sick after running longer runs at marathon pace.
+
+        p The things I just described start to happen when the load is surpassing the capacity of the body for a length of time. I slowly got overtrained. As my body could normally handle anything I threw at it, I was a bit oblivious towards the symptoms of overtraining.
+
+        p My sweet wife is a physiotherapist and saw me coming from a mile away. Classic. I needed some time and I also needed many other to tell me that I was overtrained. The cause was a combination of training and external circumstances.
+
+        h3 This is what happened
+        
+        p I started off well and I was determined to make less mistakes in the preparation this time around. I had plans to have my diet in check from day one and that I would go to the gym as well. Next to this I kept a record of all the things. Training sessions with Strava, sleep analysis and heart rate with Sleepcycle and food and weight with MyFitnessPal.
+
+        p This year I decided to go for a training plan which let me train five times per week. Of these five sessions only three where running. The other two were either biking or a gym session. Running only three times per week meant that I could be flexible with the days as I sometimes work nights or have social events to attend. The plan had me running more miles each run but at a slow pace.
+
+        +strava_embed( 'https://www.strava.com/activities/699767289/embed/cda9e52b458b34c7045cb29a27b8b5ef64e63667', 'run' )
+        +author( '2016-09-06', 'September 6th, 2016' )
+
+        .fb-comments( data-href="http://timbenniks.nl/no-2016-marathon.html" data-numposts="5" data-colorscheme="light" )
+
+block custom_scripts
+  div#fb-root
+  script.
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
