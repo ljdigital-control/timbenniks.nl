@@ -1,0 +1,5787 @@
+[{
+  "date": "2016-04-01T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 0
+  },
+  "carbs": 0,
+  "protein": 0,
+  "fat": 0,
+  "sodium": 0,
+  "fiber": 0,
+  "weight": 0,
+  "steps": 5383,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "nBpBS4G2EdcTLuOa",
+  "sleep": {
+    "date": "2016-04-01T00:00:00.000Z",
+    "start": "2016-04-01T00:15:00.000Z",
+    "end": "2016-04-01T08:33:00.000Z",
+    "time_in_bed": "08:18:00",
+    "time_in_bed_seconds": 29880,
+    "time_asleep": "06:12:00",
+    "time_asleep_seconds": 22320
+  }
+}, {
+  "date": "2016-04-02T00:00:00.000Z",
+  "calories": {
+    "active": 3588.90014648438,
+    "total": 2922.89691162109
+  },
+  "carbs": 355.962589263916,
+  "protein": 119.449200630188,
+  "fat": 100.100500106812,
+  "sodium": 2709.93604348041,
+  "fiber": 42.4429993629456,
+  "weight": 0,
+  "steps": 12127,
+  "heart": {
+    "morning_heartrate": 61,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "3pAatgWs2Q4CVlAS",
+  "activity": {
+    "id": 533357105,
+    "activity_date": "2016-04-02T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 10.1,
+    "moving_time_seconds": 3516,
+    "moving_time": "00:58:36",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.86,
+    "average_speed": "05:49",
+    "calories": 1187.5,
+    "suffer_score": null,
+    "photo": "https://www.instagram.com/p/BDspdlPTGZg/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-02T00:00:00.000Z",
+    "start": "2016-04-02T03:13:00.000Z",
+    "end": "2016-04-02T11:23:00.000Z",
+    "time_in_bed": "08:11:00",
+    "time_in_bed_seconds": 29460,
+    "time_asleep": "07:17:00",
+    "time_asleep_seconds": 26220
+  }
+}, {
+  "date": "2016-04-03T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 2267.88610839844
+  },
+  "carbs": 246.363800048828,
+  "protein": 100.702025234699,
+  "fat": 82.8204212188721,
+  "sodium": 5467.41485595703,
+  "fiber": 17.9990997314453,
+  "weight": 94.9999302763638,
+  "steps": 8027,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "wdgvnPPWPogfdP0O",
+  "sleep": {
+    "date": "2016-04-03T00:00:00.000Z",
+    "start": "2016-04-03T02:18:00.000Z",
+    "end": "2016-04-03T10:27:00.000Z",
+    "time_in_bed": "08:09:00",
+    "time_in_bed_seconds": 29340,
+    "time_asleep": "08:05:00",
+    "time_asleep_seconds": 29100
+  }
+}, {
+  "date": "2016-04-04T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 2100.2338142395
+  },
+  "carbs": 320.226877212524,
+  "protein": 61.3074158430099,
+  "fat": 60.1100654900074,
+  "sodium": 1274.14952862819,
+  "fiber": 51.8952543735504,
+  "weight": 0,
+  "steps": 7893.70516312563,
+  "heart": {
+    "morning_heartrate": 71,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "cfpKQcEnAjFZX1NX",
+  "sleep": {
+    "date": "2016-04-04T00:00:00.000Z",
+    "start": "2016-04-03T23:27:00.000Z",
+    "end": "2016-04-04T08:43:00.000Z",
+    "time_in_bed": "09:16:00",
+    "time_in_bed_seconds": 33360,
+    "time_asleep": "05:54:00",
+    "time_asleep_seconds": 21240
+  }
+}, {
+  "date": "2016-04-05T00:00:00.000Z",
+  "calories": {
+    "active": 568.494102120399,
+    "total": 2538.07107543945
+  },
+  "carbs": 354.217872619629,
+  "protein": 125.135707855225,
+  "fat": 58.2234781384468,
+  "sodium": 3255.1686167717,
+  "fiber": 45.7952523231506,
+  "weight": 0,
+  "steps": 11093.2948368744,
+  "heart": {
+    "morning_heartrate": 70,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "47iwJkTTW1IWoNyq",
+  "activity": {
+    "id": 536609489,
+    "activity_date": "2016-04-05T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 3.4,
+    "moving_time_seconds": 1082,
+    "moving_time": "00:18:02",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.147,
+    "average_speed": "05:17",
+    "calories": 401.6,
+    "average_heartrate": 166.6,
+    "max_heartrate": 177,
+    "suffer_score": 38,
+    "photo": "https://www.instagram.com/p/BD07vHMzGd7/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-05T00:00:00.000Z",
+    "start": "2016-04-05T00:29:00.000Z",
+    "end": "2016-04-05T09:00:00.000Z",
+    "time_in_bed": "08:31:00",
+    "time_in_bed_seconds": 30660,
+    "time_asleep": "06:23:00",
+    "time_asleep_seconds": 22980
+  }
+}, {
+  "date": "2016-04-06T00:00:00.000Z",
+  "calories": {
+    "active": 309.425188422203,
+    "total": 2599.9525451660197
+  },
+  "carbs": 372.84740447998,
+  "protein": 110.863391876221,
+  "fat": 76.4557847976685,
+  "sodium": 3939.88044885918,
+  "fiber": 39.549476146698,
+  "weight": 0,
+  "steps": 8841,
+  "heart": {
+    "morning_heartrate": 67,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "WjQtxjbhLJ01z7OF",
+  "activity": {
+    "id": 537687520,
+    "activity_date": "2016-04-06T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 13.8,
+    "moving_time_seconds": 1800,
+    "moving_time": "00:30:00",
+    "feeling": false,
+    "location_city": null,
+    "average_speed_mps": 7.667,
+    "average_speed": "02:10",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-04-06T00:00:00.000Z",
+    "start": "2016-04-06T00:11:00.000Z",
+    "end": "2016-04-06T09:13:00.000Z",
+    "time_in_bed": "09:02:00",
+    "time_in_bed_seconds": 32520,
+    "time_asleep": "08:46:00",
+    "time_asleep_seconds": 31560
+  }
+}, {
+  "date": "2016-04-07T00:00:00.000Z",
+  "calories": {
+    "active": 761.896050333977,
+    "total": 3295.15997314453
+  },
+  "carbs": 464.648803710938,
+  "protein": 95.2437992095947,
+  "fat": 85.0786018371582,
+  "sodium": 2267.85202691099,
+  "fiber": 31.1900000572205,
+  "weight": 0,
+  "steps": 15412,
+  "heart": {
+    "morning_heartrate": 73,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Xm697N81kp1tlLO2",
+  "activity": {
+    "id": 538457397,
+    "activity_date": "2016-04-07T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 3.4,
+    "moving_time_seconds": 1041,
+    "moving_time": "00:17:21",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.275,
+    "average_speed": "05:05",
+    "calories": 402.1,
+    "average_heartrate": 152.5,
+    "max_heartrate": 178,
+    "suffer_score": 34,
+    "photo": "https://www.instagram.com/p/BD6Bn33TGbL/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-07T00:00:00.000Z",
+    "start": "2016-04-06T23:49:00.000Z",
+    "end": "2016-04-07T09:34:00.000Z",
+    "time_in_bed": "09:45:00",
+    "time_in_bed_seconds": 35100,
+    "time_asleep": "09:12:00",
+    "time_asleep_seconds": 33120
+  }
+}, {
+  "date": "2016-04-08T00:00:00.000Z",
+  "calories": {
+    "active": 248.464705139399,
+    "total": 2178.4821472168
+  },
+  "carbs": 326.406352996826,
+  "protein": 60.2659335136414,
+  "fat": 69.865140914917,
+  "sodium": 905.027925821287,
+  "fiber": 50.37535572052,
+  "weight": 0,
+  "steps": 6949,
+  "heart": {
+    "morning_heartrate": 68,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "lEMcGx3S4DkwJG95",
+  "sleep": {
+    "date": "2016-04-08T00:00:00.000Z",
+    "start": "2016-04-08T00:20:00.000Z",
+    "end": "2016-04-08T09:17:00.000Z",
+    "time_in_bed": "08:56:00",
+    "time_in_bed_seconds": 32160,
+    "time_asleep": "07:47:00",
+    "time_asleep_seconds": 28020
+  }
+}, {
+  "date": "2016-04-09T00:00:00.000Z",
+  "calories": {
+    "active": 1185.69717422128,
+    "total": 1080.51995849609
+  },
+  "carbs": 169.12264251709,
+  "protein": 50.06032371521,
+  "fat": 21.1852397918701,
+  "sodium": 904.787978855893,
+  "fiber": 31.3659992218018,
+  "weight": 0,
+  "steps": 15419,
+  "heart": {
+    "morning_heartrate": 66,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "GCOuHsqIO8WNeMxM",
+  "activity": {
+    "id": 539988309,
+    "activity_date": "2016-04-09T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 11.1,
+    "moving_time_seconds": 3627,
+    "moving_time": "01:00:27",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 3.074,
+    "average_speed": "05:25",
+    "calories": 1313.9,
+    "average_heartrate": 169.1,
+    "max_heartrate": 182,
+    "suffer_score": 144,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/vgHqa0IDmtZijbLFFh84lpnjJ0qh-_Ogu_1hsTnSj_M-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-09T00:00:00.000Z",
+    "start": "2016-04-09T01:27:00.000Z",
+    "end": "2016-04-09T11:44:00.000Z",
+    "time_in_bed": "10:17:00",
+    "time_in_bed_seconds": 37020,
+    "time_asleep": "09:09:00",
+    "time_asleep_seconds": 32940
+  }
+}, {
+  "date": "2016-04-10T00:00:00.000Z",
+  "calories": {
+    "active": 116.500290721655,
+    "total": 3499.77502441406
+  },
+  "carbs": 379.343997955322,
+  "protein": 132.828598022461,
+  "fat": 93.9210014343262,
+  "sodium": 3225.04010796547,
+  "fiber": 29.2300004959106,
+  "weight": 0,
+  "steps": 16822,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "qx8gZlJn6HzGttz6",
+  "sleep": {
+    "date": "2016-04-10T00:00:00.000Z",
+    "start": "2016-04-10T02:12:00.000Z",
+    "end": "2016-04-10T10:47:00.000Z",
+    "time_in_bed": "08:34:00",
+    "time_in_bed_seconds": 30840,
+    "time_asleep": "08:20:00",
+    "time_asleep_seconds": 30000
+  }
+}, {
+  "date": "2016-04-11T00:00:00.000Z",
+  "calories": {
+    "active": 779.799987792969,
+    "total": 1714.4900207519502
+  },
+  "carbs": 264.907876968384,
+  "protein": 57.6103239059448,
+  "fat": 50.8993391990662,
+  "sodium": 2304.91406354122,
+  "fiber": 23.3759994506836,
+  "weight": 0,
+  "steps": 10313,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "cp3IeaEUUqpQBoly",
+  "activity": {
+    "id": 542416880,
+    "activity_date": "2016-04-11T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 3.3,
+    "moving_time_seconds": 1008,
+    "moving_time": "00:16:48",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.273,
+    "average_speed": "05:05",
+    "calories": 389.5,
+    "average_heartrate": 158.4,
+    "max_heartrate": 178,
+    "suffer_score": 38,
+    "photo": "https://www.instagram.com/p/BEEdRl6zGU1/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-11T00:00:00.000Z",
+    "start": "2016-04-11T00:09:00.000Z",
+    "end": "2016-04-11T10:50:00.000Z",
+    "time_in_bed": "10:41:00",
+    "time_in_bed_seconds": 38460,
+    "time_asleep": "07:05:00",
+    "time_asleep_seconds": 25500
+  }
+}, {
+  "date": "2016-04-12T00:00:00.000Z",
+  "calories": {
+    "active": 287.712053701282,
+    "total": 2489.3399353027303
+  },
+  "carbs": 407.82989883422897,
+  "protein": 100.625980377197,
+  "fat": 50.5907813310623,
+  "sodium": 1407.89295139257,
+  "fiber": 42.3009991645813,
+  "weight": 94.9001394012622,
+  "steps": 8316,
+  "heart": {
+    "morning_heartrate": 76,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "c9MM5lxCgTDRCcys",
+  "activity": {
+    "id": 543260835,
+    "activity_date": "2016-04-12T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 13.8,
+    "moving_time_seconds": 1802,
+    "moving_time": "00:30:02",
+    "feeling": false,
+    "location_city": null,
+    "average_speed_mps": 7.658,
+    "average_speed": "02:10",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-04-12T00:00:00.000Z",
+    "start": "2016-04-12T00:33:00.000Z",
+    "end": "2016-04-12T08:43:00.000Z",
+    "time_in_bed": "08:11:00",
+    "time_in_bed_seconds": 29460,
+    "time_asleep": "08:06:00",
+    "time_asleep_seconds": 29160
+  }
+}, {
+  "date": "2016-04-13T00:00:00.000Z",
+  "calories": {
+    "active": 864.162108838558,
+    "total": 1955.9826354980498
+  },
+  "carbs": 299.30500793457,
+  "protein": 61.1985230445862,
+  "fat": 50.7763714790344,
+  "sodium": 2191.23400375247,
+  "fiber": 20.6232125163078,
+  "weight": 0,
+  "steps": 14458,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "SYNXE8cOXl2wzAZP",
+  "activity": {
+    "id": 544431806,
+    "activity_date": "2016-04-13T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 6.9,
+    "moving_time_seconds": 2229,
+    "moving_time": "00:37:09",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 3.084,
+    "average_speed": "05:24",
+    "calories": 818.4,
+    "average_heartrate": 161.9,
+    "max_heartrate": 174,
+    "suffer_score": 64,
+    "photo": "https://www.instagram.com/p/BEJubgPTGRM/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-13T00:00:00.000Z",
+    "start": "2016-04-13T00:00:00.000Z",
+    "end": "2016-04-13T09:19:00.000Z",
+    "time_in_bed": "09:19:00",
+    "time_in_bed_seconds": 33540,
+    "time_asleep": "08:19:00",
+    "time_asleep_seconds": 29940
+  }
+}, {
+  "date": "2016-04-14T00:00:00.000Z",
+  "calories": {
+    "active": 184.40460306406,
+    "total": 2182.29998779297
+  },
+  "carbs": 329.999601840973,
+  "protein": 97.3783997297287,
+  "fat": 42.9858012199402,
+  "sodium": 3764.76002888376,
+  "fiber": 31.3809998035431,
+  "weight": 0,
+  "steps": 5071,
+  "heart": {
+    "morning_heartrate": 80,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "hRDDLtBAQoRMgkyS",
+  "sleep": {
+    "date": "2016-04-14T00:00:00.000Z",
+    "start": "2016-04-14T00:18:00.000Z",
+    "end": "2016-04-14T09:11:00.000Z",
+    "time_in_bed": "08:52:00",
+    "time_in_bed_seconds": 31920,
+    "time_asleep": "08:15:00",
+    "time_asleep_seconds": 29700
+  }
+}, {
+  "date": "2016-04-15T00:00:00.000Z",
+  "calories": {
+    "active": 146.16423279047,
+    "total": 2894.81378173828
+  },
+  "carbs": 392.120288848877,
+  "protein": 99.4229688644409,
+  "fat": 89.9724740982056,
+  "sodium": 4182.79041815549,
+  "fiber": 31.4625959396362,
+  "weight": 0,
+  "steps": 4792,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Fok70ZUGVWrh9KFi",
+  "sleep": {
+    "date": "2016-04-15T00:00:00.000Z",
+    "start": "2016-04-15T00:40:00.000Z",
+    "end": "2016-04-15T09:03:00.000Z",
+    "time_in_bed": "08:23:00",
+    "time_in_bed_seconds": 30180,
+    "time_asleep": "07:29:00",
+    "time_asleep_seconds": 26940
+  }
+}, {
+  "date": "2016-04-16T00:00:00.000Z",
+  "calories": {
+    "active": 1243.70006427169,
+    "total": 3028.58676147461
+  },
+  "carbs": 276.75793838501,
+  "protein": 87.811270236969,
+  "fat": 133.911870956421,
+  "sodium": 1654.33402941562,
+  "fiber": 28.0800007581711,
+  "weight": 0,
+  "steps": 16908,
+  "heart": {
+    "morning_heartrate": 100,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "KRc5JlPs2fCF10oJ",
+  "activity": {
+    "id": 546915524,
+    "activity_date": "2016-04-16T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 12.5,
+    "moving_time_seconds": 4261,
+    "moving_time": "01:11:01",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.932,
+    "average_speed": "05:41",
+    "calories": 1483.3,
+    "average_heartrate": 168.3,
+    "max_heartrate": 179,
+    "suffer_score": 152,
+    "photo": "https://www.instagram.com/p/BEQwZi4TGc-/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-16T00:00:00.000Z",
+    "start": "2016-04-16T03:28:00.000Z",
+    "end": "2016-04-16T11:42:00.000Z",
+    "time_in_bed": "08:14:00",
+    "time_in_bed_seconds": 29640,
+    "time_asleep": "07:48:00",
+    "time_asleep_seconds": 28080
+  }
+}, {
+  "date": "2016-04-17T00:00:00.000Z",
+  "calories": {
+    "active": 55.3070295453072,
+    "total": 1942.56997680664
+  },
+  "carbs": 267.418601989746,
+  "protein": 57.7123990058899,
+  "fat": 60.8157997131348,
+  "sodium": 4242.54238407593,
+  "fiber": 23.4859999418259,
+  "weight": 0,
+  "steps": 8093,
+  "heart": {
+    "morning_heartrate": 0,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "oJLLnxMpeHROjvRw",
+  "sleep": {
+    "date": "2016-04-17T00:00:00.000Z",
+    "start": "2016-04-17T04:18:00.000Z",
+    "end": "2016-04-17T13:20:00.000Z",
+    "time_in_bed": "09:02:00",
+    "time_in_bed_seconds": 32520,
+    "time_asleep": "08:25:00",
+    "time_asleep_seconds": 30300
+  }
+}, {
+  "date": "2016-04-18T00:00:00.000Z",
+  "calories": {
+    "active": 341.383300796151,
+    "total": 2450.1080017089803
+  },
+  "carbs": 310.65094375610397,
+  "protein": 117.017276763916,
+  "fat": 73.9130783081055,
+  "sodium": 2226.1561602354,
+  "fiber": 36.4315395355225,
+  "weight": 0,
+  "steps": 9597,
+  "heart": {
+    "morning_heartrate": 77,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "yfesnapaxcx2p8NW",
+  "sleep": {
+    "date": "2016-04-18T00:00:00.000Z",
+    "start": "2016-04-17T23:18:00.000Z",
+    "end": "2016-04-18T09:01:00.000Z",
+    "time_in_bed": "09:43:00",
+    "time_in_bed_seconds": 34980,
+    "time_asleep": "08:45:00",
+    "time_asleep_seconds": 31500
+  }
+}, {
+  "date": "2016-04-19T00:00:00.000Z",
+  "calories": {
+    "active": 779.194691389799,
+    "total": 2701.2320251464803
+  },
+  "carbs": 401.251510620117,
+  "protein": 123.891171336174,
+  "fat": 63.6532000899315,
+  "sodium": 3606.85920619153,
+  "fiber": 55.0827983617783,
+  "weight": 0,
+  "steps": 12615,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "ls9frnTyYXxqRXh3",
+  "activity": {
+    "id": 550415269,
+    "activity_date": "2016-04-19T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 7,
+    "moving_time_seconds": 2369,
+    "moving_time": "00:39:29",
+    "feeling": "poor",
+    "location_city": "Paris",
+    "average_speed_mps": 2.96,
+    "average_speed": "05:37",
+    "calories": 834.8,
+    "average_heartrate": 149.4,
+    "max_heartrate": 167,
+    "suffer_score": 48,
+    "photo": "https://www.instagram.com/p/BEZCptEzGTS/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-19T00:00:00.000Z",
+    "start": "2016-04-19T00:31:00.000Z",
+    "end": "2016-04-19T09:01:00.000Z",
+    "time_in_bed": "08:30:00",
+    "time_in_bed_seconds": 30600,
+    "time_asleep": "08:14:00",
+    "time_asleep_seconds": 29640
+  }
+}, {
+  "date": "2016-04-20T00:00:00.000Z",
+  "calories": {
+    "active": 292.577533960342,
+    "total": 2029.5319976806602
+  },
+  "carbs": 311.666355133057,
+  "protein": 83.5600056648254,
+  "fat": 47.3429002761841,
+  "sodium": 1902.52603264526,
+  "fiber": 32.9450001716614,
+  "weight": 0,
+  "steps": 8576,
+  "heart": {
+    "morning_heartrate": 70,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "hTgoe6lePyeeVAxT",
+  "activity": {
+    "id": 551657116,
+    "activity_date": "2016-04-20T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 14,
+    "moving_time_seconds": 1800,
+    "moving_time": "00:30:00",
+    "feeling": "great",
+    "location_city": null,
+    "average_speed_mps": 7.778,
+    "average_speed": "02:08",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-04-20T00:00:00.000Z",
+    "start": "2016-04-20T00:47:00.000Z",
+    "end": "2016-04-20T09:04:00.000Z",
+    "time_in_bed": "08:17:00",
+    "time_in_bed_seconds": 29820,
+    "time_asleep": "07:44:00",
+    "time_asleep_seconds": 27840
+  }
+}, {
+  "date": "2016-04-21T00:00:00.000Z",
+  "calories": {
+    "active": 430.42965580523,
+    "total": 2334.92300415039
+  },
+  "carbs": 323.03409576416,
+  "protein": 69.6127341985703,
+  "fat": 82.1528291106224,
+  "sodium": 700.867070785989,
+  "fiber": 44.8990391492844,
+  "weight": 96.0001022827663,
+  "steps": 8739,
+  "heart": {
+    "morning_heartrate": 61,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "u7Tnnf4kT6F8dVrm",
+  "activity": {
+    "id": 552628745,
+    "activity_date": "2016-04-21T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 2.7,
+    "moving_time_seconds": 778,
+    "moving_time": "00:12:58",
+    "feeling": "poor",
+    "location_city": "Paris",
+    "average_speed_mps": 3.411,
+    "average_speed": "04:53",
+    "calories": 324.6,
+    "average_heartrate": 164.7,
+    "max_heartrate": 177,
+    "suffer_score": 33,
+    "photo": "https://www.instagram.com/p/BEeQadwTGcE/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-21T00:00:00.000Z",
+    "start": "2016-04-21T00:59:00.000Z",
+    "end": "2016-04-21T09:29:00.000Z",
+    "time_in_bed": "08:30:00",
+    "time_in_bed_seconds": 30600,
+    "time_asleep": "07:47:00",
+    "time_asleep_seconds": 28020
+  }
+}, {
+  "date": "2016-04-22T00:00:00.000Z",
+  "calories": {
+    "active": 23.8389656543732,
+    "total": 2379.94000244141
+  },
+  "carbs": 275.391674041748,
+  "protein": 76.0343208312988,
+  "fat": 67.3263397216797,
+  "sodium": 3363.77400159836,
+  "fiber": 23.5310006141663,
+  "weight": 0,
+  "steps": 3958,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "USgbg39DBUCB8HiU",
+  "sleep": {
+    "date": "2016-04-22T00:00:00.000Z",
+    "start": "2016-04-22T00:16:00.000Z",
+    "end": "2016-04-22T08:40:00.000Z",
+    "time_in_bed": "08:24:00",
+    "time_in_bed_seconds": 30240,
+    "time_asleep": "07:25:00",
+    "time_asleep_seconds": 26700
+  }
+}, {
+  "date": "2016-04-23T00:00:00.000Z",
+  "calories": {
+    "active": 1101.75344595313,
+    "total": 2283.46997070312
+  },
+  "carbs": 366.061508178711,
+  "protein": 64.5596001148224,
+  "fat": 56.21954870224,
+  "sodium": 1933.51754778996,
+  "fiber": 49.1485003232956,
+  "weight": 0,
+  "steps": 14986,
+  "heart": {
+    "morning_heartrate": 79,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Ye0vaK2f8j08I8bk",
+  "activity": {
+    "id": 554231566,
+    "activity_date": "2016-04-23T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 9.1,
+    "moving_time_seconds": 3046,
+    "moving_time": "00:50:46",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.976,
+    "average_speed": "05:36",
+    "calories": 1077,
+    "average_heartrate": 160.2,
+    "max_heartrate": 168,
+    "suffer_score": 86,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/Jmuwn4NIJDUWdV9KjrmPnwIbU_haB5HZKuNE3rpNiO0-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-23T00:00:00.000Z",
+    "start": "2016-04-23T03:10:00.000Z",
+    "end": "2016-04-23T12:03:00.000Z",
+    "time_in_bed": "08:53:00",
+    "time_in_bed_seconds": 31980,
+    "time_asleep": "08:51:00",
+    "time_asleep_seconds": 31860
+  }
+}, {
+  "date": "2016-04-24T00:00:00.000Z",
+  "calories": {
+    "active": 299.19131590426,
+    "total": 2301.02001953125
+  },
+  "carbs": 334.96279907226597,
+  "protein": 81.0428013801575,
+  "fat": 69.4014005661011,
+  "sodium": 4194.74001857452,
+  "fiber": 25.5310001373291,
+  "weight": 0,
+  "steps": 8775,
+  "heart": {
+    "morning_heartrate": 69,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "JSm6DWAsOfWHLLlv",
+  "sleep": {
+    "date": "2016-04-24T00:00:00.000Z",
+    "start": "2016-04-24T01:54:00.000Z",
+    "end": "2016-04-24T08:42:00.000Z",
+    "time_in_bed": "06:48:00",
+    "time_in_bed_seconds": 24480,
+    "time_asleep": "06:09:00",
+    "time_asleep_seconds": 22140
+  }
+}, {
+  "date": "2016-04-25T00:00:00.000Z",
+  "calories": {
+    "active": 174.588796377182,
+    "total": 2162.19866943359
+  },
+  "carbs": 294.782863616943,
+  "protein": 103.490986585617,
+  "fat": 73.9215092658997,
+  "sodium": 1832.62805314735,
+  "fiber": 51.2848014831543,
+  "weight": 0,
+  "steps": 4960,
+  "heart": {
+    "morning_heartrate": 68,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "CQJPbtTlZCSFTMoD",
+  "sleep": {
+    "date": "2016-04-25T00:00:00.000Z",
+    "start": "2016-04-24T23:58:00.000Z",
+    "end": "2016-04-25T09:18:00.000Z",
+    "time_in_bed": "09:20:00",
+    "time_in_bed_seconds": 33600,
+    "time_asleep": "08:53:00",
+    "time_asleep_seconds": 31980
+  }
+}, {
+  "date": "2016-04-26T00:00:00.000Z",
+  "calories": {
+    "active": 856.366668045521,
+    "total": 2216.25238037109
+  },
+  "carbs": 260.025550842285,
+  "protein": 44.0543365478516,
+  "fat": 89.818865776062,
+  "sodium": 724.390505813062,
+  "fiber": 39.0208146572113,
+  "weight": 96.0001022827663,
+  "steps": 13438,
+  "heart": {
+    "morning_heartrate": 78,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "0qsvomeJR1rtOZWu",
+  "activity": {
+    "id": 557555507,
+    "activity_date": "2016-04-26T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 6.8,
+    "moving_time_seconds": 2169,
+    "moving_time": "00:36:09",
+    "feeling": "great",
+    "location_city": "Paris",
+    "average_speed_mps": 3.153,
+    "average_speed": "05:17",
+    "calories": 817,
+    "suffer_score": null,
+    "photo": "https://www.instagram.com/p/BErKDwKzGWZ/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-26T00:00:00.000Z",
+    "start": "2016-04-26T00:49:00.000Z",
+    "end": "2016-04-26T09:07:00.000Z",
+    "time_in_bed": "08:18:00",
+    "time_in_bed_seconds": 29880,
+    "time_asleep": "08:04:00",
+    "time_asleep_seconds": 29040
+  }
+}, {
+  "date": "2016-04-27T00:00:00.000Z",
+  "calories": {
+    "active": 902.067088723183,
+    "total": 2198.87530517578
+  },
+  "carbs": 324.033653259277,
+  "protein": 109.572253227234,
+  "fat": 46.5355665683746,
+  "sodium": 2026.15044265985,
+  "fiber": 36.2388914227486,
+  "weight": 95.4000004631789,
+  "steps": 8748.73654003826,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "eHnsUKJ4vK8ghcaZ",
+  "activity": {
+    "id": 558473729,
+    "activity_date": "2016-04-27T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 13.8,
+    "moving_time_seconds": 1800,
+    "moving_time": "00:30:00",
+    "feeling": false,
+    "location_city": null,
+    "average_speed_mps": 7.667,
+    "average_speed": "02:10",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-04-27T00:00:00.000Z",
+    "start": "2016-04-27T00:30:00.000Z",
+    "end": "2016-04-27T08:43:00.000Z",
+    "time_in_bed": "08:13:00",
+    "time_in_bed_seconds": 29580,
+    "time_asleep": "07:46:00",
+    "time_asleep_seconds": 27960
+  }
+}, {
+  "date": "2016-04-28T00:00:00.000Z",
+  "calories": {
+    "active": 231.565983787179,
+    "total": 2167.69299316406
+  },
+  "carbs": 332.447830200195,
+  "protein": 86.6168007850647,
+  "fat": 66.3260596990585,
+  "sodium": 3051.98197625577,
+  "fiber": 33.1075999140739,
+  "weight": 95.1001779553049,
+  "steps": 7229.71586486838,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "6yDJw0ARNL5OhVDT",
+  "sleep": {
+    "date": "2016-04-28T00:00:00.000Z",
+    "start": "2016-04-28T00:20:00.000Z",
+    "end": "2016-04-28T09:09:00.000Z",
+    "time_in_bed": "08:49:00",
+    "time_in_bed_seconds": 31740,
+    "time_asleep": "08:26:00",
+    "time_asleep_seconds": 30360
+  }
+}, {
+  "date": "2016-04-29T00:00:00.000Z",
+  "calories": {
+    "active": 183.285363614559,
+    "total": 2585.24963378906
+  },
+  "carbs": 299.291584014893,
+  "protein": 78.3764152526855,
+  "fat": 71.0765614509583,
+  "sodium": 1173.88126254082,
+  "fiber": 15.3524551391602,
+  "weight": 0,
+  "steps": 5385.77100686335,
+  "heart": {
+    "morning_heartrate": 68,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "q9ywKXFmrpXDVJgj",
+  "sleep": {
+    "date": "2016-04-29T00:00:00.000Z",
+    "start": "2016-04-29T01:24:00.000Z",
+    "end": "2016-04-29T09:10:00.000Z",
+    "time_in_bed": "07:45:00",
+    "time_in_bed_seconds": 27900,
+    "time_asleep": "07:42:00",
+    "time_asleep_seconds": 27720
+  }
+}, {
+  "date": "2016-04-30T00:00:00.000Z",
+  "calories": {
+    "active": 1245.36509662867,
+    "total": 2452.90228271484
+  },
+  "carbs": 275.052536010742,
+  "protein": 67.7233362197876,
+  "fat": 109.682867050171,
+  "sodium": 1910.45049205422,
+  "fiber": 22.0438132286072,
+  "weight": 0,
+  "steps": 18546.5131282683,
+  "heart": {
+    "morning_heartrate": 78,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "DJGoJMRASRTMKKoI",
+  "activity": {
+    "id": 560911223,
+    "activity_date": "2016-04-30T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 12,
+    "moving_time_seconds": 3974,
+    "moving_time": "01:06:14",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.024,
+    "average_speed": "05:30",
+    "calories": 1425.8,
+    "average_heartrate": 162.1,
+    "max_heartrate": 174,
+    "suffer_score": 112,
+    "photo": "https://www.instagram.com/p/BE07EzUTGQw/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-04-30T00:00:00.000Z",
+    "start": "2016-04-30T02:52:00.000Z",
+    "end": "2016-04-30T12:10:00.000Z",
+    "time_in_bed": "09:17:00",
+    "time_in_bed_seconds": 33420,
+    "time_asleep": "08:50:00",
+    "time_asleep_seconds": 31800
+  }
+}, {
+  "date": "2016-05-01T00:00:00.000Z",
+  "calories": {
+    "active": 358.867349356413,
+    "total": 2296.74800872803
+  },
+  "carbs": 265.688745498657,
+  "protein": 84.1653815507889,
+  "fat": 72.9206826090813,
+  "sodium": 1497.71813198458,
+  "fiber": 21.4565398693085,
+  "weight": 0,
+  "steps": 10303,
+  "heart": {
+    "morning_heartrate": 78,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Jfg9N5VWjEFTWceG",
+  "sleep": {
+    "date": "2016-05-01T00:00:00.000Z",
+    "start": "2016-05-01T00:52:00.000Z",
+    "end": "2016-05-01T11:09:00.000Z",
+    "time_in_bed": "10:17:00",
+    "time_in_bed_seconds": 37020,
+    "time_asleep": "09:11:00",
+    "time_asleep_seconds": 33060
+  }
+}, {
+  "date": "2016-05-02T00:00:00.000Z",
+  "calories": {
+    "active": 195.747871056199,
+    "total": 2000.09167480469
+  },
+  "carbs": 283.391250610352,
+  "protein": 75.6872367858887,
+  "fat": 64.899317741394,
+  "sodium": 609.567910432816,
+  "fiber": 41.5002136230469,
+  "weight": 0,
+  "steps": 5501,
+  "heart": {
+    "morning_heartrate": 81,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "CvybnI1x1m69W8L1",
+  "sleep": {
+    "date": "2016-05-02T00:00:00.000Z",
+    "start": "2016-05-02T00:01:00.000Z",
+    "end": "2016-05-02T09:08:00.000Z",
+    "time_in_bed": "09:07:00",
+    "time_in_bed_seconds": 32820,
+    "time_asleep": "08:19:00",
+    "time_asleep_seconds": 29940
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-03T00:00:00.000Z",
+  "calories": {
+    "active": 679.142976641655,
+    "total": 2181
+  },
+  "carbs": 70.5999984741211,
+  "protein": 34.4000015258789,
+  "fat": 32.7999992370605,
+  "sodium": 115.99999666214,
+  "fiber": 19,
+  "weight": 0,
+  "steps": 12828,
+  "heart": {
+    "morning_heartrate": 70,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "VmDhI2g6ooTRiw7O",
+  "activity": {
+    "id": 564313981,
+    "activity_date": "2016-05-03T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 5,
+    "moving_time_seconds": 1602,
+    "moving_time": "00:26:42",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 3.146,
+    "average_speed": "05:17",
+    "calories": 599.6,
+    "average_heartrate": 147.1,
+    "max_heartrate": 168,
+    "suffer_score": 37,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/CWHx2bfbXcFb4I5DSByd_k1HkZYUQGrv99_x69n2fzY-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-03T00:00:00.000Z",
+    "start": "2016-05-02T23:35:00.000Z",
+    "end": "2016-05-03T09:04:00.000Z",
+    "time_in_bed": "09:29:00",
+    "time_in_bed_seconds": 34140,
+    "time_asleep": "08:44:00",
+    "time_asleep_seconds": 31440
+  },
+  "plan": "4.8km run"
+}, {
+  "date": "2016-05-04T00:00:00.000Z",
+  "calories": {
+    "active": 288.506012037396,
+    "total": 2082
+  },
+  "carbs": 269,
+  "protein": 57,
+  "fat": 44,
+  "sodium": 1042,
+  "fiber": 19,
+  "weight": 94.9999302763638,
+  "steps": 9061,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "wgsaPs8pVup7hRtP",
+  "sleep": {
+    "date": "2016-05-04T00:00:00.000Z",
+    "start": "2016-05-04T01:10:00.000Z",
+    "end": "2016-05-04T09:17:00.000Z",
+    "time_in_bed": "08:07:00",
+    "time_in_bed_seconds": 29220,
+    "time_asleep": "07:36:00",
+    "time_asleep_seconds": 27360
+  },
+  "plan": "30 min ride"
+}, {
+  "date": "2016-05-05T00:00:00.000Z",
+  "calories": {
+    "active": 633.995569631457,
+    "total": 2441
+  },
+  "carbs": 368,
+  "protein": 105,
+  "fat": 59,
+  "sodium": 2745,
+  "fiber": 36,
+  "weight": 0,
+  "steps": 10477,
+  "heart": {
+    "morning_heartrate": 79,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Thi50SqUSAyn82h7",
+  "activity": {
+    "id": 566077252,
+    "activity_date": "2016-05-05T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 5,
+    "moving_time_seconds": 1701,
+    "moving_time": "00:28:21",
+    "feeling": "poor",
+    "location_city": "Paris",
+    "average_speed_mps": 2.955,
+    "average_speed": "05:38",
+    "calories": 601.8,
+    "average_heartrate": 155.4,
+    "max_heartrate": 171,
+    "suffer_score": 46,
+    "photo": "https://www.instagram.com/p/BFBgy1eTGZ-/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-05T00:00:00.000Z",
+    "start": "2016-05-05T02:28:00.000Z",
+    "end": "2016-05-05T11:37:00.000Z",
+    "time_in_bed": "09:09:00",
+    "time_in_bed_seconds": 32940,
+    "time_asleep": "08:56:00",
+    "time_asleep_seconds": 32160
+  },
+  "plan": "4.8km pace"
+}, {
+  "date": "2016-05-06T00:00:00.000Z",
+  "calories": {
+    "active": 395.188566327095,
+    "total": 2440
+  },
+  "carbs": 249,
+  "protein": 97,
+  "fat": 95,
+  "sodium": 2657,
+  "fiber": 29,
+  "weight": 0,
+  "steps": 12990,
+  "heart": {
+    "morning_heartrate": 52,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "n88nkgriPISqSaNh",
+  "sleep": {
+    "date": "2016-05-06T00:00:00.000Z",
+    "start": "2016-05-06T01:21:00.000Z",
+    "end": "2016-05-06T11:19:00.000Z",
+    "time_in_bed": "09:58:00",
+    "time_in_bed_seconds": 35880,
+    "time_asleep": "09:32:00",
+    "time_asleep_seconds": 34320
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-07T00:00:00.000Z",
+  "calories": {
+    "active": 874.233562543988,
+    "total": 2954.4919128418
+  },
+  "carbs": 384.748233795166,
+  "protein": 86.9172687530518,
+  "fat": 69.7143583297729,
+  "sodium": 3208.59482884407,
+  "fiber": 17.1701378822327,
+  "weight": 95.1999688304065,
+  "steps": 14599,
+  "heart": {
+    "morning_heartrate": 78,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "DAROvqrRdulgHcJM",
+  "activity": {
+    "id": 568061763,
+    "activity_date": "2016-05-07T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 8.5,
+    "moving_time_seconds": 2872,
+    "moving_time": "00:47:52",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.964,
+    "average_speed": "05:37",
+    "calories": 1014.1,
+    "average_heartrate": 160.9,
+    "max_heartrate": 171,
+    "suffer_score": 80,
+    "photo": "https://www.instagram.com/p/BFGiZ75TGdJ/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-07T00:00:00.000Z",
+    "start": "2016-05-07T01:36:00.000Z",
+    "end": "2016-05-07T10:10:00.000Z",
+    "time_in_bed": "08:33:00",
+    "time_in_bed_seconds": 30780,
+    "time_asleep": "08:17:00",
+    "time_asleep_seconds": 29820
+  },
+  "plan": "9.6km run"
+}, {
+  "date": "2016-05-08T00:00:00.000Z",
+  "calories": {
+    "active": 304.703115284443,
+    "total": 1891.92822265625
+  },
+  "carbs": 246.036895751953,
+  "protein": 49.3100614547729,
+  "fat": 77.4767513275146,
+  "sodium": 1294.66602951288,
+  "fiber": 23.2573897838593,
+  "weight": 0,
+  "steps": 7387,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "zwJyyyyIGRSlfnLD",
+  "sleep": {
+    "date": "2016-05-08T00:00:00.000Z",
+    "start": "2016-05-08T01:23:00.000Z",
+    "end": "2016-05-08T09:28:00.000Z",
+    "time_in_bed": "08:05:00",
+    "time_in_bed_seconds": 29100,
+    "time_asleep": "07:07:00",
+    "time_asleep_seconds": 25620
+  },
+  "plan": "60 min xt"
+}, {
+  "date": "2016-05-09T00:00:00.000Z",
+  "calories": {
+    "active": 210.27532735467,
+    "total": 1899.10345458984
+  },
+  "carbs": 311.457027435303,
+  "protein": 75.9410753250122,
+  "fat": 60.5610185861588,
+  "sodium": 1897.12500374299,
+  "fiber": 27.3681116104126,
+  "weight": 95.3002095880772,
+  "steps": 6570,
+  "heart": {
+    "morning_heartrate": 69,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "BPwJm75l6QkSodPo",
+  "sleep": {
+    "date": "2016-05-09T00:00:00.000Z",
+    "start": "2016-05-09T00:04:00.000Z",
+    "end": "2016-05-09T08:45:00.000Z",
+    "time_in_bed": "08:41:00",
+    "time_in_bed_seconds": 31260,
+    "time_asleep": "07:56:00",
+    "time_asleep_seconds": 28560
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-10T00:00:00.000Z",
+  "calories": {
+    "active": 988.514743357897,
+    "total": 2541.84613037109
+  },
+  "carbs": 297.43621444702103,
+  "protein": 112.326008796692,
+  "fat": 93.5465793609619,
+  "sodium": 671.14070057869,
+  "fiber": 41.8433390855789,
+  "weight": 0,
+  "steps": 15197,
+  "heart": {
+    "morning_heartrate": 65,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "o3DvL9MtkCE9ZqZb",
+  "activity": {
+    "id": 571819362,
+    "activity_date": "2016-05-10T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 6.6,
+    "moving_time_seconds": 2293,
+    "moving_time": "00:38:13",
+    "feeling": "poor",
+    "location_city": "Paris",
+    "average_speed_mps": 2.886,
+    "average_speed": "05:46",
+    "calories": 778.1,
+    "average_heartrate": 155.4,
+    "max_heartrate": 167,
+    "suffer_score": 49,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/hZ5PkjTF1s6IrMYtkZEjmt795yiW0DGKRoJwnX8eVZk-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-10T00:00:00.000Z",
+    "start": "2016-05-10T00:56:00.000Z",
+    "end": "2016-05-10T09:21:00.000Z",
+    "time_in_bed": "08:25:00",
+    "time_in_bed_seconds": 30300,
+    "time_asleep": "07:35:00",
+    "time_asleep_seconds": 27300
+  },
+  "plan": "6.4km run"
+}, {
+  "date": "2016-05-11T00:00:00.000Z",
+  "calories": {
+    "active": 186.86910700798,
+    "total": 2534.06072998047
+  },
+  "carbs": 304.721004486084,
+  "protein": 135.401329994202,
+  "fat": 81.3611820936203,
+  "sodium": 2015.15409245621,
+  "fiber": 36.6456037759781,
+  "weight": 0,
+  "steps": 6220,
+  "heart": {
+    "morning_heartrate": 50,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "8y0GIvRyMdX3A0H9",
+  "sleep": {
+    "date": "2016-05-11T00:00:00.000Z",
+    "start": "2016-05-10T23:43:00.000Z",
+    "end": "2016-05-11T09:13:00.000Z",
+    "time_in_bed": "09:29:00",
+    "time_in_bed_seconds": 34140,
+    "time_asleep": "09:18:00",
+    "time_asleep_seconds": 33480
+  },
+  "plan": "30 min ride"
+}, {
+  "date": "2016-05-12T00:00:00.000Z",
+  "calories": {
+    "active": 524.71925085783,
+    "total": 2292.91398620605
+  },
+  "carbs": 238.24047088623,
+  "protein": 102.760340213776,
+  "fat": 89.2458429336548,
+  "sodium": 1501.64411962032,
+  "fiber": 25.630270421505,
+  "weight": 0,
+  "steps": 12292,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "EGFeFpok2Pg3gsfI",
+  "activity": {
+    "id": 573970519,
+    "activity_date": "2016-05-12T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 4.1,
+    "moving_time_seconds": 1360,
+    "moving_time": "00:22:40",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.98,
+    "average_speed": "05:35",
+    "calories": 478.1,
+    "average_heartrate": 153.3,
+    "max_heartrate": 162,
+    "suffer_score": 24,
+    "photo": "https://www.instagram.com/p/BFUZJK1zGSR/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-12T00:00:00.000Z",
+    "start": "2016-05-11T23:52:00.000Z",
+    "end": "2016-05-12T09:14:00.000Z",
+    "time_in_bed": "09:22:00",
+    "time_in_bed_seconds": 33720,
+    "time_asleep": "08:46:00",
+    "time_asleep_seconds": 31560
+  },
+  "plan": "30 min speed"
+}, {
+  "date": "2016-05-13T00:00:00.000Z",
+  "calories": {
+    "active": 266.805122435093,
+    "total": 2552.93371582031
+  },
+  "carbs": 314.37094116210903,
+  "protein": 106.578295707703,
+  "fat": 54.5509338378906,
+  "sodium": 2095.75301967561,
+  "fiber": 25.6653332710266,
+  "weight": 95.1999688304065,
+  "steps": 8837,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "e0xyqK9umckdn6cu",
+  "sleep": {
+    "date": "2016-05-13T00:00:00.000Z",
+    "start": "2016-05-13T00:03:00.000Z",
+    "end": "2016-05-13T09:10:00.000Z",
+    "time_in_bed": "09:06:00",
+    "time_in_bed_seconds": 32760,
+    "time_asleep": "08:11:00",
+    "time_asleep_seconds": 29460
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-14T00:00:00.000Z",
+  "calories": {
+    "active": 142.31964969635,
+    "total": 1493
+  },
+  "carbs": 367.699996948242,
+  "protein": 45.6499996185303,
+  "fat": 29.7000007629395,
+  "sodium": 1121.74999713898,
+  "fiber": 11.8500003814697,
+  "weight": 0,
+  "steps": 4521,
+  "heart": {
+    "morning_heartrate": 53,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "7IKDauzlC4vQQ2BC",
+  "sleep": {
+    "date": "2016-05-14T00:00:00.000Z",
+    "start": "2016-05-14T02:33:00.000Z",
+    "end": "2016-05-14T11:32:00.000Z",
+    "time_in_bed": "08:59:00",
+    "time_in_bed_seconds": 32340,
+    "time_asleep": "08:37:00",
+    "time_asleep_seconds": 31020
+  },
+  "plan": "11.2km run"
+}, {
+  "date": "2016-05-15T00:00:00.000Z",
+  "calories": {
+    "active": 514.423694550991,
+    "total": 3685.04322814941
+  },
+  "carbs": 428.025352478027,
+  "protein": 130.500047683716,
+  "fat": 135.595950841904,
+  "sodium": 2394.56647168845,
+  "fiber": 38.1133993864059,
+  "weight": 0,
+  "steps": 15811,
+  "heart": {
+    "morning_heartrate": 70,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "QmWLXlRyw6MxS6Um",
+  "sleep": {
+    "date": "2016-05-15T00:00:00.000Z",
+    "start": "2016-05-15T00:28:00.000Z",
+    "end": "2016-05-15T09:35:00.000Z",
+    "time_in_bed": "09:06:00",
+    "time_in_bed_seconds": 32760,
+    "time_asleep": "08:21:00",
+    "time_asleep_seconds": 30060
+  },
+  "plan": "60 min xt"
+}, {
+  "date": "2016-05-16T00:00:00.000Z",
+  "calories": {
+    "active": 326.300580441952,
+    "total": 2140.63995361328
+  },
+  "carbs": 293.753398895264,
+  "protein": 79.0533957481384,
+  "fat": 63.3738003969193,
+  "sodium": 535.119003383443,
+  "fiber": 30.8359990119934,
+  "weight": 0,
+  "steps": 9873.78720602265,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "2lHgLyczG3Zj4GkX",
+  "sleep": {
+    "date": "2016-05-16T00:00:00.000Z",
+    "start": "2016-05-16T02:10:00.000Z",
+    "end": "2016-05-16T11:56:00.000Z",
+    "time_in_bed": "09:45:00",
+    "time_in_bed_seconds": 35100,
+    "time_asleep": "09:41:00",
+    "time_asleep_seconds": 34860
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-17T00:00:00.000Z",
+  "calories": {
+    "active": 626.605574980378,
+    "total": 2115.63998413086
+  },
+  "carbs": 301.99960327148403,
+  "protein": 65.2383990287781,
+  "fat": 65.6958003044128,
+  "sodium": 1023.145013256,
+  "fiber": 24.706000328064,
+  "weight": 0,
+  "steps": 13764.2127939774,
+  "heart": {
+    "morning_heartrate": 71,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "alYguUQd3PwUy6ZY",
+  "activity": {
+    "id": 579247788,
+    "activity_date": "2016-05-17T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 5,
+    "moving_time_seconds": 1691,
+    "moving_time": "00:28:11",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.963,
+    "average_speed": "05:37",
+    "calories": 599.1,
+    "average_heartrate": 156.9,
+    "max_heartrate": 168,
+    "suffer_score": 42,
+    "photo": "https://www.instagram.com/p/BFhLBMVzGaw/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-17T00:00:00.000Z",
+    "start": "2016-05-17T00:12:00.000Z",
+    "end": "2016-05-17T08:40:00.000Z",
+    "time_in_bed": "08:27:00",
+    "time_in_bed_seconds": 30420,
+    "time_asleep": "07:37:00",
+    "time_asleep_seconds": 27420
+  },
+  "plan": "4.8km run"
+}, {
+  "date": "2016-05-18T00:00:00.000Z",
+  "calories": {
+    "active": 228.281739145517,
+    "total": 1826.78600311279
+  },
+  "carbs": 308.951908111572,
+  "protein": 57.4037393331528,
+  "fat": 35.11014097929,
+  "sodium": 1234.4110477261,
+  "fiber": 29.879269361496,
+  "weight": 94.9999302763638,
+  "steps": 7625,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "5rBYdRL8Lw0Q12EL",
+  "activity": {
+    "id": 580337806,
+    "activity_date": "2016-05-18T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 14.2,
+    "moving_time_seconds": 1803,
+    "moving_time": "00:30:03",
+    "feeling": "great",
+    "location_city": null,
+    "average_speed_mps": 7.876,
+    "average_speed": "02:06",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-05-18T00:00:00.000Z",
+    "start": "2016-05-18T01:11:00.000Z",
+    "end": "2016-05-18T09:47:00.000Z",
+    "time_in_bed": "08:36:00",
+    "time_in_bed_seconds": 30960,
+    "time_asleep": "06:55:00",
+    "time_asleep_seconds": 24900
+  },
+  "plan": "30 min ride"
+}, {
+  "date": "2016-05-19T00:00:00.000Z",
+  "calories": {
+    "active": 706.730527639389,
+    "total": 2465.80001831055
+  },
+  "carbs": 379.968620300293,
+  "protein": 80.1663979291916,
+  "fat": 67.5128003954887,
+  "sodium": 1934.2439004381,
+  "fiber": 37.0860012769699,
+  "weight": 0,
+  "steps": 12698,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "JgsrsjzIip79TW73",
+  "activity": {
+    "id": 581380878,
+    "activity_date": "2016-05-19T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 5,
+    "moving_time_seconds": 1641,
+    "moving_time": "00:27:21",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.057,
+    "average_speed": "05:27",
+    "calories": 596.1,
+    "average_heartrate": 153.9,
+    "max_heartrate": 170,
+    "suffer_score": 40,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/oigd25_H8fua7At-kET0IgeH8h15u5PeT-DSQ4vM81s-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-19T00:00:00.000Z",
+    "start": "2016-05-19T00:18:00.000Z",
+    "end": "2016-05-19T08:36:00.000Z",
+    "time_in_bed": "08:18:00",
+    "time_in_bed_seconds": 29880,
+    "time_asleep": "07:47:00",
+    "time_asleep_seconds": 28020
+  },
+  "plan": "4.8km run"
+}, {
+  "date": "2016-05-20T00:00:00.000Z",
+  "calories": {
+    "active": 162.029602453113,
+    "total": 1846.55194091797
+  },
+  "carbs": 235.912311553955,
+  "protein": 83.5915341377258,
+  "fat": 53.1794689893723,
+  "sodium": 1899.44293882445,
+  "fiber": 26.9500007629395,
+  "weight": 94.9001394012622,
+  "steps": 5165,
+  "heart": {
+    "morning_heartrate": 67,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "YcQQZMGBe0SnsKpx",
+  "sleep": {
+    "date": "2016-05-20T00:00:00.000Z",
+    "start": "2016-05-20T01:25:00.000Z",
+    "end": "2016-05-20T09:31:00.000Z",
+    "time_in_bed": "08:06:00",
+    "time_in_bed_seconds": 29160,
+    "time_asleep": "07:42:00",
+    "time_asleep_seconds": 27720
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-21T00:00:00.000Z",
+  "calories": {
+    "active": 1042.68008127809,
+    "total": 2727.07208251953
+  },
+  "carbs": 372.131948471069,
+  "protein": 71.3025341033936,
+  "fat": 78.5273358821869,
+  "sodium": 1634.56088447128,
+  "fiber": 19.6693558692932,
+  "weight": 0,
+  "steps": 18840,
+  "heart": {
+    "morning_heartrate": 54,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "gyke5rfAtNaz2YEB",
+  "activity": {
+    "id": 582909431,
+    "activity_date": "2016-05-21T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 8,
+    "moving_time_seconds": 2699,
+    "moving_time": "00:44:59",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.975,
+    "average_speed": "05:36",
+    "calories": 954.5,
+    "average_heartrate": 157.1,
+    "max_heartrate": 169,
+    "suffer_score": 69,
+    "photo": "https://www.instagram.com/p/BFqpsVuTGf9/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-21T00:00:00.000Z",
+    "start": "2016-05-21T01:17:00.000Z",
+    "end": "2016-05-21T10:46:00.000Z",
+    "time_in_bed": "09:28:00",
+    "time_in_bed_seconds": 34080,
+    "time_asleep": "09:02:00",
+    "time_asleep_seconds": 32520
+  },
+  "plan": "8.0km run"
+}, {
+  "date": "2016-05-22T00:00:00.000Z",
+  "calories": {
+    "active": 74.8287648558617,
+    "total": 2911.62329101562
+  },
+  "carbs": 313.361270904541,
+  "protein": 76.1165924072266,
+  "fat": 132.127967834473,
+  "sodium": 1706.44133980386,
+  "fiber": 27.8391023874283,
+  "weight": 0,
+  "steps": 3304,
+  "heart": {
+    "morning_heartrate": 68,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "YBUlxkxi7zn0zbiN",
+  "sleep": {
+    "date": "2016-05-22T00:00:00.000Z",
+    "start": "2016-05-22T02:06:00.000Z",
+    "end": "2016-05-22T11:23:00.000Z",
+    "time_in_bed": "09:16:00",
+    "time_in_bed_seconds": 33360,
+    "time_asleep": "08:47:00",
+    "time_asleep_seconds": 31620
+  },
+  "plan": "60 min xt"
+}, {
+  "date": "2016-05-23T00:00:00.000Z",
+  "calories": {
+    "active": 132.328706920147,
+    "total": 2055.9599609375
+  },
+  "carbs": 197.380603790283,
+  "protein": 109.022398471832,
+  "fat": 83.0257978439331,
+  "sodium": 738.169972435571,
+  "fiber": 30.4059997797012,
+  "weight": 0,
+  "steps": 3842,
+  "heart": {
+    "morning_heartrate": 77,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "WgNdblxChSqzvr5K",
+  "sleep": {
+    "date": "2016-05-23T00:00:00.000Z",
+    "start": "2016-05-23T00:47:00.000Z",
+    "end": "2016-05-23T09:32:00.000Z",
+    "time_in_bed": "08:45:00",
+    "time_in_bed_seconds": 31500,
+    "time_asleep": "07:47:00",
+    "time_asleep_seconds": 28020
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-24T00:00:00.000Z",
+  "calories": {
+    "active": 865.185872748494,
+    "total": 2276.74754333496
+  },
+  "carbs": 327.942744255066,
+  "protein": 105.676578760147,
+  "fat": 48.4817766547203,
+  "sodium": 1619.29651020773,
+  "fiber": 44.7410060167313,
+  "weight": 0,
+  "steps": 13092,
+  "heart": {
+    "morning_heartrate": 57,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "GYbIBfQYEJcpR4bC",
+  "activity": {
+    "id": 586757160,
+    "activity_date": "2016-05-24T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 8,
+    "moving_time_seconds": 2606,
+    "moving_time": "00:43:26",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.073,
+    "average_speed": "05:25",
+    "calories": 953.7,
+    "average_heartrate": 158.7,
+    "max_heartrate": 173,
+    "suffer_score": 63,
+    "photo": false,
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-24T00:00:00.000Z",
+    "start": "2016-05-24T00:09:00.000Z",
+    "end": "2016-05-24T09:25:00.000Z",
+    "time_in_bed": "09:15:00",
+    "time_in_bed_seconds": 33300,
+    "time_asleep": "08:59:00",
+    "time_asleep_seconds": 32340
+  },
+  "plan": "8.0km run"
+}, {
+  "date": "2016-05-25T00:00:00.000Z",
+  "calories": {
+    "active": 223.740343466401,
+    "total": 2167.25006103516
+  },
+  "carbs": 246.913604736328,
+  "protein": 66.9113998413086,
+  "fat": 92.0958003997803,
+  "sodium": 256.901507033035,
+  "fiber": 38.6660003662109,
+  "weight": 94.5998670108191,
+  "steps": 6693,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "KDZTexDiyyp5M5h4",
+  "sleep": {
+    "date": "2016-05-25T00:00:00.000Z",
+    "start": "2016-05-25T00:36:00.000Z",
+    "end": "2016-05-25T08:52:00.000Z",
+    "time_in_bed": "08:16:00",
+    "time_in_bed_seconds": 29760,
+    "time_asleep": "07:27:00",
+    "time_asleep_seconds": 26820
+  },
+  "plan": "35 min ride"
+}, {
+  "date": "2016-05-26T00:00:00.000Z",
+  "calories": {
+    "active": 365.501450330019,
+    "total": 2718.1859588623
+  },
+  "carbs": 334.540512084961,
+  "protein": 80.4669995307922,
+  "fat": 83.1543006896973,
+  "sodium": 2896.96003496647,
+  "fiber": 28.2859997749329,
+  "weight": 0,
+  "steps": 10998,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "rGVmDPYkSIoyUyMT",
+  "sleep": {
+    "date": "2016-05-26T00:00:00.000Z",
+    "start": "2016-05-26T00:39:00.000Z",
+    "end": "2016-05-26T09:13:00.000Z",
+    "time_in_bed": "08:34:00",
+    "time_in_bed_seconds": 30840,
+    "time_asleep": "07:01:00",
+    "time_asleep_seconds": 25260
+  },
+  "plan": "4.8km pace"
+}, {
+  "date": "2016-05-27T00:00:00.000Z",
+  "calories": {
+    "active": 385.769198209047,
+    "total": 2107.33001708984
+  },
+  "carbs": 296.003009796143,
+  "protein": 105.739353179932,
+  "fat": 52.5261507034302,
+  "sodium": 3216.6600227356,
+  "fiber": 23.3259997367859,
+  "weight": 0,
+  "steps": 11021,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "6BsqiIxzkfn4usvz",
+  "activity": {
+    "id": 589901403,
+    "activity_date": "2016-05-27T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 2,
+    "moving_time_seconds": 700,
+    "moving_time": "00:11:40",
+    "feeling": "poor",
+    "location_city": "Paris",
+    "average_speed_mps": 2.824,
+    "average_speed": "05:54",
+    "calories": 237.9,
+    "average_heartrate": 149.1,
+    "max_heartrate": 158,
+    "suffer_score": 11,
+    "photo": "https://www.instagram.com/p/BF63a2RTGWl/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-27T00:00:00.000Z",
+    "start": "2016-05-27T01:21:00.000Z",
+    "end": "2016-05-27T09:27:00.000Z",
+    "time_in_bed": "08:06:00",
+    "time_in_bed_seconds": 29160,
+    "time_asleep": "07:57:00",
+    "time_asleep_seconds": 28620
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-28T00:00:00.000Z",
+  "calories": {
+    "active": 359.252475976944,
+    "total": 2330.91995239258
+  },
+  "carbs": 257.270351409912,
+  "protein": 94.5907530784607,
+  "fat": 81.5718173980713,
+  "sodium": 2771.19053155184,
+  "fiber": 21.6613397598267,
+  "weight": 0,
+  "steps": 13081,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "ytlg7DEfVzYWmwin",
+  "sleep": {
+    "date": "2016-05-28T00:00:00.000Z",
+    "start": "2016-05-28T01:41:00.000Z",
+    "end": "2016-05-28T10:47:00.000Z",
+    "time_in_bed": "09:05:00",
+    "time_in_bed_seconds": 32700,
+    "time_asleep": "09:01:00",
+    "time_asleep_seconds": 32460
+  },
+  "plan": "14.4km run"
+}, {
+  "date": "2016-05-29T00:00:00.000Z",
+  "calories": {
+    "active": 1458.78823134303,
+    "total": 1822.47998046875
+  },
+  "carbs": 357.222702026367,
+  "protein": 42.1143999099731,
+  "fat": 22.015549659729,
+  "sodium": 1504.35494515114,
+  "fiber": 46.4034986495972,
+  "weight": 0,
+  "steps": 20318,
+  "heart": {
+    "morning_heartrate": 74,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "fPeDr6Na3sVmabxQ",
+  "activity": {
+    "id": 592005177,
+    "activity_date": "2016-05-29T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 14,
+    "moving_time_seconds": 4757,
+    "moving_time": "01:19:17",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.948,
+    "average_speed": "05:39",
+    "calories": 1664.8,
+    "average_heartrate": 154.9,
+    "max_heartrate": 167,
+    "suffer_score": 102,
+    "photo": "https://www.instagram.com/p/BF_s47zTGRH/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-29T00:00:00.000Z",
+    "start": "2016-05-29T00:56:00.000Z",
+    "end": "2016-05-29T10:49:00.000Z",
+    "time_in_bed": "09:53:00",
+    "time_in_bed_seconds": 35580,
+    "time_asleep": "09:04:00",
+    "time_asleep_seconds": 32640
+  },
+  "plan": "65 min xt"
+}, {
+  "date": "2016-05-30T00:00:00.000Z",
+  "calories": {
+    "active": 204.641034856439,
+    "total": 2159.69506835938
+  },
+  "carbs": 366.29515457153303,
+  "protein": 77.490252494812,
+  "fat": 37.4545497894287,
+  "sodium": 1744.04997378588,
+  "fiber": 44.2325002253056,
+  "weight": 94.7998986435915,
+  "steps": 5981,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "8lqkNT2Sz496Jl5i",
+  "sleep": {
+    "date": "2016-05-30T00:00:00.000Z",
+    "start": "2016-05-30T00:10:00.000Z",
+    "end": "2016-05-30T09:46:00.000Z",
+    "time_in_bed": "09:36:00",
+    "time_in_bed_seconds": 34560,
+    "time_asleep": "06:52:00",
+    "time_asleep_seconds": 24720
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-05-31T00:00:00.000Z",
+  "calories": {
+    "active": 994.339123770595,
+    "total": 2180.42004394531
+  },
+  "carbs": 349.32201385498,
+  "protein": 83.9319972991943,
+  "fat": 45.6089977622032,
+  "sodium": 1378.94394525074,
+  "fiber": 49.6700000762939,
+  "weight": 0,
+  "steps": 15011.7527255597,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "QAmdCJSS5DlnbIOp",
+  "activity": {
+    "id": 594177714,
+    "activity_date": "2016-05-31T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 9.1,
+    "moving_time_seconds": 3151,
+    "moving_time": "00:52:31",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.876,
+    "average_speed": "05:47",
+    "calories": 1074.3,
+    "average_heartrate": 153.9,
+    "max_heartrate": 167,
+    "suffer_score": 63,
+    "photo": "https://www.instagram.com/p/BGFOfSlTGXX/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-05-31T00:00:00.000Z",
+    "start": "2016-05-30T23:34:00.000Z",
+    "end": "2016-05-31T09:09:00.000Z",
+    "time_in_bed": "09:35:00",
+    "time_in_bed_seconds": 34500,
+    "time_asleep": "08:55:00",
+    "time_asleep_seconds": 32100
+  },
+  "plan": "8.0km run"
+}, {
+  "date": "2016-06-01T00:00:00.000Z",
+  "calories": {
+    "active": 248.555932477117,
+    "total": 2031.07308959961
+  },
+  "carbs": 266.881641387939,
+  "protein": 86.7424785494804,
+  "fat": 69.0598216950893,
+  "sodium": 1403.60838312995,
+  "fiber": 28.0701519846916,
+  "weight": 94.5000761357175,
+  "steps": 8323.2472744403,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "QLeE4HVb5MJgaZIh",
+  "activity": {
+    "id": 595245376,
+    "activity_date": "2016-06-01T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 15.7,
+    "moving_time_seconds": 2100,
+    "moving_time": "00:35:00",
+    "feeling": "good",
+    "location_city": null,
+    "average_speed_mps": 7.476,
+    "average_speed": "02:13",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-06-01T00:00:00.000Z",
+    "start": "2016-06-01T00:28:00.000Z",
+    "end": "2016-06-01T08:56:00.000Z",
+    "time_in_bed": "08:28:00",
+    "time_in_bed_seconds": 30480,
+    "time_asleep": "08:08:00",
+    "time_asleep_seconds": 29280
+  },
+  "plan": "35 min ride"
+}, {
+  "date": "2016-06-02T00:00:00.000Z",
+  "calories": {
+    "active": 746.028929114342,
+    "total": 2688.4867248535197
+  },
+  "carbs": 357.243843078613,
+  "protein": 93.2335593700409,
+  "fat": 94.4151659011841,
+  "sodium": 2224.48460757732,
+  "fiber": 14.1326518058777,
+  "weight": 94.7001077684898,
+  "steps": 12622,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "aULEdqG7iPlkJ8Ra",
+  "activity": {
+    "id": 596479562,
+    "activity_date": "2016-06-02T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 6.6,
+    "moving_time_seconds": 2184,
+    "moving_time": "00:36:24",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 3.029,
+    "average_speed": "05:30",
+    "calories": 779.7,
+    "average_heartrate": 141.6,
+    "max_heartrate": 162,
+    "suffer_score": 34,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/KWh9W3h5hBDmZgbbcyDewGaerP3b1U-iGrfo3Ktdqp4-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-02T00:00:00.000Z",
+    "start": "2016-06-02T01:04:00.000Z",
+    "end": "2016-06-02T08:55:00.000Z",
+    "time_in_bed": "07:51:00",
+    "time_in_bed_seconds": 28260,
+    "time_asleep": "06:52:00",
+    "time_asleep_seconds": 24720
+  },
+  "plan": "35 min speed"
+}, {
+  "date": "2016-06-03T00:00:00.000Z",
+  "calories": {
+    "active": 186.80836096406,
+    "total": 2566.65393066406
+  },
+  "carbs": 279.174285888672,
+  "protein": 100.619244098663,
+  "fat": 101.144246101379,
+  "sodium": 1870.62764167786,
+  "fiber": 30.6714901924133,
+  "weight": 94.5998670108191,
+  "steps": 5491,
+  "heart": {
+    "morning_heartrate": 53,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "MRPbUeaQ40EMc6V5",
+  "sleep": {
+    "date": "2016-06-03T00:00:00.000Z",
+    "start": "2016-06-03T01:12:00.000Z",
+    "end": "2016-06-03T09:21:00.000Z",
+    "time_in_bed": "08:09:00",
+    "time_in_bed_seconds": 29340,
+    "time_asleep": "07:42:00",
+    "time_asleep_seconds": 27720
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-04T00:00:00.000Z",
+  "calories": {
+    "active": 1572.55802665651,
+    "total": 2638.17510986328
+  },
+  "carbs": 333.123562574387,
+  "protein": 131.594793319702,
+  "fat": 127.723253011703,
+  "sodium": 2144.6140059852,
+  "fiber": 36.2874989509583,
+  "weight": 0,
+  "steps": 21907,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "TO2L75gbAb5RrOD5",
+  "activity": {
+    "id": 597987586,
+    "activity_date": "2016-06-04T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 15.7,
+    "moving_time_seconds": 5685,
+    "moving_time": "01:34:45",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.758,
+    "average_speed": "06:02",
+    "calories": 1858.2,
+    "average_heartrate": 162.5,
+    "max_heartrate": 174,
+    "suffer_score": 158,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/LwxSaZqVmh4BHcUDdBjCFlOL-BZQFvZyVbuZ0hI4TSI-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-04T00:00:00.000Z",
+    "start": "2016-06-04T01:49:00.000Z",
+    "end": "2016-06-04T10:58:00.000Z",
+    "time_in_bed": "09:08:00",
+    "time_in_bed_seconds": 32880,
+    "time_asleep": "08:47:00",
+    "time_asleep_seconds": 31620
+  },
+  "plan": "16.0km run"
+}, {
+  "date": "2016-06-05T00:00:00.000Z",
+  "calories": {
+    "active": 332.602268576622,
+    "total": 2130.00505065918
+  },
+  "carbs": 313.852256774902,
+  "protein": 77.1807441711426,
+  "fat": 65.6180927753448,
+  "sodium": 2216.52171015739,
+  "fiber": 13.8688013553619,
+  "weight": 94.4002852606158,
+  "steps": 10185,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "fxkCxixVcDSc8e3j",
+  "sleep": {
+    "date": "2016-06-05T00:00:00.000Z",
+    "start": "2016-06-05T00:22:00.000Z",
+    "end": "2016-06-05T11:02:00.000Z",
+    "time_in_bed": "10:39:00",
+    "time_in_bed_seconds": 38340,
+    "time_asleep": "09:31:00",
+    "time_asleep_seconds": 34260
+  },
+  "plan": "65 min xt"
+}, {
+  "date": "2016-06-06T00:00:00.000Z",
+  "calories": {
+    "active": 174.668322578073,
+    "total": 2348.55180358887
+  },
+  "carbs": 305.949951171875,
+  "protein": 92.9338268637657,
+  "fat": 76.3982451856136,
+  "sodium": 1741.51701222513,
+  "fiber": 26.7504996657372,
+  "weight": 0,
+  "steps": 5608,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "k4YoZEyqYyGj8BQS",
+  "sleep": {
+    "date": "2016-06-06T00:00:00.000Z",
+    "start": "2016-06-06T01:09:00.000Z",
+    "end": "2016-06-06T09:26:00.000Z",
+    "time_in_bed": "08:17:00",
+    "time_in_bed_seconds": 29820,
+    "time_asleep": "07:40:00",
+    "time_asleep_seconds": 27600
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-07T00:00:00.000Z",
+  "calories": {
+    "active": 435.482521295547,
+    "total": 2407.19287109375
+  },
+  "carbs": 371.527549743652,
+  "protein": 90.5817098617554,
+  "fat": 56.247428894043,
+  "sodium": 1920.37808895111,
+  "fiber": 37.3890447616577,
+  "weight": 94.3000375816748,
+  "steps": 9640,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "AhBLjnsgqWULdZ5W",
+  "sleep": {
+    "date": "2016-06-07T00:00:00.000Z",
+    "start": "2016-06-06T23:12:00.000Z",
+    "end": "2016-06-07T10:14:00.000Z",
+    "time_in_bed": "11:02:00",
+    "time_in_bed_seconds": 39720,
+    "time_asleep": "09:31:00",
+    "time_asleep_seconds": 34260
+  },
+  "plan": "6.4km run"
+}, {
+  "date": "2016-06-08T00:00:00.000Z",
+  "calories": {
+    "active": 434.14095248282,
+    "total": 2415.4899597168
+  },
+  "carbs": 285.876909255981,
+  "protein": 95.2617025375366,
+  "fat": 62.9910021722317,
+  "sodium": 2194.17503476143,
+  "fiber": 8.69999998807907,
+  "weight": 0,
+  "steps": 12797,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "794DyyQhSwImQzWW",
+  "sleep": {
+    "date": "2016-06-08T00:00:00.000Z",
+    "start": "2016-06-08T00:34:00.000Z",
+    "end": "2016-06-08T09:32:00.000Z",
+    "time_in_bed": "08:58:00",
+    "time_in_bed_seconds": 32280,
+    "time_asleep": "08:56:00",
+    "time_asleep_seconds": 32160
+  },
+  "plan": "35 min ride"
+}, {
+  "date": "2016-06-09T00:00:00.000Z",
+  "calories": {
+    "active": 139.479173362255,
+    "total": 1802.68356323242
+  },
+  "carbs": 271.134716033936,
+  "protein": 70.9480966329575,
+  "fat": 53.4161757230759,
+  "sodium": 2325.89471153915,
+  "fiber": 23.8037519454956,
+  "weight": 0,
+  "steps": 5978.77621362825,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "25L1cPp5zGfFJphd",
+  "sleep": {
+    "date": "2016-06-09T00:00:00.000Z",
+    "start": "2016-06-09T01:02:00.000Z",
+    "end": "2016-06-09T08:42:00.000Z",
+    "time_in_bed": "07:40:00",
+    "time_in_bed_seconds": 27600,
+    "time_asleep": "06:43:00",
+    "time_asleep_seconds": 24180
+  },
+  "plan": "6.4km run"
+}, {
+  "date": "2016-06-10T00:00:00.000Z",
+  "calories": {
+    "active": 148.359629094601,
+    "total": 2152.24758911133
+  },
+  "carbs": 197.428231239319,
+  "protein": 83.3643297553062,
+  "fat": 67.3787632957101,
+  "sodium": 904.189233551733,
+  "fiber": 18.3487538695335,
+  "weight": 0,
+  "steps": 8180.22378637175,
+  "heart": {
+    "morning_heartrate": 55,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "q9ByohCCsSguPJyb",
+  "sleep": {
+    "date": "2016-06-10T00:00:00.000Z",
+    "start": "2016-06-10T01:41:00.000Z",
+    "end": "2016-06-10T09:29:00.000Z",
+    "time_in_bed": "07:48:00",
+    "time_in_bed_seconds": 28080,
+    "time_asleep": "07:33:00",
+    "time_asleep_seconds": 27180
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-11T00:00:00.000Z",
+  "calories": {
+    "active": 1432.66357293725,
+    "total": 2488.68795776367
+  },
+  "carbs": 257.85528564453097,
+  "protein": 111.475840568542,
+  "fat": 82.3547210693359,
+  "sodium": 398.29449437093,
+  "fiber": 38.1661996841431,
+  "weight": 0,
+  "steps": 18685,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "zVA0RjoYS8ItkJNe",
+  "activity": {
+    "id": 605684927,
+    "activity_date": "2016-06-11T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 14,
+    "moving_time_seconds": 5151,
+    "moving_time": "01:25:51",
+    "feeling": "good",
+    "location_city": null,
+    "average_speed_mps": 2.714,
+    "average_speed": "06:08",
+    "calories": 1631.1,
+    "average_heartrate": 162.1,
+    "max_heartrate": 178,
+    "suffer_score": 149,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/Yt_VT4mnXtmaq1r_7m8KFb1uw9mCzlGLNOMel64sYwY-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-11T00:00:00.000Z",
+    "start": "2016-06-11T01:09:00.000Z",
+    "end": "2016-06-11T10:09:00.000Z",
+    "time_in_bed": "09:00:00",
+    "time_in_bed_seconds": 32400,
+    "time_asleep": "08:39:00",
+    "time_asleep_seconds": 31140
+  },
+  "plan": "12.8km run"
+}, {
+  "date": "2016-06-12T00:00:00.000Z",
+  "calories": {
+    "active": 163.565247431397,
+    "total": 1902.02249145508
+  },
+  "carbs": 211.13966846466099,
+  "protein": 80.8171418905258,
+  "fat": 73.222505569458,
+  "sodium": 1494.72645716742,
+  "fiber": 28.3445234298706,
+  "weight": 0,
+  "steps": 6048,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "OJUugGW0OH7WrIGk",
+  "sleep": {
+    "date": "2016-06-12T00:00:00.000Z",
+    "start": "2016-06-12T00:44:00.000Z",
+    "end": "2016-06-12T10:42:00.000Z",
+    "time_in_bed": "09:58:00",
+    "time_in_bed_seconds": 35880,
+    "time_asleep": "09:27:00",
+    "time_asleep_seconds": 34020
+  },
+  "plan": "65 min xt"
+}, {
+  "date": "2016-06-13T00:00:00.000Z",
+  "calories": {
+    "active": 112.172803193331,
+    "total": 2030.13618469238
+  },
+  "carbs": 236.835862159729,
+  "protein": 78.7526122331619,
+  "fat": 78.5504463389516,
+  "sodium": 1479.68898795079,
+  "fiber": 27.4310187101364,
+  "weight": 0,
+  "steps": 6189,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "CeSzHiuOgZFCCKHf",
+  "sleep": {
+    "date": "2016-06-13T00:00:00.000Z",
+    "start": "2016-06-13T00:30:00.000Z",
+    "end": "2016-06-13T09:24:00.000Z",
+    "time_in_bed": "08:54:00",
+    "time_in_bed_seconds": 32040,
+    "time_asleep": "03:38:00",
+    "time_asleep_seconds": 13080
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-14T00:00:00.000Z",
+  "calories": {
+    "active": 1041.13575324416,
+    "total": 2248.0240173339803
+  },
+  "carbs": 232.651126861572,
+  "protein": 116.506041288376,
+  "fat": 86.2345434427261,
+  "sodium": 1247.78760026675,
+  "fiber": 30.0989909172058,
+  "weight": 0,
+  "steps": 13827,
+  "heart": {
+    "morning_heartrate": 66,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "plS24SEHoCIPUG9C",
+  "activity": {
+    "id": 609255684,
+    "activity_date": "2016-06-14T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 10,
+    "moving_time_seconds": 3727,
+    "moving_time": "01:02:07",
+    "feeling": "poor",
+    "location_city": null,
+    "average_speed_mps": 2.694,
+    "average_speed": "06:11",
+    "calories": 1165.6,
+    "average_heartrate": 151,
+    "max_heartrate": 164,
+    "suffer_score": 69,
+    "photo": "https://www.instagram.com/p/BGpTTIQzGb7/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-14T00:00:00.000Z",
+    "start": "2016-06-14T00:59:00.000Z",
+    "end": "2016-06-14T09:21:00.000Z",
+    "time_in_bed": "08:22:00",
+    "time_in_bed_seconds": 30120,
+    "time_asleep": "06:33:00",
+    "time_asleep_seconds": 23580
+  },
+  "plan": "9.6km run"
+}, {
+  "date": "2016-06-15T00:00:00.000Z",
+  "calories": {
+    "active": 263.215324491262,
+    "total": 2303.22497558594
+  },
+  "carbs": 287.257148742676,
+  "protein": 90.1516485214233,
+  "fat": 95.2294502258301,
+  "sodium": 1362.51004040241,
+  "fiber": 34.0925006866455,
+  "weight": 0,
+  "steps": 9405,
+  "heart": {
+    "morning_heartrate": 61,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "AKHjr16tPELungTv",
+  "activity": {
+    "id": 610357948,
+    "activity_date": "2016-06-15T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 17.5,
+    "moving_time_seconds": 2100,
+    "moving_time": "00:35:00",
+    "feeling": false,
+    "location_city": null,
+    "average_speed_mps": 8.333,
+    "average_speed": "02:00",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-06-15T00:00:00.000Z",
+    "start": "2016-06-15T00:07:00.000Z",
+    "end": "2016-06-15T09:29:00.000Z",
+    "time_in_bed": "09:22:00",
+    "time_in_bed_seconds": 33720,
+    "time_asleep": "08:20:00",
+    "time_asleep_seconds": 30000
+  },
+  "plan": "40 min ride"
+}, {
+  "date": "2016-06-16T00:00:00.000Z",
+  "calories": {
+    "active": 118.475110650063,
+    "total": 2667.87689208984
+  },
+  "carbs": 296.36099243164097,
+  "protein": 117.027819633484,
+  "fat": 98.1276594400406,
+  "sodium": 2928.80229454022,
+  "fiber": 28.3145999908447,
+  "weight": 0,
+  "steps": 5334,
+  "heart": {
+    "morning_heartrate": 80,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "HbiCcpeAyB9A2Dxg",
+  "sleep": {
+    "date": "2016-06-16T00:00:00.000Z",
+    "start": "2016-06-16T01:08:00.000Z",
+    "end": "2016-06-16T10:25:00.000Z",
+    "time_in_bed": "09:16:00",
+    "time_in_bed_seconds": 33360,
+    "time_asleep": "08:25:00",
+    "time_asleep_seconds": 30300
+  },
+  "plan": "6.4km pace"
+}, {
+  "date": "2016-06-17T00:00:00.000Z",
+  "calories": {
+    "active": 423.161728292704,
+    "total": 2426.78398132324
+  },
+  "carbs": 279.813205718994,
+  "protein": 94.0360007286072,
+  "fat": 81.5890035629272,
+  "sodium": 996.734002721496,
+  "fiber": 21.6999996304512,
+  "weight": 0,
+  "steps": 9426,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "YjLnUKGOQYU0o70s",
+  "activity": {
+    "id": 612163007,
+    "activity_date": "2016-06-17T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 3.5,
+    "moving_time_seconds": 1116,
+    "moving_time": "00:18:36",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 3.16,
+    "average_speed": "05:16",
+    "calories": 412.9,
+    "average_heartrate": 147.8,
+    "max_heartrate": 159,
+    "suffer_score": 18,
+    "photo": "https://www.instagram.com/p/BGw91MmzGUo/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-17T00:00:00.000Z",
+    "start": "2016-06-17T01:24:00.000Z",
+    "end": "2016-06-17T09:46:00.000Z",
+    "time_in_bed": "08:22:00",
+    "time_in_bed_seconds": 30120,
+    "time_asleep": "08:05:00",
+    "time_asleep_seconds": 29100
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-18T00:00:00.000Z",
+  "calories": {
+    "active": 514.259112894535,
+    "total": 1138.78002929688
+  },
+  "carbs": 101.242797851562,
+  "protein": 57.2335014343262,
+  "fat": 62.1546020507812,
+  "sodium": 1841.24493598938,
+  "fiber": 4.19999980926514,
+  "weight": 0,
+  "steps": 16596,
+  "heart": {
+    "morning_heartrate": 71,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "XeI5YJBicajP7x5R",
+  "sleep": {
+    "date": "2016-06-18T00:00:00.000Z",
+    "start": "2016-06-18T02:23:00.000Z",
+    "end": "2016-06-18T11:56:00.000Z",
+    "time_in_bed": "09:33:00",
+    "time_in_bed_seconds": 34380,
+    "time_asleep": "09:18:00",
+    "time_asleep_seconds": 33480
+  },
+  "plan": "19.2km run"
+}, {
+  "date": "2016-06-19T00:00:00.000Z",
+  "calories": {
+    "active": 1816.76088455319,
+    "total": 3491.30010986328
+  },
+  "carbs": 470.23690032959,
+  "protein": 112.202602624893,
+  "fat": 115.663997411728,
+  "sodium": 3276.73506736755,
+  "fiber": 24.599999666214,
+  "weight": 0,
+  "steps": 22356,
+  "heart": {
+    "morning_heartrate": 66,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "aIViNeIFH9PaLAO3",
+  "activity": {
+    "id": 614058344,
+    "activity_date": "2016-06-19T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 19,
+    "moving_time_seconds": 6834,
+    "moving_time": "01:53:54",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.784,
+    "average_speed": "05:59",
+    "calories": 2254.5,
+    "average_heartrate": 164.3,
+    "max_heartrate": 177,
+    "suffer_score": 204,
+    "photo": "https://www.instagram.com/p/BG1l7jHzGbd/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-19T00:00:00.000Z",
+    "start": "2016-06-19T00:44:00.000Z",
+    "end": "2016-06-19T12:17:00.000Z",
+    "time_in_bed": "11:33:00",
+    "time_in_bed_seconds": 41580,
+    "time_asleep": "10:49:00",
+    "time_asleep_seconds": 38940
+  },
+  "plan": "70 min xt"
+}, {
+  "date": "2016-06-20T00:00:00.000Z",
+  "calories": {
+    "active": 61.806094378233,
+    "total": 2446.9400329589803
+  },
+  "carbs": 318.41400051116904,
+  "protein": 90.7729969024658,
+  "fat": 65.5699996948242,
+  "sodium": 2405.65396562897,
+  "fiber": 11.9800000190735,
+  "weight": 93.8999743161301,
+  "steps": 1485,
+  "heart": {
+    "morning_heartrate": 0,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "OwpBSjrMa5ovHvPt",
+  "sleep": {
+    "date": "2016-06-20T00:00:00.000Z",
+    "start": "2016-06-20T02:42:00.000Z",
+    "end": "2016-06-20T09:43:00.000Z",
+    "time_in_bed": "07:01:00",
+    "time_in_bed_seconds": 25260,
+    "time_asleep": "06:20:00",
+    "time_asleep_seconds": 22800
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-21T00:00:00.000Z",
+  "calories": {
+    "active": 1186.92440837622,
+    "total": 2493.0396423339803
+  },
+  "carbs": 241.429956436157,
+  "protein": 121.725191831589,
+  "fat": 104.74278986454,
+  "sodium": 458.97998487635,
+  "fiber": 33.3439868688583,
+  "weight": 0,
+  "steps": 18097,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "X8aXrG4wugSreZdO",
+  "activity": {
+    "id": 616491522,
+    "activity_date": "2016-06-21T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 10.9,
+    "moving_time_seconds": 3803,
+    "moving_time": "01:03:23",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.876,
+    "average_speed": "05:47",
+    "calories": 1278.3,
+    "average_heartrate": 161,
+    "max_heartrate": 171,
+    "suffer_score": 109,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/2UF1xhYk801hXlgtoxwIsOJdlJN0xRXxJrEjUljjigQ-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-21T00:00:00.000Z",
+    "start": "2016-06-21T00:29:00.000Z",
+    "end": "2016-06-21T09:42:00.000Z",
+    "time_in_bed": "09:12:00",
+    "time_in_bed_seconds": 33120,
+    "time_asleep": "08:56:00",
+    "time_asleep_seconds": 32160
+  },
+  "plan": "11.2km run"
+}, {
+  "date": "2016-06-22T00:00:00.000Z",
+  "calories": {
+    "active": 194.517593324184,
+    "total": 2346.27838134766
+  },
+  "carbs": 294.18009185791,
+  "protein": 75.3489921092987,
+  "fat": 89.7504911422729,
+  "sodium": 867.798965191469,
+  "fiber": 34.2920346260071,
+  "weight": 0,
+  "steps": 5538,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "f1RX947Bd5J7d5W3",
+  "sleep": {
+    "date": "2016-06-22T00:00:00.000Z",
+    "start": "2016-06-22T01:21:00.000Z",
+    "end": "2016-06-22T09:21:00.000Z",
+    "time_in_bed": "07:59:00",
+    "time_in_bed_seconds": 28740,
+    "time_asleep": "07:45:00",
+    "time_asleep_seconds": 27900
+  },
+  "plan": "40 min ride"
+}, {
+  "date": "2016-06-23T00:00:00.000Z",
+  "calories": {
+    "active": 226.8175342381,
+    "total": 2197.70001220703
+  },
+  "carbs": 215.117004394531,
+  "protein": 81.6549978256226,
+  "fat": 100.481000900269,
+  "sodium": 1453.67000385886,
+  "fiber": 32.3140001296997,
+  "weight": 0,
+  "steps": 6842,
+  "heart": {
+    "morning_heartrate": 74,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "G40cVcNUsUBOuFVb",
+  "sleep": {
+    "date": "2016-06-23T00:00:00.000Z",
+    "start": "2016-06-23T00:53:00.000Z",
+    "end": "2016-06-23T09:30:00.000Z",
+    "time_in_bed": "08:37:00",
+    "time_in_bed_seconds": 31020,
+    "time_asleep": "08:36:00",
+    "time_asleep_seconds": 30960
+  },
+  "plan": "40 min speed"
+}, {
+  "date": "2016-06-24T00:00:00.000Z",
+  "calories": {
+    "active": 1139.18280813098,
+    "total": 2151.02001953125
+  },
+  "carbs": 251.44440937042202,
+  "protein": 77.2169986963272,
+  "fat": 82.9989981651306,
+  "sodium": 1320.09599904995,
+  "fiber": 24.5599989891052,
+  "weight": 0,
+  "steps": 17776,
+  "heart": {
+    "morning_heartrate": 57,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "7Fn6spC30NZuuwAg",
+  "activity": {
+    "id": 619642686,
+    "activity_date": "2016-06-24T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 9.3,
+    "moving_time_seconds": 3537,
+    "moving_time": "00:58:57",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.624,
+    "average_speed": "06:21",
+    "calories": 1083.7,
+    "average_heartrate": 158.5,
+    "max_heartrate": 167,
+    "suffer_score": 81,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/SdQ3b6mn8rsb_v4V1gePgu5n7iMCXRDhXroF7kK4AzE-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-24T00:00:00.000Z",
+    "start": "2016-06-24T01:27:00.000Z",
+    "end": "2016-06-24T09:20:00.000Z",
+    "time_in_bed": "07:52:00",
+    "time_in_bed_seconds": 28320,
+    "time_asleep": "07:48:00",
+    "time_asleep_seconds": 28080
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-25T00:00:00.000Z",
+  "calories": {
+    "active": 94.9305564165115,
+    "total": 1486.45199584961
+  },
+  "carbs": 189.599822998047,
+  "protein": 69.8343191146851,
+  "fat": 49.3324389457703,
+  "sodium": 1606.52811080217,
+  "fiber": 23.8947992324829,
+  "weight": 0,
+  "steps": 6176,
+  "heart": {
+    "morning_heartrate": 77,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "dQuP9LsajdxUBRCI",
+  "sleep": {
+    "date": "2016-06-25T00:00:00.000Z",
+    "start": "2016-06-25T02:14:00.000Z",
+    "end": "2016-06-25T11:50:00.000Z",
+    "time_in_bed": "09:36:00",
+    "time_in_bed_seconds": 34560,
+    "time_asleep": "00:05:00",
+    "time_asleep_seconds": 300
+  },
+  "plan": "20.8km run"
+}, {
+  "date": "2016-06-26T00:00:00.000Z",
+  "calories": {
+    "active": 1690.90726779401,
+    "total": 1873.45901489258
+  },
+  "carbs": 280.140937805176,
+  "protein": 52.520619392395,
+  "fat": 61.4151606559753,
+  "sodium": 1208.19103717804,
+  "fiber": 16.8120995759964,
+  "weight": 0,
+  "steps": 20887.854263305,
+  "heart": {
+    "morning_heartrate": 73,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "4Kvn0Wij19MSu8nJ",
+  "activity": {
+    "id": 621537927,
+    "activity_date": "2016-06-26T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 18.8,
+    "moving_time_seconds": 6364,
+    "moving_time": "01:46:04",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.96,
+    "average_speed": "05:37",
+    "calories": 2221.2,
+    "average_heartrate": 162.1,
+    "max_heartrate": 168,
+    "suffer_score": 173,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/vPZNL4nejpkceJ9H0Nyytm7KsODSYoaW1EXUx2yeumo-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-26T00:00:00.000Z",
+    "start": "2016-06-26T01:25:00.000Z",
+    "end": "2016-06-26T12:21:00.000Z",
+    "time_in_bed": "10:56:00",
+    "time_in_bed_seconds": 39360,
+    "time_asleep": "09:41:00",
+    "time_asleep_seconds": 34860
+  },
+  "plan": "70 min xt"
+}, {
+  "date": "2016-06-27T00:00:00.000Z",
+  "calories": {
+    "active": 218.190418124199,
+    "total": 2201.87905883789
+  },
+  "carbs": 261.95272064209,
+  "protein": 89.2060494422913,
+  "fat": 87.632931470871,
+  "sodium": 516.126208365677,
+  "fiber": 25.9721522331238,
+  "weight": 93.0000430673984,
+  "steps": 6668.14573669504,
+  "heart": {
+    "morning_heartrate": 74,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "kN7Wcj35mUPfkoi2",
+  "sleep": {
+    "date": "2016-06-27T00:00:00.000Z",
+    "start": "2016-06-27T01:11:00.000Z",
+    "end": "2016-06-27T09:41:00.000Z",
+    "time_in_bed": "08:29:00",
+    "time_in_bed_seconds": 30540,
+    "time_asleep": "07:30:00",
+    "time_asleep_seconds": 27000
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-06-28T00:00:00.000Z",
+  "calories": {
+    "active": 271.190194264054,
+    "total": 2651.8817443847697
+  },
+  "carbs": 278.04967880249,
+  "protein": 130.948249340057,
+  "fat": 110.54788684845,
+  "sodium": 2125.36994135007,
+  "fiber": 31.0058341026306,
+  "weight": 0,
+  "steps": 8711,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "eWUDpPcmB0IQ68XT",
+  "sleep": {
+    "date": "2016-06-28T00:00:00.000Z",
+    "start": "2016-06-28T00:23:00.000Z",
+    "end": "2016-06-28T09:23:00.000Z",
+    "time_in_bed": "09:00:00",
+    "time_in_bed_seconds": 32400,
+    "time_asleep": "08:09:00",
+    "time_asleep_seconds": 29340
+  },
+  "plan": "8.0km run"
+}, {
+  "date": "2016-06-29T00:00:00.000Z",
+  "calories": {
+    "active": 155.369408279657,
+    "total": 1352.40002441406
+  },
+  "carbs": 167.280006408691,
+  "protein": 43.6100025177002,
+  "fat": 48.2500016689301,
+  "sodium": 2761.01399051004,
+  "fiber": 14.9899996519089,
+  "weight": 0,
+  "steps": 4854,
+  "heart": {
+    "morning_heartrate": 66,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "wuXf0DEr2xDmpluU",
+  "sleep": {
+    "date": "2016-06-29T00:00:00.000Z",
+    "start": "2016-06-29T00:57:00.000Z",
+    "end": "2016-06-29T09:54:00.000Z",
+    "time_in_bed": "08:57:00",
+    "time_in_bed_seconds": 32220,
+    "time_asleep": "07:53:00",
+    "time_asleep_seconds": 28380
+  },
+  "plan": "40 min ride"
+}, {
+  "date": "2016-06-30T00:00:00.000Z",
+  "calories": {
+    "active": 909.744080409408,
+    "total": 3459.41506958008
+  },
+  "carbs": 452.24165725708,
+  "protein": 190.680048465729,
+  "fat": 93.4963513314724,
+  "sodium": 4184.92585943932,
+  "fiber": 45.624499797821,
+  "weight": 0,
+  "steps": 14033,
+  "heart": {
+    "morning_heartrate": 78,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "bJfEkxDMPjgL5dqN",
+  "activity": {
+    "id": 625850748,
+    "activity_date": "2016-06-30T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 9.9,
+    "moving_time_seconds": 3316,
+    "moving_time": "00:55:16",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.981,
+    "average_speed": "05:35",
+    "calories": 1143.7,
+    "average_heartrate": 159.7,
+    "max_heartrate": 180,
+    "suffer_score": 91,
+    "photo": "https://www.instagram.com/p/BHShO8YhWMG/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-06-30T00:00:00.000Z",
+    "start": "2016-06-30T00:01:00.000Z",
+    "end": "2016-06-30T09:13:00.000Z",
+    "time_in_bed": "09:12:00",
+    "time_in_bed_seconds": 33120,
+    "time_asleep": "08:59:00",
+    "time_asleep_seconds": 32340
+  },
+  "plan": "8.0km run"
+}, {
+  "date": "2016-07-01T00:00:00.000Z",
+  "calories": {
+    "active": 270.968930408359,
+    "total": 1146.5
+  },
+  "carbs": 117.299999237061,
+  "protein": 85.2299995422363,
+  "fat": 31.3099994659424,
+  "sodium": 1207.0099785924,
+  "fiber": 17.9100003242493,
+  "weight": 0,
+  "steps": 8790,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "nsdSs1tz2zOxAHU3",
+  "sleep": {
+    "date": "2016-07-01T00:00:00.000Z",
+    "start": "2016-07-01T00:35:00.000Z",
+    "end": "2016-07-01T09:26:00.000Z",
+    "time_in_bed": "08:51:00",
+    "time_in_bed_seconds": 31860,
+    "time_asleep": "08:31:00",
+    "time_asleep_seconds": 30660
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-02T00:00:00.000Z",
+  "calories": {
+    "active": 267.406318724155,
+    "total": 4095.2408142089803
+  },
+  "carbs": 292.928081512451,
+  "protein": 185.920070648193,
+  "fat": 214.091831207275,
+  "sodium": 5270.06977796555,
+  "fiber": 18.0100104808807,
+  "weight": 0,
+  "steps": 9827,
+  "heart": {
+    "morning_heartrate": 77,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "lvUsMX8fZZMyH21E",
+  "sleep": {
+    "date": "2016-07-02T00:00:00.000Z",
+    "start": "2016-07-02T02:17:00.000Z",
+    "end": "2016-07-02T11:26:00.000Z",
+    "time_in_bed": "09:09:00",
+    "time_in_bed_seconds": 32940,
+    "time_asleep": "09:04:00",
+    "time_asleep_seconds": 32640
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-03T00:00:00.000Z",
+  "calories": {
+    "active": 519.366955131292,
+    "total": 2456.87780761719
+  },
+  "carbs": 297.836112976074,
+  "protein": 133.097045898438,
+  "fat": 71.8187780380249,
+  "sodium": 1997.10502615198,
+  "fiber": 27.8912792205811,
+  "weight": 0,
+  "steps": 8909,
+  "heart": {
+    "morning_heartrate": 68,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "fD06jLr2qaQtqzXb",
+  "activity": {
+    "id": 628465080,
+    "activity_date": "2016-07-03T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 5.1,
+    "moving_time_seconds": 1433,
+    "moving_time": "00:23:53",
+    "feeling": "great",
+    "location_city": "Paris",
+    "average_speed_mps": 3.527,
+    "average_speed": "04:43",
+    "calories": 584.8,
+    "average_heartrate": 173,
+    "max_heartrate": 189,
+    "suffer_score": 74,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/7WJ1kNbth7QuvGEMgxPjXVTMWQsveZko4FYVd0bokrE-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-03T00:00:00.000Z",
+    "start": "2016-07-03T01:42:00.000Z",
+    "end": "2016-07-03T11:21:00.000Z",
+    "time_in_bed": "09:39:00",
+    "time_in_bed_seconds": 34740,
+    "time_asleep": "09:30:00",
+    "time_asleep_seconds": 34200
+  },
+  "plan": "5-K Race"
+}, {
+  "date": "2016-07-04T00:00:00.000Z",
+  "calories": {
+    "active": 214.621383577585,
+    "total": 2261.25512695312
+  },
+  "carbs": 244.872650146484,
+  "protein": 83.7207496166229,
+  "fat": 93.9623508453369,
+  "sodium": 1211.98003180325,
+  "fiber": 26.6724996566772,
+  "weight": 0,
+  "steps": 6721,
+  "heart": {
+    "morning_heartrate": 69,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "IJxYfjgQUKri2Pa4",
+  "sleep": {
+    "date": "2016-07-04T00:00:00.000Z",
+    "start": "2016-07-04T00:38:00.000Z",
+    "end": "2016-07-04T09:32:00.000Z",
+    "time_in_bed": "08:54:00",
+    "time_in_bed_seconds": 32040,
+    "time_asleep": "08:33:00",
+    "time_asleep_seconds": 30780
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-05T00:00:00.000Z",
+  "calories": {
+    "active": 2393.72376446426,
+    "total": 2355.96673583984
+  },
+  "carbs": 250.303337097168,
+  "protein": 153.789996147156,
+  "fat": 75.5833339691162,
+  "sodium": 1761.45995665502,
+  "fiber": 31.8633332252502,
+  "weight": 0,
+  "steps": 14875,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "cfso9oBSiDkthLcq",
+  "activity": {
+    "id": 631148296,
+    "activity_date": "2016-07-05T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 9.5,
+    "moving_time_seconds": 3317,
+    "moving_time": "00:55:17",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.879,
+    "average_speed": "05:47",
+    "calories": 1104.3,
+    "average_heartrate": 158.4,
+    "max_heartrate": 172,
+    "suffer_score": 88,
+    "photo": "https://www.instagram.com/p/BHfa0_rBrso/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-05T00:00:00.000Z",
+    "start": "2016-07-05T00:54:00.000Z",
+    "end": "2016-07-05T09:25:00.000Z",
+    "time_in_bed": "08:31:00",
+    "time_in_bed_seconds": 30660,
+    "time_asleep": "08:24:00",
+    "time_asleep_seconds": 30240
+  },
+  "plan": "11.2km run"
+}, {
+  "date": "2016-07-06T00:00:00.000Z",
+  "calories": {
+    "active": 255.779746338725,
+    "total": 2110.84173583984
+  },
+  "carbs": 197.577087402344,
+  "protein": 143.049648284912,
+  "fat": 77.1440868377686,
+  "sodium": 2064.03694573601,
+  "fiber": 29.2158331871033,
+  "weight": 0,
+  "steps": 7838,
+  "heart": {
+    "morning_heartrate": 69,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "iKKgb7clPW3c3XyW",
+  "activity": {
+    "id": 632369941,
+    "activity_date": "2016-07-06T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 20.1,
+    "moving_time_seconds": 2700,
+    "moving_time": "00:45:00",
+    "feeling": "good",
+    "location_city": null,
+    "average_speed_mps": 7.444,
+    "average_speed": "02:14",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-07-06T00:00:00.000Z",
+    "start": "2016-07-05T23:34:00.000Z",
+    "end": "2016-07-06T09:26:00.000Z",
+    "time_in_bed": "09:52:00",
+    "time_in_bed_seconds": 35520,
+    "time_asleep": "09:07:00",
+    "time_asleep_seconds": 32820
+  },
+  "plan": "45 min ride"
+}, {
+  "date": "2016-07-07T00:00:00.000Z",
+  "calories": {
+    "active": 185.330895558,
+    "total": 2501.30396652222
+  },
+  "carbs": 214.61526870727502,
+  "protein": 129.642190694809,
+  "fat": 98.7803670167923,
+  "sodium": 1866.99726385996,
+  "fiber": 21.8363027572632,
+  "weight": 0,
+  "steps": 6142,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "3hJX9pnOMACYw0ph",
+  "sleep": {
+    "date": "2016-07-07T00:00:00.000Z",
+    "start": "2016-07-07T00:02:00.000Z",
+    "end": "2016-07-07T09:02:00.000Z",
+    "time_in_bed": "09:00:00",
+    "time_in_bed_seconds": 32400,
+    "time_asleep": "08:16:00",
+    "time_asleep_seconds": 29760
+  },
+  "plan": "6.4km pace"
+}, {
+  "date": "2016-07-08T00:00:00.000Z",
+  "calories": {
+    "active": 337.815103709698,
+    "total": 1904.11367797852
+  },
+  "carbs": 177.000003814697,
+  "protein": 103.33358001709,
+  "fat": 55.9478275775909,
+  "sodium": 3105.19993305206,
+  "fiber": 12.960000038147,
+  "weight": 0,
+  "steps": 11700,
+  "heart": {
+    "morning_heartrate": 70,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "uVJ6aTc8VDqIJtqn",
+  "sleep": {
+    "date": "2016-07-08T00:00:00.000Z",
+    "start": "2016-07-08T00:33:00.000Z",
+    "end": "2016-07-08T09:39:00.000Z",
+    "time_in_bed": "09:05:00",
+    "time_in_bed_seconds": 32700,
+    "time_asleep": "08:50:00",
+    "time_asleep_seconds": 31800
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-09T00:00:00.000Z",
+  "calories": {
+    "active": 2223.91431125998,
+    "total": 3647.97479248047
+  },
+  "carbs": 422.163948059082,
+  "protein": 139.064646542072,
+  "fat": 112.70695400238,
+  "sodium": 3286.4149697125,
+  "fiber": 45.3944988250732,
+  "weight": 0,
+  "steps": 31475,
+  "heart": {
+    "morning_heartrate": 76,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "g2lbmiPVYVDyIVcI",
+  "activity": {
+    "id": 634914758,
+    "activity_date": "2016-07-09T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 22.2,
+    "moving_time_seconds": 7981,
+    "moving_time": "02:13:01",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.784,
+    "average_speed": "05:59",
+    "calories": 2588.2,
+    "average_heartrate": 168.2,
+    "max_heartrate": 179,
+    "suffer_score": 278,
+    "photo": "https://www.instagram.com/p/BHoyj8yBJeb/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-09T00:00:00.000Z",
+    "start": "2016-07-09T01:06:00.000Z",
+    "end": "2016-07-09T09:10:00.000Z",
+    "time_in_bed": "08:04:00",
+    "time_in_bed_seconds": 29040,
+    "time_asleep": "07:45:00",
+    "time_asleep_seconds": 27900
+  },
+  "plan": "24.0km run"
+}, {
+  "date": "2016-07-10T00:00:00.000Z",
+  "calories": {
+    "active": 103.392947584391,
+    "total": 2381.4052734375
+  },
+  "carbs": 339.56959342956503,
+  "protein": 76.1243977546692,
+  "fat": 80.8084850311279,
+  "sodium": 2028.21870520711,
+  "fiber": 55.9127268791199,
+  "weight": 0,
+  "steps": 3000,
+  "heart": {
+    "morning_heartrate": 69,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "zOU1OE2NPA3GgcPo",
+  "activity": {
+    "id": 636000292,
+    "activity_date": "2016-07-10T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 13.5,
+    "moving_time_seconds": 3805,
+    "moving_time": "01:03:25",
+    "feeling": "great",
+    "location_city": "Paris",
+    "average_speed_mps": 3.541,
+    "average_speed": "04:42",
+    "calories": 367.5,
+    "average_heartrate": 111.2,
+    "max_heartrate": 146,
+    "suffer_score": 17,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/JpWQ2ypKdf2XR71b19uzz4Ck-j8ACTjxXsICYQ2Yax4-768x768.jpg",
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-07-10T00:00:00.000Z",
+    "start": "2016-07-10T00:00:00.000Z",
+    "end": "2016-07-10T08:49:00.000Z",
+    "time_in_bed": "08:49:00",
+    "time_in_bed_seconds": 31740,
+    "time_asleep": "08:16:00",
+    "time_asleep_seconds": 29760
+  },
+  "plan": "75 min xt"
+}, {
+  "date": "2016-07-11T00:00:00.000Z",
+  "calories": {
+    "active": 266.599842995405,
+    "total": 2234.8225402832
+  },
+  "carbs": 258.56290435791,
+  "protein": 84.9691791534424,
+  "fat": 68.2692060470581,
+  "sodium": 1156.34416931425,
+  "fiber": 19.9000034332275,
+  "weight": 93.0000430673984,
+  "steps": 8456,
+  "heart": {
+    "morning_heartrate": 77,
+    "pressure_systolic": 156,
+    "pressure_diastolic": 96
+  },
+  "_id": "iiFlX0Jg9tSDkldl",
+  "sleep": {
+    "date": "2016-07-11T00:00:00.000Z",
+    "start": "2016-07-11T01:04:00.000Z",
+    "end": "2016-07-11T09:16:00.000Z",
+    "time_in_bed": "08:12:00",
+    "time_in_bed_seconds": 29520,
+    "time_asleep": "08:10:00",
+    "time_asleep_seconds": 29400
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-12T00:00:00.000Z",
+  "calories": {
+    "active": 302.083217605948,
+    "total": 1995.16714477539
+  },
+  "carbs": 239.897243499756,
+  "protein": 88.5114583969116,
+  "fat": 66.5088987350464,
+  "sodium": 2121.88742309809,
+  "fiber": 25.2533521652222,
+  "weight": 93.0000430673984,
+  "steps": 9945,
+  "heart": {
+    "morning_heartrate": 71,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Lb25muf65rzN7tFz",
+  "sleep": {
+    "date": "2016-07-12T00:00:00.000Z",
+    "start": "2016-07-11T23:32:00.000Z",
+    "end": "2016-07-12T08:34:00.000Z",
+    "time_in_bed": "09:01:00",
+    "time_in_bed_seconds": 32460,
+    "time_asleep": "07:43:00",
+    "time_asleep_seconds": 27780
+  },
+  "plan": "12.8km run"
+}, {
+  "date": "2016-07-13T00:00:00.000Z",
+  "calories": {
+    "active": 1179.04113847017,
+    "total": 1765.85101318359
+  },
+  "carbs": 168.81303215026898,
+  "protein": 104.949861526489,
+  "fat": 72.7023892402649,
+  "sodium": 1490.90951681137,
+  "fiber": 24.1392996311188,
+  "weight": 93.0000430673984,
+  "steps": 17168,
+  "heart": {
+    "morning_heartrate": 0,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Yocv5nsfPX7Pll6j",
+  "activity": {
+    "id": 639611003,
+    "activity_date": "2016-07-13T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 12.1,
+    "moving_time_seconds": 4134,
+    "moving_time": "01:08:54",
+    "feeling": "good",
+    "location_city": null,
+    "average_speed_mps": 2.923,
+    "average_speed": "05:42",
+    "calories": 1383.3,
+    "average_heartrate": 159.9,
+    "max_heartrate": 171,
+    "suffer_score": 109,
+    "photo": "https://www.instagram.com/p/BHzh2ffB_a3/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-13T00:00:00.000Z",
+    "start": "2016-07-13T00:41:00.000Z",
+    "end": "2016-07-13T08:54:00.000Z",
+    "time_in_bed": "08:13:00",
+    "time_in_bed_seconds": 29580,
+    "time_asleep": "07:41:00",
+    "time_asleep_seconds": 27660
+  },
+  "plan": "45 min ride"
+}, {
+  "date": "2016-07-14T00:00:00.000Z",
+  "calories": {
+    "active": 159.766949445009,
+    "total": 2178.00207519531
+  },
+  "carbs": 234.304409980774,
+  "protein": 143.101802349091,
+  "fat": 83.5414953231812,
+  "sodium": 1904.32862227317,
+  "fiber": 29.3102073073387,
+  "weight": 93.0000430673984,
+  "steps": 5911,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "4MSGVxtaFaR7VdYL",
+  "activity": {
+    "id": 640533431,
+    "activity_date": "2016-07-14T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 23.2,
+    "moving_time_seconds": 2700,
+    "moving_time": "00:45:00",
+    "feeling": "good",
+    "location_city": null,
+    "average_speed_mps": 8.593,
+    "average_speed": "01:56",
+    "calories": 0,
+    "suffer_score": null,
+    "photo": false,
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-07-14T00:00:00.000Z",
+    "start": "2016-07-13T23:48:00.000Z",
+    "end": "2016-07-14T10:41:00.000Z",
+    "time_in_bed": "10:52:00",
+    "time_in_bed_seconds": 39120,
+    "time_asleep": "09:41:00",
+    "time_asleep_seconds": 34860
+  },
+  "plan": "45 min speed"
+}, {
+  "date": "2016-07-15T00:00:00.000Z",
+  "calories": {
+    "active": 45.5839674323797,
+    "total": 2144.11166381836
+  },
+  "carbs": 246.24590742588,
+  "protein": 125.094571113586,
+  "fat": 93.0597057342529,
+  "sodium": 1707.25832019525,
+  "fiber": 26.6055274009705,
+  "weight": 0,
+  "steps": 1858,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 126,
+    "pressure_diastolic": 81
+  },
+  "_id": "nDcr0RCzJUDmRLRA",
+  "sleep": {
+    "date": "2016-07-15T00:00:00.000Z",
+    "start": "2016-07-15T01:16:00.000Z",
+    "end": "2016-07-15T10:22:00.000Z",
+    "time_in_bed": "09:05:00",
+    "time_in_bed_seconds": 32700,
+    "time_asleep": "09:01:00",
+    "time_asleep_seconds": 32460
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-16T00:00:00.000Z",
+  "calories": {
+    "active": 2068.97248822451,
+    "total": 2708.19158935547
+  },
+  "carbs": 410.328323364258,
+  "protein": 107.928592681885,
+  "fat": 82.3663024902344,
+  "sodium": 2767.09899306297,
+  "fiber": 41.6782369613647,
+  "weight": 0,
+  "steps": 26789,
+  "heart": {
+    "morning_heartrate": 61,
+    "pressure_systolic": 123,
+    "pressure_diastolic": 85
+  },
+  "_id": "rwI5LqxUME3bpHSa",
+  "activity": {
+    "id": 642564333,
+    "activity_date": "2016-07-16T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 19,
+    "moving_time_seconds": 7181,
+    "moving_time": "01:59:41",
+    "feeling": "average",
+    "location_city": null,
+    "average_speed_mps": 2.649,
+    "average_speed": "06:17",
+    "calories": 2173.1,
+    "average_heartrate": 164.1,
+    "max_heartrate": 173,
+    "suffer_score": 212,
+    "photo": "https://www.instagram.com/p/BH6-_FNhu5T/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-16T00:00:00.000Z",
+    "start": "2016-07-16T00:47:00.000Z",
+    "end": "2016-07-16T10:26:00.000Z",
+    "time_in_bed": "09:39:00",
+    "time_in_bed_seconds": 34740,
+    "time_asleep": "09:04:00",
+    "time_asleep_seconds": 32640
+  },
+  "plan": "25.6km run"
+}, {
+  "date": "2016-07-17T00:00:00.000Z",
+  "calories": {
+    "active": 196.22795149684,
+    "total": 3291.38000488281
+  },
+  "carbs": 389.440002441406,
+  "protein": 112.628800392151,
+  "fat": 106.127601623535,
+  "sodium": 628.759995102882,
+  "fiber": 26.9799990653992,
+  "weight": 0,
+  "steps": 7665,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Ehhh1z41kEhu2f54",
+  "sleep": {
+    "date": "2016-07-17T00:00:00.000Z",
+    "start": "2016-07-17T00:02:00.000Z",
+    "end": "2016-07-17T08:48:00.000Z",
+    "time_in_bed": "08:46:00",
+    "time_in_bed_seconds": 31560,
+    "time_asleep": "08:21:00",
+    "time_asleep_seconds": 30060
+  },
+  "plan": "75 min xt"
+}, {
+  "date": "2016-07-18T00:00:00.000Z",
+  "calories": {
+    "active": 134.654338210821,
+    "total": 2221.71937561035
+  },
+  "carbs": 309.20902633667,
+  "protein": 101.255581378937,
+  "fat": 68.9239732027054,
+  "sodium": 1451.60035591107,
+  "fiber": 31.4195079803467,
+  "weight": 0,
+  "steps": 8281,
+  "heart": {
+    "morning_heartrate": 73,
+    "pressure_systolic": 135,
+    "pressure_diastolic": 80
+  },
+  "_id": "UZYDJgsSX7M7KIFd",
+  "activity": {
+    "id": 645106752,
+    "activity_date": "2016-07-18T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 32.3,
+    "moving_time_seconds": 4849,
+    "moving_time": "01:20:49",
+    "feeling": "great",
+    "location_city": null,
+    "average_speed_mps": 6.666,
+    "average_speed": "02:30",
+    "calories": 811.6,
+    "average_heartrate": 139.3,
+    "max_heartrate": 166,
+    "suffer_score": 36,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/XnJM1JGqoZiIkmuQUZwNENzZ29Wam_4xMIVhsT2HFsw-768x576.jpg",
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-07-18T00:00:00.000Z",
+    "start": "2016-07-18T00:06:00.000Z",
+    "end": "2016-07-18T09:18:00.000Z",
+    "time_in_bed": "09:11:00",
+    "time_in_bed_seconds": 33060,
+    "time_asleep": "09:06:00",
+    "time_asleep_seconds": 32760
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-19T00:00:00.000Z",
+  "calories": {
+    "active": 1050.962078318,
+    "total": 1151.4599609375
+  },
+  "carbs": 138.20480155944801,
+  "protein": 39.1948003768921,
+  "fat": 47.4426002502441,
+  "sodium": 1431.96500837803,
+  "fiber": 15.1499996185303,
+  "weight": 0,
+  "steps": 14748,
+  "heart": {
+    "morning_heartrate": 58,
+    "pressure_systolic": 120,
+    "pressure_diastolic": 86
+  },
+  "_id": "wqed6SXPGUSujVD8",
+  "activity": {
+    "id": 646004778,
+    "activity_date": "2016-07-19T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 10,
+    "moving_time_seconds": 3666,
+    "moving_time": "01:01:06",
+    "feeling": "poor",
+    "location_city": null,
+    "average_speed_mps": 2.719,
+    "average_speed": "06:07",
+    "calories": 1140.4,
+    "average_heartrate": 162.4,
+    "max_heartrate": 174,
+    "suffer_score": 103,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/Au4WwAP0qsQ9SJXr7rrCqUA2dJ4WxL7QayiT1PURgr4-768x768.jpg",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-19T00:00:00.000Z",
+    "start": "2016-07-19T01:29:00.000Z",
+    "end": "2016-07-19T10:51:00.000Z",
+    "time_in_bed": "09:22:00",
+    "time_in_bed_seconds": 33720,
+    "time_asleep": "09:17:00",
+    "time_asleep_seconds": 33420
+  },
+  "plan": "9.6km run"
+}, {
+  "date": "2016-07-20T00:00:00.000Z",
+  "calories": {
+    "active": 87.1768382936716,
+    "total": 2159.01129150391
+  },
+  "carbs": 250.74747848510702,
+  "protein": 103.225552082062,
+  "fat": 62.9196363687515,
+  "sodium": 697.549502334823,
+  "fiber": 35.8933329582214,
+  "weight": 0,
+  "steps": 3111,
+  "heart": {
+    "morning_heartrate": 0,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "KuuHAa8udhivpqeb",
+  "sleep": {
+    "date": "2016-07-20T00:00:00.000Z",
+    "start": "2016-07-20T05:15:00.000Z",
+    "end": "2016-07-20T11:51:00.000Z",
+    "time_in_bed": "06:36:00",
+    "time_in_bed_seconds": 23760,
+    "time_asleep": "06:02:00",
+    "time_asleep_seconds": 21720
+  },
+  "plan": "45 min ride"
+}, {
+  "date": "2016-07-21T00:00:00.000Z",
+  "calories": {
+    "active": 243.334686219692,
+    "total": 2471.4141540527303
+  },
+  "carbs": 222.217945098877,
+  "protein": 112.943218231201,
+  "fat": 99.6229190826416,
+  "sodium": 2011.22419979947,
+  "fiber": 21.3450003862381,
+  "weight": 93.2998655752724,
+  "steps": 7485,
+  "heart": {
+    "morning_heartrate": 47,
+    "pressure_systolic": 125,
+    "pressure_diastolic": 75
+  },
+  "_id": "9XcRd7Xo53XrI6M6",
+  "sleep": {
+    "date": "2016-07-21T00:00:00.000Z",
+    "start": "2016-07-21T00:01:00.000Z",
+    "end": "2016-07-21T10:57:00.000Z",
+    "time_in_bed": "10:56:00",
+    "time_in_bed_seconds": 39360,
+    "time_asleep": "10:41:00",
+    "time_asleep_seconds": 38460
+  },
+  "plan": "9.6km run"
+}, {
+  "date": "2016-07-22T00:00:00.000Z",
+  "calories": {
+    "active": 175.661198094487,
+    "total": 2921.42199707031
+  },
+  "carbs": 396.400119781494,
+  "protein": 131.731919288635,
+  "fat": 93.3365435600281,
+  "sodium": 1640.07800538093,
+  "fiber": 35.5188012123108,
+  "weight": 0,
+  "steps": 4905,
+  "heart": {
+    "morning_heartrate": 57,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "QpG1QLGu1Dc7TcXG",
+  "activity": {
+    "id": 649455814,
+    "activity_date": "2016-07-22T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 34.5,
+    "moving_time_seconds": 7815,
+    "moving_time": "02:10:15",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 4.415,
+    "average_speed": "03:46",
+    "calories": 899,
+    "average_heartrate": 124.4,
+    "max_heartrate": 174,
+    "suffer_score": 47,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/uCPshLvzhKtBcXSOy-esqFblxmc8KPXNxtbt1Kew3ug-576x768.jpg",
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-07-22T00:00:00.000Z",
+    "start": "2016-07-21T23:50:00.000Z",
+    "end": "2016-07-22T09:08:00.000Z",
+    "time_in_bed": "09:18:00",
+    "time_in_bed_seconds": 33480,
+    "time_asleep": "08:53:00",
+    "time_asleep_seconds": 31980
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-23T00:00:00.000Z",
+  "calories": {
+    "active": 179.049437820911,
+    "total": 2146.18676757812
+  },
+  "carbs": 233.123394012451,
+  "protein": 108.346128463745,
+  "fat": 56.5127272605896,
+  "sodium": 1788.89331314713,
+  "fiber": 21.3904671669006,
+  "weight": 0,
+  "steps": 5933,
+  "heart": {
+    "morning_heartrate": 54,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "FOiMqmnoUGXvqtHo",
+  "sleep": {
+    "date": "2016-07-23T00:00:00.000Z",
+    "start": "2016-07-23T00:38:00.000Z",
+    "end": "2016-07-23T10:38:00.000Z",
+    "time_in_bed": "10:00:00",
+    "time_in_bed_seconds": 36000,
+    "time_asleep": "09:52:00",
+    "time_asleep_seconds": 35520
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-24T00:00:00.000Z",
+  "calories": {
+    "active": 799.934237882495,
+    "total": 2139.40701293945
+  },
+  "carbs": 290.949580192566,
+  "protein": 95.2366733551025,
+  "fat": 86.4170923233032,
+  "sodium": 2431.13803562301,
+  "fiber": 37.4812994003296,
+  "weight": 0,
+  "steps": 15173,
+  "heart": {
+    "morning_heartrate": 57,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "L4kfLbjHuYWxf9kB",
+  "activity": {
+    "id": 651520600,
+    "activity_date": "2016-07-24T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 5,
+    "moving_time_seconds": 1549,
+    "moving_time": "00:25:49",
+    "feeling": "poor",
+    "location_city": "Paris",
+    "average_speed_mps": 3.257,
+    "average_speed": "05:07",
+    "calories": 585.3,
+    "average_heartrate": 175.3,
+    "max_heartrate": 183,
+    "suffer_score": 88,
+    "photo": "https://www.instagram.com/p/BIPXZ4UBSqe/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-24T00:00:00.000Z",
+    "start": "2016-07-24T00:46:00.000Z",
+    "end": "2016-07-24T10:04:00.000Z",
+    "time_in_bed": "09:18:00",
+    "time_in_bed_seconds": 33480,
+    "time_asleep": "09:06:00",
+    "time_asleep_seconds": 32760
+  },
+  "plan": "10-K Race"
+}, {
+  "date": "2016-07-25T00:00:00.000Z",
+  "calories": {
+    "active": 228.149912744761,
+    "total": 2209.43002319336
+  },
+  "carbs": 200.569999694824,
+  "protein": 216.189998626709,
+  "fat": 57.1100006103516,
+  "sodium": 0,
+  "fiber": 48.1799988746643,
+  "weight": 0,
+  "steps": 6649,
+  "heart": {
+    "morning_heartrate": 65,
+    "pressure_systolic": 130,
+    "pressure_diastolic": 78
+  },
+  "_id": "KQRNkKL49UdR9dND",
+  "activity": {
+    "id": 652827676,
+    "activity_date": "2016-07-25T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 30.1,
+    "moving_time_seconds": 5625,
+    "moving_time": "01:33:45",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 5.354,
+    "average_speed": "03:06",
+    "calories": 846.4,
+    "average_heartrate": 125.5,
+    "max_heartrate": 166,
+    "suffer_score": 35,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/SZXFYjF-xgNs49ARlWmnZAtR0jl_VkYvIOyPd-SH1U4-768x576.jpg",
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-07-25T00:00:00.000Z",
+    "start": "2016-07-25T01:06:00.000Z",
+    "end": "2016-07-25T10:14:00.000Z",
+    "time_in_bed": "09:08:00",
+    "time_in_bed_seconds": 32880,
+    "time_asleep": "09:03:00",
+    "time_asleep_seconds": 32580
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-26T00:00:00.000Z",
+  "calories": {
+    "active": 32.2578631788492,
+    "total": 2209.43002319336
+  },
+  "carbs": 200.569999694824,
+  "protein": 216.189998626709,
+  "fat": 57.1100006103516,
+  "sodium": 0,
+  "fiber": 48.1799988746643,
+  "weight": 0,
+  "steps": 1219,
+  "heart": {
+    "morning_heartrate": 52,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "cgSqarHkt7yo9CJn",
+  "sleep": {
+    "date": "2016-07-26T00:00:00.000Z",
+    "start": "2016-07-26T00:25:00.000Z",
+    "end": "2016-07-26T10:37:00.000Z",
+    "time_in_bed": "10:12:00",
+    "time_in_bed_seconds": 36720,
+    "time_asleep": "10:07:00",
+    "time_asleep_seconds": 36420
+  },
+  "plan": "12.8km run"
+}, {
+  "date": "2016-07-27T00:00:00.000Z",
+  "calories": {
+    "active": 913.095039308071,
+    "total": 2479.98355102539
+  },
+  "carbs": 284.406349182129,
+  "protein": 168.23245716095,
+  "fat": 73.9049739837646,
+  "sodium": 3744.3520873785,
+  "fiber": 27.8521332740784,
+  "weight": 0,
+  "steps": 14469.8506215804,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "ub0pII7AxY4zBF1u",
+  "activity": {
+    "id": 655258214,
+    "activity_date": "2016-07-27T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 10,
+    "moving_time_seconds": 3030,
+    "moving_time": "00:50:30",
+    "feeling": "great",
+    "location_city": "Paris",
+    "average_speed_mps": 3.308,
+    "average_speed": "05:02",
+    "calories": 1165.3,
+    "average_heartrate": 164.7,
+    "max_heartrate": 183,
+    "suffer_score": 106,
+    "photo": "https://www.instagram.com/p/BIXj8g5hnNu/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-27T00:00:00.000Z",
+    "start": "2016-07-27T00:53:00.000Z",
+    "end": "2016-07-27T10:36:00.000Z",
+    "time_in_bed": "09:42:00",
+    "time_in_bed_seconds": 34920,
+    "time_asleep": "08:49:00",
+    "time_asleep_seconds": 31740
+  },
+  "plan": "50 min ride"
+}, {
+  "date": "2016-07-28T00:00:00.000Z",
+  "calories": {
+    "active": 53.9257075488567,
+    "total": 1915.57495117188
+  },
+  "carbs": 263.237791061401,
+  "protein": 91.8841009140015,
+  "fat": 58.5232839584351,
+  "sodium": 1554.81334173237,
+  "fiber": 33.0921337604523,
+  "weight": 0,
+  "steps": 1915.14937841962,
+  "heart": {
+    "morning_heartrate": 51,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "zNUu9NR00DlHNYjS",
+  "sleep": {
+    "date": "2016-07-28T00:00:00.000Z",
+    "start": "2016-07-28T00:26:00.000Z",
+    "end": "2016-07-28T10:00:00.000Z",
+    "time_in_bed": "09:34:00",
+    "time_in_bed_seconds": 34440,
+    "time_asleep": "07:38:00",
+    "time_asleep_seconds": 27480
+  },
+  "plan": "8.0km pace"
+}, {
+  "date": "2016-07-29T00:00:00.000Z",
+  "calories": {
+    "active": 628.369149327278,
+    "total": 2057.61773681641
+  },
+  "carbs": 237.550346374512,
+  "protein": 119.534553527832,
+  "fat": 74.1854972839355,
+  "sodium": 1157.49867400154,
+  "fiber": 36.1510872840881,
+  "weight": 0,
+  "steps": 8308,
+  "heart": {
+    "morning_heartrate": 55,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "KUxxelJHfU91q6DW",
+  "activity": {
+    "id": 657339602,
+    "activity_date": "2016-07-29T00:00:00.000Z",
+    "time_of_day": "afternoon",
+    "distance": 6.8,
+    "moving_time_seconds": 2152,
+    "moving_time": "00:35:52",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 3.145,
+    "average_speed": "05:17",
+    "calories": 784.9,
+    "average_heartrate": 157.7,
+    "max_heartrate": 167,
+    "suffer_score": 54,
+    "photo": "https://www.instagram.com/p/BIcieL6h3V0/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-29T00:00:00.000Z",
+    "start": "2016-07-29T00:26:00.000Z",
+    "end": "2016-07-29T11:10:00.000Z",
+    "time_in_bed": "10:44:00",
+    "time_in_bed_seconds": 38640,
+    "time_asleep": "10:33:00",
+    "time_asleep_seconds": 37980
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-07-30T00:00:00.000Z",
+  "calories": {
+    "active": 336.983372554183,
+    "total": 2215.10144042969
+  },
+  "carbs": 212.438724517822,
+  "protein": 97.4612436294556,
+  "fat": 113.262851715088,
+  "sodium": 2207.1598675102,
+  "fiber": 27.2074933052063,
+  "weight": 93.2000747001707,
+  "steps": 11245,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "tSD6tLbNMZBrlNx9",
+  "sleep": {
+    "date": "2016-07-30T00:00:00.000Z",
+    "start": "2016-07-30T01:03:00.000Z",
+    "end": "2016-07-30T12:05:00.000Z",
+    "time_in_bed": "11:02:00",
+    "time_in_bed_seconds": 39720,
+    "time_asleep": "10:00:00",
+    "time_asleep_seconds": 36000
+  },
+  "plan": "27.2km run"
+}, {
+  "date": "2016-07-31T00:00:00.000Z",
+  "calories": {
+    "active": 1930.18065349758,
+    "total": 2097.16668701172
+  },
+  "carbs": 319.413333892822,
+  "protein": 100.988000869751,
+  "fat": 43.4533348083496,
+  "sodium": 1838.14399829134,
+  "fiber": 18.3133330345154,
+  "weight": 0,
+  "steps": 23313,
+  "heart": {
+    "morning_heartrate": 72,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "oz5mSMPtkscA7CQF",
+  "activity": {
+    "id": 659574094,
+    "activity_date": "2016-07-31T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 20.3,
+    "moving_time_seconds": 6939,
+    "moving_time": "01:55:39",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.926,
+    "average_speed": "05:41",
+    "calories": 2357.5,
+    "average_heartrate": 161.9,
+    "max_heartrate": 177,
+    "suffer_score": 191,
+    "photo": "https://www.instagram.com/p/BIhuTv0BNV7/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-07-31T00:00:00.000Z",
+    "start": "2016-07-31T23:19:00.000Z",
+    "end": "2016-07-31T23:54:00.000Z",
+    "time_in_bed": "00:35:00",
+    "time_in_bed_seconds": 2100,
+    "time_asleep": "00:35:00",
+    "time_asleep_seconds": 2100
+  },
+  "plan": "80 min xt"
+}, {
+  "date": "2016-08-01T00:00:00.000Z",
+  "calories": {
+    "active": 143.52518171072,
+    "total": 2680.6240234375
+  },
+  "carbs": 281.503067016602,
+  "protein": 118.074828147888,
+  "fat": 123.24676322937,
+  "sodium": 904.901404646807,
+  "fiber": 23.1459541320801,
+  "weight": 93.1002907463394,
+  "steps": 4875,
+  "heart": {
+    "morning_heartrate": 53,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "2HXBsP4FSbhLJfr4",
+  "sleep": {
+    "date": "2016-08-01T00:00:00.000Z",
+    "start": "2016-07-31T23:57:00.000Z",
+    "end": "2016-08-01T08:56:00.000Z",
+    "time_in_bed": "08:59:00",
+    "time_in_bed_seconds": 32340,
+    "time_asleep": "07:57:00",
+    "time_asleep_seconds": 28620
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-02T00:00:00.000Z",
+  "calories": {
+    "active": 218.913508236408,
+    "total": 1923.08898925781
+  },
+  "carbs": 275.673973083496,
+  "protein": 68.1815228462219,
+  "fat": 51.8248397111893,
+  "sodium": 3093.3679705181,
+  "fiber": 17.9207999706268,
+  "weight": 0,
+  "steps": 6768,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 129,
+    "pressure_diastolic": 73
+  },
+  "_id": "yXgL4EOhihGyl6GD",
+  "sleep": {
+    "date": "2016-08-02T00:00:00.000Z",
+    "start": "2016-08-02T00:31:00.000Z",
+    "end": "2016-08-02T09:46:00.000Z",
+    "time_in_bed": "09:15:00",
+    "time_in_bed_seconds": 33300,
+    "time_asleep": "07:25:00",
+    "time_asleep_seconds": 26700
+  },
+  "plan": "14.4km run"
+}, {
+  "date": "2016-08-03T00:00:00.000Z",
+  "calories": {
+    "active": 198.766422599554,
+    "total": 2501.67071533203
+  },
+  "carbs": 277.384761810303,
+  "protein": 110.337428092957,
+  "fat": 83.6162604689598,
+  "sodium": 1954.53150702451,
+  "fiber": 30.0009541511536,
+  "weight": 0,
+  "steps": 6573,
+  "heart": {
+    "morning_heartrate": 56,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "CwpIHZ3XQtmgiypE",
+  "sleep": {
+    "date": "2016-08-03T00:00:00.000Z",
+    "start": "2016-08-03T01:29:00.000Z",
+    "end": "2016-08-03T09:39:00.000Z",
+    "time_in_bed": "08:09:00",
+    "time_in_bed_seconds": 29340,
+    "time_asleep": "07:45:00",
+    "time_asleep_seconds": 27900
+  },
+  "plan": "50 min ride"
+}, {
+  "date": "2016-08-04T00:00:00.000Z",
+  "calories": {
+    "active": 197.035225361586,
+    "total": 2132.00665283203
+  },
+  "carbs": 278.67886352539097,
+  "protein": 100.3580327034,
+  "fat": 61.2469186782837,
+  "sodium": 725.491382847395,
+  "fiber": 37.1799297332764,
+  "weight": 0,
+  "steps": 6121,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "fDDqx8gHEs0QVNNG",
+  "sleep": {
+    "date": "2016-08-04T00:00:00.000Z",
+    "start": "2016-08-04T00:55:00.000Z",
+    "end": "2016-08-04T09:25:00.000Z",
+    "time_in_bed": "08:29:00",
+    "time_in_bed_seconds": 30540,
+    "time_asleep": "08:10:00",
+    "time_asleep_seconds": 29400
+  },
+  "plan": "50 min speed"
+}, {
+  "date": "2016-08-05T00:00:00.000Z",
+  "calories": {
+    "active": 182.272143766284,
+    "total": 2349.17614746094
+  },
+  "carbs": 265.918876647949,
+  "protein": 101.06823682785,
+  "fat": 83.6564240455627,
+  "sodium": 2834.92739713984,
+  "fiber": 30.8711590766907,
+  "weight": 0,
+  "steps": 5932,
+  "heart": {
+    "morning_heartrate": 54,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "KiuehmV2eMEVBPBH",
+  "sleep": {
+    "date": "2016-08-05T00:00:00.000Z",
+    "start": "2016-08-05T00:56:00.000Z",
+    "end": "2016-08-05T09:12:00.000Z",
+    "time_in_bed": "08:15:00",
+    "time_in_bed_seconds": 29700,
+    "time_asleep": "08:01:00",
+    "time_asleep_seconds": 28860
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-06T00:00:00.000Z",
+  "calories": {
+    "active": 162.25451874733,
+    "total": 2814.05499267578
+  },
+  "carbs": 400.095352172852,
+  "protein": 131.757751464844,
+  "fat": 80.8200521469116,
+  "sodium": 1578.14846560359,
+  "fiber": 35.4524993896484,
+  "weight": 0,
+  "steps": 3608,
+  "heart": {
+    "morning_heartrate": 49,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "D0rhM5UREFc74dqN",
+  "activity": {
+    "id": 666441290,
+    "activity_date": "2016-08-06T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 70.2,
+    "moving_time_seconds": 13198,
+    "moving_time": "03:39:58",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 5.317,
+    "average_speed": "03:08",
+    "calories": 1761.3,
+    "average_heartrate": 139.1,
+    "max_heartrate": 184,
+    "suffer_score": 100,
+    "photo": "https://dgtzuqphqg23d.cloudfront.net/3AhE1A6nvMId3YTtBiLbDn9XH-WeURwyiUsjX2rozq0-768x576.jpg",
+    "type": "ride"
+  },
+  "sleep": {
+    "date": "2016-08-06T00:00:00.000Z",
+    "start": "2016-08-06T01:54:00.000Z",
+    "end": "2016-08-06T10:26:00.000Z",
+    "time_in_bed": "08:32:00",
+    "time_in_bed_seconds": 30720,
+    "time_asleep": "08:24:00",
+    "time_asleep_seconds": 30240
+  },
+  "plan": "28.8km run"
+}, {
+  "date": "2016-08-07T00:00:00.000Z",
+  "calories": {
+    "active": 170.0194645226,
+    "total": 2549.8247985839803
+  },
+  "carbs": 298.240123748779,
+  "protein": 155.461017608643,
+  "fat": 82.8563494682312,
+  "sodium": 1354.32267305441,
+  "fiber": 47.8537406921387,
+  "weight": 92.9002521922968,
+  "steps": 5293,
+  "heart": {
+    "morning_heartrate": 67,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "tw8eqVyP4y8syh8Y",
+  "sleep": {
+    "date": "2016-08-07T00:00:00.000Z",
+    "start": "2016-08-07T01:08:00.000Z",
+    "end": "2016-08-07T10:33:00.000Z",
+    "time_in_bed": "09:25:00",
+    "time_in_bed_seconds": 33900,
+    "time_asleep": "09:03:00",
+    "time_asleep_seconds": 32580
+  },
+  "plan": "80 min xt"
+}, {
+  "date": "2016-08-08T00:00:00.000Z",
+  "calories": {
+    "active": 180.068760126829,
+    "total": 2149.92352294922
+  },
+  "carbs": 265.73907661438,
+  "protein": 102.434837341309,
+  "fat": 60.9440364837646,
+  "sodium": 733.040393562987,
+  "fiber": 45.3107357025146,
+  "weight": 92.9002521922968,
+  "steps": 5570,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "LF50qf174HsAeHzy",
+  "sleep": {
+    "date": "2016-08-08T00:00:00.000Z",
+    "start": "2016-08-08T00:38:00.000Z",
+    "end": "2016-08-08T09:03:00.000Z",
+    "time_in_bed": "08:25:00",
+    "time_in_bed_seconds": 30300,
+    "time_asleep": "07:51:00",
+    "time_asleep_seconds": 28260
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-09T00:00:00.000Z",
+  "calories": {
+    "active": 1045.68351238966,
+    "total": 2000.96502685547
+  },
+  "carbs": 215.60521697998,
+  "protein": 127.954685211182,
+  "fat": 42.3485865592957,
+  "sodium": 2617.14684963226,
+  "fiber": 21.9122347831726,
+  "weight": 0,
+  "steps": 14674,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "NyubtsHsOeMObv8F",
+  "activity": {
+    "id": 670480342,
+    "activity_date": "2016-08-09T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 9.9,
+    "moving_time_seconds": 3394,
+    "moving_time": "00:56:34",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.912,
+    "average_speed": "05:43",
+    "calories": 1142.1,
+    "average_heartrate": 155.3,
+    "max_heartrate": 169,
+    "suffer_score": 70,
+    "photo": false,
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-08-09T00:00:00.000Z",
+    "start": "2016-08-08T23:46:00.000Z",
+    "end": "2016-08-09T08:58:00.000Z",
+    "time_in_bed": "09:12:00",
+    "time_in_bed_seconds": 33120,
+    "time_asleep": "08:58:00",
+    "time_asleep_seconds": 32280
+  },
+  "plan": "9.6km run"
+}, {
+  "date": "2016-08-10T00:00:00.000Z",
+  "calories": {
+    "active": 157.60205578804,
+    "total": 1932.11343383789
+  },
+  "carbs": 287.428876399994,
+  "protein": 101.825839042664,
+  "fat": 51.9585347175598,
+  "sodium": 684.206386329606,
+  "fiber": 43.9107351303101,
+  "weight": 0,
+  "steps": 5098,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "9dW8hYNH888L4xhr",
+  "sleep": {
+    "date": "2016-08-10T00:00:00.000Z",
+    "start": "2016-08-10T00:55:00.000Z",
+    "end": "2016-08-10T09:32:00.000Z",
+    "time_in_bed": "08:37:00",
+    "time_in_bed_seconds": 31020,
+    "time_asleep": "08:14:00",
+    "time_asleep_seconds": 29640
+  },
+  "plan": "50 min ride"
+}, {
+  "date": "2016-08-11T00:00:00.000Z",
+  "calories": {
+    "active": 302.371429279447,
+    "total": 139
+  },
+  "carbs": 10.8900003433228,
+  "protein": 0,
+  "fat": 0,
+  "sodium": 0,
+  "fiber": 0,
+  "weight": 0,
+  "steps": 10742,
+  "heart": {
+    "morning_heartrate": 58,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "wAZX0HTrCtiW36Ju",
+  "sleep": {
+    "date": "2016-08-11T00:00:00.000Z",
+    "start": "2016-08-11T01:04:00.000Z",
+    "end": "2016-08-11T09:08:00.000Z",
+    "time_in_bed": "08:05:00",
+    "time_in_bed_seconds": 29100,
+    "time_asleep": "07:16:00",
+    "time_asleep_seconds": 26160
+  },
+  "plan": "9.6km run"
+}, {
+  "date": "2016-08-12T00:00:00.000Z",
+  "calories": {
+    "active": 172.067715033889,
+    "total": 3204.1335144043
+  },
+  "carbs": 429.818771362305,
+  "protein": 172.568235397339,
+  "fat": 81.6588386297226,
+  "sodium": 3303.11902915128,
+  "fiber": 40.1287348270416,
+  "weight": 0,
+  "steps": 6314,
+  "heart": {
+    "morning_heartrate": 82,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "yQNUQaMsvnu4K8Rx",
+  "sleep": {
+    "date": "2016-08-12T00:00:00.000Z",
+    "start": "2016-08-12T01:04:00.000Z",
+    "end": "2016-08-12T07:59:00.000Z",
+    "time_in_bed": "06:55:00",
+    "time_in_bed_seconds": 24900,
+    "time_asleep": "06:42:00",
+    "time_asleep_seconds": 24120
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-13T00:00:00.000Z",
+  "calories": {
+    "active": 260.980172678828,
+    "total": 2391.56353759766
+  },
+  "carbs": 195.390277862549,
+  "protein": 106.950171470642,
+  "fat": 96.5173492431641,
+  "sodium": 2084.76010104641,
+  "fiber": 18.4594445228577,
+  "weight": 0,
+  "steps": 9786,
+  "heart": {
+    "morning_heartrate": 54,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "hHK4SOvAWN7967ua",
+  "sleep": {
+    "date": "2016-08-13T00:00:00.000Z",
+    "start": "2016-08-13T01:06:00.000Z",
+    "end": "2016-08-13T11:15:00.000Z",
+    "time_in_bed": "10:09:00",
+    "time_in_bed_seconds": 36540,
+    "time_asleep": "09:32:00",
+    "time_asleep_seconds": 34320
+  },
+  "plan": "20.8km run"
+}, {
+  "date": "2016-08-14T00:00:00.000Z",
+  "calories": {
+    "active": 1410.97092722356,
+    "total": 2533.05001831055
+  },
+  "carbs": 389.463302612305,
+  "protein": 91.9627981185913,
+  "fat": 64.3563990592957,
+  "sodium": 3382.56844910211,
+  "fiber": 26.3400001525879,
+  "weight": 0,
+  "steps": 18652,
+  "heart": {
+    "morning_heartrate": 54,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "qNxQQCZm57rvm8Zm",
+  "activity": {
+    "id": 675463782,
+    "activity_date": "2016-08-14T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 15.1,
+    "moving_time_seconds": 5207,
+    "moving_time": "01:26:47",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.907,
+    "average_speed": "05:43",
+    "calories": 1752.5,
+    "average_heartrate": 162.5,
+    "max_heartrate": 174,
+    "suffer_score": 146,
+    "photo": false,
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-08-14T00:00:00.000Z",
+    "start": "2016-08-14T02:00:00.000Z",
+    "end": "2016-08-14T10:24:00.000Z",
+    "time_in_bed": "08:23:00",
+    "time_in_bed_seconds": 30180,
+    "time_asleep": "08:19:00",
+    "time_asleep_seconds": 29940
+  },
+  "plan": "80 min xt"
+}, {
+  "date": "2016-08-15T00:00:00.000Z",
+  "calories": {
+    "active": 195.267947301269,
+    "total": 2464.65742492676
+  },
+  "carbs": 311.922306060791,
+  "protein": 139.908200740814,
+  "fat": 63.806186914444,
+  "sodium": 1628.60503824777,
+  "fiber": 40.6275007724762,
+  "weight": 0,
+  "steps": 7293,
+  "heart": {
+    "morning_heartrate": 75,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "xpNhPOj4u3bGqhac",
+  "sleep": {
+    "date": "2016-08-15T00:00:00.000Z",
+    "start": "2016-08-15T01:51:00.000Z",
+    "end": "2016-08-15T09:53:00.000Z",
+    "time_in_bed": "08:03:00",
+    "time_in_bed_seconds": 28980,
+    "time_asleep": "06:44:00",
+    "time_asleep_seconds": 24240
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-16T00:00:00.000Z",
+  "calories": {
+    "active": 804.727307096124,
+    "total": 1863.86569213867
+  },
+  "carbs": 270.73645401001,
+  "protein": 108.302321910858,
+  "fat": 34.8391222953796,
+  "sodium": 1277.39265965647,
+  "fiber": 42.1868410110474,
+  "weight": 0,
+  "steps": 12222,
+  "heart": {
+    "morning_heartrate": 57,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "4whzKEEzXubTOXiC",
+  "activity": {
+    "id": 678400749,
+    "activity_date": "2016-08-16T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 7,
+    "moving_time_seconds": 2343,
+    "moving_time": "00:39:03",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.994,
+    "average_speed": "05:34",
+    "calories": 815.5,
+    "average_heartrate": 163.1,
+    "max_heartrate": 175,
+    "suffer_score": 66,
+    "photo": false,
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-08-16T00:00:00.000Z",
+    "start": "2016-08-16T00:03:00.000Z",
+    "end": "2016-08-16T09:29:00.000Z",
+    "time_in_bed": "09:25:00",
+    "time_in_bed_seconds": 33900,
+    "time_asleep": "09:20:00",
+    "time_asleep_seconds": 33600
+  },
+  "plan": "14.4km run"
+}, {
+  "date": "2016-08-17T00:00:00.000Z",
+  "calories": {
+    "active": 133.749252974987,
+    "total": 2949.28486633301
+  },
+  "carbs": 293.550088405609,
+  "protein": 141.186169624329,
+  "fat": 103.647362112999,
+  "sodium": 3781.14072461722,
+  "fiber": 16.1188524365425,
+  "weight": 0,
+  "steps": 4397,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "zfYZcs6m05fB0bel",
+  "sleep": {
+    "date": "2016-08-17T00:00:00.000Z",
+    "start": "2016-08-17T00:03:00.000Z",
+    "end": "2016-08-17T09:35:00.000Z",
+    "time_in_bed": "09:32:00",
+    "time_in_bed_seconds": 34320,
+    "time_asleep": "07:28:00",
+    "time_asleep_seconds": 26880
+  },
+  "plan": "55 min ride"
+}, {
+  "date": "2016-08-18T00:00:00.000Z",
+  "calories": {
+    "active": 170.100829973817,
+    "total": 2113.15313720703
+  },
+  "carbs": 254.334739685059,
+  "protein": 106.910377979279,
+  "fat": 66.2141370773315,
+  "sodium": 1442.17347726226,
+  "fiber": 19.944652557373,
+  "weight": 0,
+  "steps": 5479,
+  "heart": {
+    "morning_heartrate": 70,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "lhuYlRoZKyTCuI8b",
+  "sleep": {
+    "date": "2016-08-18T00:00:00.000Z",
+    "start": "2016-08-18T01:08:00.000Z",
+    "end": "2016-08-18T09:38:00.000Z",
+    "time_in_bed": "08:30:00",
+    "time_in_bed_seconds": 30600,
+    "time_asleep": "08:05:00",
+    "time_asleep_seconds": 29100
+  },
+  "plan": "9.6km pace"
+}, {
+  "date": "2016-08-19T00:00:00.000Z",
+  "calories": {
+    "active": 1076.51558184624,
+    "total": 2429.99200439453
+  },
+  "carbs": 287.346828460693,
+  "protein": 103.697917938232,
+  "fat": 92.2245788574219,
+  "sodium": 1526.01800113916,
+  "fiber": 28.7513003349304,
+  "weight": 0,
+  "steps": 15784,
+  "heart": {
+    "morning_heartrate": 61,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "FLLpUPTuFd8HCCpz",
+  "activity": {
+    "id": 681893036,
+    "activity_date": "2016-08-19T00:00:00.000Z",
+    "time_of_day": "evening",
+    "distance": 10.2,
+    "moving_time_seconds": 3372,
+    "moving_time": "00:56:12",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 3.014,
+    "average_speed": "05:31",
+    "calories": 1174,
+    "average_heartrate": 160,
+    "max_heartrate": 168,
+    "suffer_score": 92,
+    "photo": false,
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-08-19T00:00:00.000Z",
+    "start": "2016-08-19T00:57:00.000Z",
+    "end": "2016-08-19T09:31:00.000Z",
+    "time_in_bed": "08:33:00",
+    "time_in_bed_seconds": 30780,
+    "time_asleep": "08:03:00",
+    "time_asleep_seconds": 28980
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-20T00:00:00.000Z",
+  "calories": {
+    "active": 146.426413804293,
+    "total": 888.5
+  },
+  "carbs": 85.7000007629395,
+  "protein": 40.2799973487854,
+  "fat": 29.5600008964539,
+  "sodium": 80.1039991783909,
+  "fiber": 10.5799995660782,
+  "weight": 0,
+  "steps": 4411,
+  "heart": {
+    "morning_heartrate": 68,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Fq2svUdbTITcnXgj",
+  "sleep": {
+    "date": "2016-08-20T00:00:00.000Z",
+    "start": "2016-08-20T03:46:00.000Z",
+    "end": "2016-08-20T11:52:00.000Z",
+    "time_in_bed": "08:06:00",
+    "time_in_bed_seconds": 29160,
+    "time_asleep": "08:00:00",
+    "time_asleep_seconds": 28800
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-21T00:00:00.000Z",
+  "calories": {
+    "active": 1879.84457287192,
+    "total": 2578.87121582031
+  },
+  "carbs": 259.84241104126,
+  "protein": 172.669792175293,
+  "fat": 78.9291749000549,
+  "sodium": 4057.9285249114,
+  "fiber": 25.8725125789642,
+  "weight": 0,
+  "steps": 22290,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "CnuUZbrTyWlj65hx",
+  "activity": {
+    "id": 683549355,
+    "activity_date": "2016-08-21T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 21.1,
+    "moving_time_seconds": 7132,
+    "moving_time": "01:58:52",
+    "feeling": "good",
+    "location_city": "Paris",
+    "average_speed_mps": 2.952,
+    "average_speed": "05:38",
+    "calories": 2435.6,
+    "average_heartrate": 165.5,
+    "max_heartrate": 177,
+    "suffer_score": 210,
+    "photo": "https://www.instagram.com/p/BJXis5aBG6l/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-08-21T00:00:00.000Z",
+    "start": "2016-08-21T00:53:00.000Z",
+    "end": "2016-08-21T09:31:00.000Z",
+    "time_in_bed": "08:38:00",
+    "time_in_bed_seconds": 31080,
+    "time_asleep": "08:16:00",
+    "time_asleep_seconds": 29760
+  },
+  "plan": "Half Marathon"
+}, {
+  "date": "2016-08-22T00:00:00.000Z",
+  "calories": {
+    "active": 185.611877411604,
+    "total": 2006.81304931641
+  },
+  "carbs": 294.281349182129,
+  "protein": 73.967978477478,
+  "fat": 60.7853372097015,
+  "sodium": 97.2275205672304,
+  "fiber": 30.7386527061462,
+  "weight": 0,
+  "steps": 6278,
+  "heart": {
+    "morning_heartrate": 64,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Z3lbYZNBQfzZEGVQ",
+  "sleep": {
+    "date": "2016-08-22T00:00:00.000Z",
+    "start": "2016-08-21T23:39:00.000Z",
+    "end": "2016-08-22T09:01:00.000Z",
+    "time_in_bed": "09:22:00",
+    "time_in_bed_seconds": 33720,
+    "time_asleep": "07:53:00",
+    "time_asleep_seconds": 28380
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-23T00:00:00.000Z",
+  "calories": {
+    "active": 199.277882859111,
+    "total": 2171.36892700195
+  },
+  "carbs": 193.051901817322,
+  "protein": 97.8794021606445,
+  "fat": 105.204200744629,
+  "sodium": 1719.69620042228,
+  "fiber": 22.7402005195618,
+  "weight": 0,
+  "steps": 7013,
+  "heart": {
+    "morning_heartrate": 50,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "wlZ7G1pGqFdRPSR7",
+  "sleep": {
+    "date": "2016-08-23T00:00:00.000Z",
+    "start": "2016-08-22T23:54:00.000Z",
+    "end": "2016-08-23T09:06:00.000Z",
+    "time_in_bed": "09:12:00",
+    "time_in_bed_seconds": 33120,
+    "time_asleep": "08:48:00",
+    "time_asleep_seconds": 31680
+  },
+  "plan": "16.0km run"
+}, {
+  "date": "2016-08-24T00:00:00.000Z",
+  "calories": {
+    "active": 1053.509793818,
+    "total": 2621.41311645508
+  },
+  "carbs": 293.378349304199,
+  "protein": 126.435979366302,
+  "fat": 91.0023412704468,
+  "sodium": 1053.0454974687,
+  "fiber": 15.1586526632309,
+  "weight": 0,
+  "steps": 14778,
+  "heart": {
+    "morning_heartrate": 67,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "tydXowEQMDWCRb6A",
+  "activity": {
+    "id": 686976116,
+    "activity_date": "2016-08-24T00:00:00.000Z",
+    "time_of_day": "night",
+    "distance": 10,
+    "moving_time_seconds": 3485,
+    "moving_time": "00:58:05",
+    "feeling": "average",
+    "location_city": "Paris",
+    "average_speed_mps": 2.882,
+    "average_speed": "05:46",
+    "calories": 1160.6,
+    "average_heartrate": 155.5,
+    "max_heartrate": 164,
+    "suffer_score": 76,
+    "photo": false,
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-08-24T00:00:00.000Z",
+    "start": "2016-08-23T23:28:00.000Z",
+    "end": "2016-08-24T07:47:00.000Z",
+    "time_in_bed": "08:19:00",
+    "time_in_bed_seconds": 29940,
+    "time_asleep": "07:53:00",
+    "time_asleep_seconds": 28380
+  },
+  "plan": "55 min ride"
+}, {
+  "date": "2016-08-25T00:00:00.000Z",
+  "calories": {
+    "active": 219.037762954831,
+    "total": 2309.7646484375
+  },
+  "carbs": 328.962427139282,
+  "protein": 97.688353061676,
+  "fat": 60.5888746380806,
+  "sodium": 329.155034327414,
+  "fiber": 24.5610045194626,
+  "weight": 0,
+  "steps": 6666,
+  "heart": {
+    "morning_heartrate": 69,
+    "pressure_systolic": 120,
+    "pressure_diastolic": 68
+  },
+  "_id": "2N1J1bTjLpGbmePX",
+  "sleep": {
+    "date": "2016-08-25T00:00:00.000Z",
+    "start": "2016-08-24T23:37:00.000Z",
+    "end": "2016-08-25T08:46:00.000Z",
+    "time_in_bed": "09:09:00",
+    "time_in_bed_seconds": 32940,
+    "time_asleep": "08:31:00",
+    "time_asleep_seconds": 30660
+  },
+  "plan": "55 min speed"
+}, {
+  "date": "2016-08-26T00:00:00.000Z",
+  "calories": {
+    "active": 212.125800639391,
+    "total": 2213.48309326172
+  },
+  "carbs": 288.241241455078,
+  "protein": 76.8989777565002,
+  "fat": 53.8930878639221,
+  "sodium": 694.556581276629,
+  "fiber": 20.081152677536,
+  "weight": 0,
+  "steps": 7072,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "CwAMrs6SYkZkKpX2",
+  "sleep": {
+    "date": "2016-08-26T00:00:00.000Z",
+    "start": "2016-08-26T00:43:00.000Z",
+    "end": "2016-08-26T09:02:00.000Z",
+    "time_in_bed": "08:18:00",
+    "time_in_bed_seconds": 29880,
+    "time_asleep": "08:16:00",
+    "time_asleep_seconds": 29760
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-27T00:00:00.000Z",
+  "calories": {
+    "active": 173.738061219454,
+    "total": 2187.23834228516
+  },
+  "carbs": 186.361490249634,
+  "protein": 67.7577776908875,
+  "fat": 47.0750534534454,
+  "sodium": 3949.32412300841,
+  "fiber": 15.9125000536442,
+  "weight": 0,
+  "steps": 5615,
+  "heart": {
+    "morning_heartrate": 63,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "87pow8DQmoESwU1i",
+  "sleep": {
+    "date": "2016-08-27T00:00:00.000Z",
+    "start": "2016-08-27T01:12:00.000Z",
+    "end": "2016-08-27T10:51:00.000Z",
+    "time_in_bed": "09:39:00",
+    "time_in_bed_seconds": 34740,
+    "time_asleep": "09:12:00",
+    "time_asleep_seconds": 33120
+  },
+  "plan": "32.0km run"
+}, {
+  "date": "2016-08-28T00:00:00.000Z",
+  "calories": {
+    "active": 77.9086655974388,
+    "total": 1963.95190429688
+  },
+  "carbs": 246.43168258667,
+  "protein": 63.3608078956604,
+  "fat": 68.4850850105286,
+  "sodium": 2189.2345235683,
+  "fiber": 18.676152586937,
+  "weight": 0,
+  "steps": 2734,
+  "heart": {
+    "morning_heartrate": 61,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "QV7syqgw9ZT2w4eU",
+  "sleep": {
+    "date": "2016-08-28T00:00:00.000Z",
+    "start": "2016-08-28T02:32:00.000Z",
+    "end": "2016-08-28T12:38:00.000Z",
+    "time_in_bed": "10:06:00",
+    "time_in_bed_seconds": 36360,
+    "time_asleep": "09:54:00",
+    "time_asleep_seconds": 35640
+  },
+  "plan": "85 min xt"
+}, {
+  "date": "2016-08-29T00:00:00.000Z",
+  "calories": {
+    "active": 171.548233777285,
+    "total": 2141.52200317383
+  },
+  "carbs": 269.459815979004,
+  "protein": 111.58992099762,
+  "fat": 76.3452897071838,
+  "sodium": 730.737489673629,
+  "fiber": 45.4012985229492,
+  "weight": 0,
+  "steps": 5446,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "YkeREh3JKHhf0VoU",
+  "sleep": {
+    "date": "2016-08-29T00:00:00.000Z",
+    "start": "2016-08-28T23:57:00.000Z",
+    "end": "2016-08-29T09:17:00.000Z",
+    "time_in_bed": "09:20:00",
+    "time_in_bed_seconds": 33600,
+    "time_asleep": "09:02:00",
+    "time_asleep_seconds": 32520
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-08-30T00:00:00.000Z",
+  "calories": {
+    "active": 166.50174510479,
+    "total": 2509.4426574707
+  },
+  "carbs": 234.32260513305698,
+  "protein": 95.8637495040894,
+  "fat": 75.2500519752502,
+  "sodium": 1885.16312969659,
+  "fiber": 13.6708002090454,
+  "weight": 0,
+  "steps": 5710,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "3vMCEodqNjnYzAHt",
+  "sleep": {
+    "date": "2016-08-30T00:00:00.000Z",
+    "start": "2016-08-30T00:00:00.000Z",
+    "end": "2016-08-30T09:27:00.000Z",
+    "time_in_bed": "09:26:00",
+    "time_in_bed_seconds": 33960,
+    "time_asleep": "06:10:00",
+    "time_asleep_seconds": 22200
+  },
+  "plan": "11.2km run"
+}, {
+  "date": "2016-08-31T00:00:00.000Z",
+  "calories": {
+    "active": 145.094844684005,
+    "total": 2104.71997070312
+  },
+  "carbs": 209.271999359131,
+  "protein": 130.423995018005,
+  "fat": 72.4010004997253,
+  "sodium": 3074.24540949796,
+  "fiber": 23.4399993419647,
+  "weight": 0,
+  "steps": 4529,
+  "heart": {
+    "morning_heartrate": 79,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "lDLbh5ur0pn7qI0P",
+  "sleep": {
+    "date": "2016-08-31T00:00:00.000Z",
+    "start": "2016-08-31T00:58:00.000Z",
+    "end": "2016-08-31T09:15:00.000Z",
+    "time_in_bed": "08:17:00",
+    "time_in_bed_seconds": 29820,
+    "time_asleep": "07:57:00",
+    "time_asleep_seconds": 28620
+  },
+  "plan": "55 min ride"
+}, {
+  "date": "2016-09-01T00:00:00.000Z",
+  "calories": {
+    "active": 159.784978806973,
+    "total": 2597.90899658203
+  },
+  "carbs": 328.394496917725,
+  "protein": 119.453694820404,
+  "fat": 91.7239505052567,
+  "sodium": 1562.7354451849,
+  "fiber": 33.769299685955,
+  "weight": 0,
+  "steps": 5888,
+  "heart": {
+    "morning_heartrate": 60,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "RlKrLgpcSugvs2ne",
+  "sleep": {
+    "date": "2016-09-01T00:00:00.000Z",
+    "start": "2016-09-01T00:15:00.000Z",
+    "end": "2016-09-01T09:15:00.000Z",
+    "time_in_bed": "09:00:00",
+    "time_in_bed_seconds": 32400,
+    "time_asleep": "08:45:00",
+    "time_asleep_seconds": 31500
+  },
+  "plan": "11.2km run"
+}, {
+  "date": "2016-09-02T00:00:00.000Z",
+  "calories": {
+    "active": 2.25989830493927,
+    "total": 2042.01034545898
+  },
+  "carbs": 308.883666992188,
+  "protein": 66.6922559738159,
+  "fat": 49.2197337150574,
+  "sodium": 2232.83437639475,
+  "fiber": 30.8660116195679,
+  "weight": 0,
+  "steps": 6709,
+  "heart": {
+    "morning_heartrate": 62,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "Tm1QgbbxS0ePktVY",
+  "sleep": {
+    "date": "2016-09-02T00:00:00.000Z",
+    "start": "2016-09-02T01:00:00.000Z",
+    "end": "2016-09-02T08:29:00.000Z",
+    "time_in_bed": "07:29:00",
+    "time_in_bed_seconds": 26940,
+    "time_asleep": "06:17:00",
+    "time_asleep_seconds": 22620
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-09-03T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 1136.19104003906
+  },
+  "carbs": 127.84122467041,
+  "protein": 42.4998106956482,
+  "fat": 50.8888428211212,
+  "sodium": 2096.11076116562,
+  "fiber": 9.91910171508789,
+  "weight": 0,
+  "steps": 2582,
+  "heart": {
+    "morning_heartrate": 48,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "yumMDAS2BmowW8Aj",
+  "sleep": {
+    "date": "2016-09-03T00:00:00.000Z",
+    "start": "2016-09-02T23:42:00.000Z",
+    "end": "2016-09-03T09:12:00.000Z",
+    "time_in_bed": "09:30:00",
+    "time_in_bed_seconds": 34200,
+    "time_asleep": "08:23:00",
+    "time_asleep_seconds": 30180
+  },
+  "plan": "22.4km run"
+}, {
+  "date": "2016-09-04T00:00:00.000Z",
+  "calories": {
+    "active": 441.399993896484,
+    "total": 2033.91790771484
+  },
+  "carbs": 207.367870330811,
+  "protein": 94.8808917999268,
+  "fat": 73.7101669311523,
+  "sodium": 2008.37284699082,
+  "fiber": 19.1982035636902,
+  "weight": 0,
+  "steps": 9085,
+  "heart": {
+    "morning_heartrate": 52,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "2tB16WuJVVj7ZZxp",
+  "activity": {
+    "id": 699767289,
+    "activity_date": "2016-09-04T00:00:00.000Z",
+    "time_of_day": "morning",
+    "distance": 3.8,
+    "moving_time_seconds": 1337,
+    "moving_time": "00:22:17",
+    "feeling": "average",
+    "location_city": null,
+    "average_speed_mps": 2.842,
+    "average_speed": "05:51",
+    "calories": 441.4,
+    "average_heartrate": 163.3,
+    "max_heartrate": 175,
+    "suffer_score": 37,
+    "photo": "https://www.instagram.com/p/BJ7UTfNh6MG/media?size=l",
+    "type": "run"
+  },
+  "sleep": {
+    "date": "2016-09-04T00:00:00.000Z",
+    "start": "2016-09-03T23:05:00.000Z",
+    "end": "2016-09-04T09:29:00.000Z",
+    "time_in_bed": "10:24:00",
+    "time_in_bed_seconds": 37440,
+    "time_asleep": "09:57:00",
+    "time_asleep_seconds": 35820
+  },
+  "plan": "85 min xt"
+}, {
+  "date": "2016-09-05T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 2133.62106323242
+  },
+  "carbs": 271.850528717041,
+  "protein": 98.4876489639282,
+  "fat": 53.1933236122131,
+  "sodium": 1173.02067577839,
+  "fiber": 17.6659016013145,
+  "weight": 0,
+  "steps": 2270,
+  "heart": {
+    "morning_heartrate": 57,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "L0ln1uVKxlmniWvd",
+  "sleep": {
+    "date": "2016-09-05T00:00:00.000Z",
+    "start": "2016-09-04T23:29:00.000Z",
+    "end": "2016-09-05T08:32:00.000Z",
+    "time_in_bed": "09:03:00",
+    "time_in_bed_seconds": 32580,
+    "time_asleep": "08:14:00",
+    "time_asleep_seconds": 29640
+  },
+  "plan": "Rest"
+}, {
+  "date": "2016-09-06T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 2420.33203125
+  },
+  "carbs": 236.941558837891,
+  "protein": 136.757705688477,
+  "fat": 91.8061485290527,
+  "sodium": 2842.92994439602,
+  "fiber": 27.4882030487061,
+  "weight": 0,
+  "steps": 2621,
+  "heart": {
+    "morning_heartrate": 59,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "DtKJlMYYkgVlHdwn",
+  "sleep": {
+    "date": "2016-09-06T00:00:00.000Z",
+    "start": "2016-09-06T00:01:00.000Z",
+    "end": "2016-09-06T09:27:00.000Z",
+    "time_in_bed": "09:26:00",
+    "time_in_bed_seconds": 33960,
+    "time_asleep": "07:42:00",
+    "time_asleep_seconds": 27720
+  },
+  "plan": "16.0km run"
+}, {
+  "date": "2016-09-07T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 2194.57437133789
+  },
+  "carbs": 153.684438705444,
+  "protein": 98.3508639335632,
+  "fat": 85.7130527496338,
+  "sodium": 1416.87684506178,
+  "fiber": 21.4770076274872,
+  "weight": 0,
+  "steps": 4027,
+  "heart": {
+    "morning_heartrate": 52,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "F4figAKyEEdiRtZn",
+  "sleep": {
+    "date": "2016-09-07T00:00:00.000Z",
+    "start": "2016-09-06T23:54:00.000Z",
+    "end": "2016-09-07T09:10:00.000Z",
+    "time_in_bed": "09:16:00",
+    "time_in_bed_seconds": 33360,
+    "time_asleep": "08:22:00",
+    "time_asleep_seconds": 30120
+  },
+  "plan": "60 min ride"
+}, {
+  "date": "2016-09-08T00:00:00.000Z",
+  "calories": {
+    "active": 0,
+    "total": 0
+  },
+  "carbs": 0,
+  "protein": 0,
+  "fat": 0,
+  "sodium": 0,
+  "fiber": 0,
+  "weight": 0,
+  "steps": 136,
+  "heart": {
+    "morning_heartrate": 50,
+    "pressure_systolic": 0,
+    "pressure_diastolic": 0
+  },
+  "_id": "QJ22lCFgqQcyVsJR",
+  "sleep": {
+    "date": "2016-09-08T00:00:00.000Z",
+    "start": "2016-09-08T01:02:00.000Z",
+    "end": "2016-09-08T10:53:00.000Z",
+    "time_in_bed": "09:51:00",
+    "time_in_bed_seconds": 35460,
+    "time_asleep": "09:06:00",
+    "time_asleep_seconds": 32760
+  },
+  "plan": "11.2km pace"
+}]
