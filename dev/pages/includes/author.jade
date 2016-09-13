@@ -5,6 +5,7 @@ mixin author( date, humanized )
       span( itemprop="name" ) Tim Benniks&nbsp;
     | on&nbsp;
     time( itemprop="datePublished", content=date, pubdate="", datetime=date, title=humanized)=humanized
+    meta( itemprop="dateModified", content=date )
 
     span( itemprop="publisher", itemscope, itemtype="https://schema.org/Organization" )
       meta( itemprop="name" content="Tim Benniks" )
