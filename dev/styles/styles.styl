@@ -9,4 +9,23 @@
 @import '_404'
 
 @media screen and (min-width: 500px)
-   @import '_bigger'
+  @import '_bigger'
+
+@media screen and (min-width: 700px)
+  body.article
+    figure.strava-embed
+      display: block
+      
+      p.for-small-screens
+        display: none
+    
+      iframe
+        display: block
+        margin: 0 auto
+        width: 590px
+        height: 316px
+        border-bottom: 1px solid #ccc
+        
+      figcaption
+        width: 590px
+        margin: 0 auto
