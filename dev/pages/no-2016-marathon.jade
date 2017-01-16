@@ -15,6 +15,8 @@ block content
   body.article
     main( role="main" aria-labelledby="aria-content-label", itemscope, itemtype="http://schema.org/Article" )
 
+      include ./includes/nav.jade
+
       header
         meta( itemscope, itemprop="mainEntityOfPage", itemType="https://schema.org/WebPage", itemid=url )
         h1#aria-content-label( itemprop="name" ) I'm not running a marathon in 2016
@@ -106,12 +108,12 @@ block content
         .fb-comments( data-href="http://timbenniks.nl/no-2016-marathon.html" data-numposts="5" data-colorscheme="light" )
 
 block custom_scripts
-  div#fb-root
-  script.
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+  //- div#fb-root
+  //- script.
+  //-   (function(d, s, id) {
+  //-     var js, fjs = d.getElementsByTagName(s)[0];
+  //-     if (d.getElementById(id)) return;
+  //-     js = d.createElement(s); js.id = id;
+  //-     js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
+  //-     fjs.parentNode.insertBefore(js, fjs);
+  //-   }(document, 'script', 'facebook-jssdk'));

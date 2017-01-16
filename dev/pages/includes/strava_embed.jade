@@ -2,4 +2,4 @@ mixin strava_embed( url, strava_activity_url, alt )
   figure.strava-embed
     figcaption=alt
     p.for-small-screens Strava embeds do not work on small screens. Click #[a(href=strava_activity_url, target="_blanc") here ] for the direct strava link.
-    iframe( height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src=url )
+    iframe( height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' data-src=url )
