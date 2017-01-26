@@ -2,3 +2,23 @@ mixin image( url, alt )
   figure
     img(src=url, alt=alt)
     figcaption=alt
+
+mixin image_cloudinary( filename, alt )
+  - var baseurl = '//res.cloudinary.com/dwfcofnrd/f_auto,q_auto/'
+  - var base = baseurl + 'w_320/' + filename
+  - var small = base + ' 320w,'
+  - var smallish = baseurl + 'w_375/' + filename + ' 375w, '
+  - var medium = baseurl + 'w_500/' + filename + ' 500w, '
+  - var mediumish = baseurl + 'w_650/' + filename + ' 650w, '
+  - var large = baseurl + 'w_880/' + filename + ' 880w, '
+  - var largish = baseurl + 'w_1024/' + filename + ' 1024w, '
+  - var huge = baseurl + 'w_1280/' + filename + ' 1280w, '
+  - var hugeish = baseurl + 'w_1440/' + filename + ' 1440w'
+  
+  img(
+      sizes="100vw"
+      srcset=small + smallish + medium + mediumish + large + largish + huge + hugeish
+      src=base 
+      alt=alt )
+
+
