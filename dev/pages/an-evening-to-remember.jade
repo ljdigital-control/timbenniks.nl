@@ -1,0 +1,88 @@
+extends ./layouts/layout
+include ./includes/og
+include ./includes/author
+
+block og
+  - var title = "An evening to remember"
+  - var description = "A story about my sweet wife and an ER in Paris."
+  - var image = "http://www.timbenniks.nl/assets/marathon-2016/marathon-2016.jpg"
+  - var url = "http://timbenniks.nl/an-evening-to-remember.html"
+  +og( title, description, image, url )
+
+block content
+  body.article.an-evening-to-remember
+    main( role="main" aria-labelledby="aria-content-label", itemscope, itemtype="http://schema.org/Article" )
+
+      include ./includes/nav.jade
+
+      header
+        meta( itemscope, itemprop="mainEntityOfPage", itemType="https://schema.org/WebPage", itemid=url )
+        h1#aria-content-label( itemprop="name" ) An evening to remember
+        h2( itemprop="headline" ) A story about my sweet wife and an ER in Paris.
+
+      article
+        p It's cold and windy outside but where I'm sitting it's very warm and humid. The furniture and walls are damaged and some of the windows of the front desk are boarded up. I'm thirsty from the heat and I'm nervous. I rushed to get here and I forgot to bring a bottle. The water cooler seems out of order and there are no clean cups. The bathroom, my fallback for water, has been occupied for twenty minutes and inside someone is yelling French slurs I can't understand. When I finally enter, the smell makes me gag. There is this hole in the center of the floor, I guess it's for water drainage after cleaning, and it's filled with a brown lumpy liquid. Urine and feces are everywhere but not in the toilet. I walk on my toes and take quick sip from the tap. Luckily for me there is one of those dispenser bottles with an alcohol solution. It seems to be the only clean thing in there. I wipe my hands with it and go back to my seat.
+
+        p It's hard to believe but I'm describing the waiting area for the emergency room of a hospital in the centre of Paris. It's hot inside so it's a good place for all sorts of people. From bums and junkies to people who desperately need help. The nurses behind the counter are basically nurse and police at the same time. Listening to reason (or insanity) from the posh people from around the corner and telling off the junkies who just want to get in for a quick meal or use the bathroom for the privacy to do what they do.
+
+        p My sweet wife is admitted here based on a series of events that have taken place over the last six weeks. The reason the doctor chose this ER is that it is her regular hospital for non-emergency things. They have a whole file on her so they should know everything about her health.
+
+        p I had not often biked the 11km trip home this fast. I walked the dog and when I arrived back, she texted me: "I just asked and you can't visit me, it's against hospital policy to allow not-sick people in the ER". What?! I worked as a nurse back in Amsterdam and I can't remember us having this rule. I waited and tried to eat something. I was so tense the dog didn't want to cuddle with me. Even playing guitar, my ultimate piece of mind, upset me. After an hour I decided to just go and demand to see my wife. She needed me and I her.
+
+        p The nurse behind the glass at the counter was upset and she got rude when she didn't understand my accent. She looked overworked and barely coping. Once she finally understood my Franglais (I know it has been four years in Paris but in these situations my brain falls back to the basics of speech) she smiled and immediately opened heavy door onto the ward.
+
+        p When I walked in I was hit with a feeling of angst and people in need of help. It was busy and people were placed in extra beds and chairs as there was no place anywhere else. Some people sat in the hallway or next to the toilet. Not everybody was looked after and some people were not covered up. Nurses were running around and loudly complained about how busy they were. Patients were crying, wailing and sometimes screaming.
+
+        p When the nurses attended the people in need or in anger they did so with great skill and care. It made me remember why I became a nurse all these years ago. By now my nursing days are far behind me but I still feel a huge admiration for the profession. I got itching hands and automatically wanted to help out the stressed team.
+
+        p My wife was lucky enough to have gotten in around 5pm and had received a bed and a blanket. All rooms were full so she was placed in the corner with 5 others. All in beds but without separators or curtains. Her "roommates" covered themselves in their own jackets and non of them had a working alarm button. Maybe it worked but the nurses didn't get assigned a group of patients on their beeping devices.
+
+        p When I arrived she didn't expect me and I was welcomed with an ear to ear grin. At least she could still smile. The doctor had ordered her to go to the ER as she had became out of breath and had a high heart rate after being in a wheelchair for five weeks. She had broken her knee in a small scooter accident and was not allowed to move. No movement means a higher blood clotting factor in the blood. When this happens, embolisms are indicated. Embolisms are small blood cloths that can get stuck in arteries and block blood flow to vital organs.
+
+        p We were convinced she had a bronchitis as she has had them more often. One day into the bronchitis she visited the doctor, just to get ahead of it. The doctor explained there was an indication for a pulmonary embolism. This is a very serious thread and if an extra blood test was positive for a certain chemical she had to go to the ER the same day.
+
+        p When she arrived they couldn't believe she took her scooter to get there. A normal person would have taken the ambulance they said. My wife is a badass so she didn't need the hassle of an ambulance.
+
+        p They had taken some blood for tests and now she had to wait until she could get a CT scan. There was a huge wait so she just had to sit it out until it was her turn. When I arrived the evening shift just ended and handover to the late shift started. At that time there were hardly any staff members to help people. Being a nurse myself I understand this, but the other patients have no idea.
+
+        p This ER's architecture is very 70's. It's a semi-circle with rooms and some gaps for extra beds and hallways. The center is for the doctors and nurses. It's all grey concrete without windows. This structure provides privacy and a place of calm for the staff but it does not give any insight into how busy everybody is. Patients basically do not know what is happening and when you are in a state of desperation this is terrible.
+
+        p In Amsterdam everything is glass and you have the privacy of a bed and chairs with a curtain around it. All patients can see the center of the room. The center is made of glass so they can see the nurses and doctors running around doing their jobs. I'm not proud of the Dutch healthcare system on it's own but they have nailed ER's and nursing.
+
+        p After about thirty minutes I was asked to go back to the waiting room as visitors invade the privacy of other patients. This is obviously the case if you have no curtains or separators and if people are placed next tot he bathroom in a chair.
+
+        p Once back in the waiting room I walked into a situation with the lady who spent that twenty minutes screaming in the bathroom when I wanted some water. They had to forcefully remove her. Not a pretty picture. I found a chair as far away from the blasting heaters as possible. I sat down and decided to take out my diary. My emotions were pressing against my throat and eyes and I just needed to write about them. This was the point where I realised all the things that happened over the past couple of years came together.
+
+        p I broke down.
+
+        p Sitting in the disgustingly hot waiting room with all these people in need I couldn't help but reflect on how strong my wife has been the past couple of years. The pulmonary embolism thing is acute and scary and it pushed my normally composed self into a fearful mess. Just like on the bike ride home, tears welled up and I couldn't stop them.
+
+        p I've tried to stay calm and strong for my wife and family who went through tough times over the past years. I have been lucky myself and the worst that happened to me was being overtrained so I couldn't run a marathon. But now the calmly composed Tim was gone. I had a very hard time dealing with this one.
+
+        p The culmination of events that led to this moment show off my wife's immense strength. It's crazy when you think about the fact that she is still happy and doing things out of her comfort zone on a regular basis while she has a kyphosis, arthrosis in her joints and ribs, Hashimoto's, Diabetes type 1.5, Systemic Scleroderma (diagnosed last month), a broken knee where she couldn't walk on crutches due to pain in her hands (the scleroderma) so, wheelchair, than the flu and now potentially and pulmonary embolism.
+
+        p The fact that she walks around, works, cares for others and joined us on a ski trip in a wheelchair is a miracle. In my eyes she is wonder woman and I am extremely proud of her.
+
+        p After a couple of hours she was finally able to go into the CT scan. When she got back I just walked in to see her. The door was open anyways. The ER had calmed down a bit as it was midnight by now. In the bed next to her was a girl who tried to call for help but nobody listened. Even when the ward was as calm as it was. When she started crying I walked to the nurses station to ask for help. They blew me off. For the next ten minutes nobody came. The girl was in pain and it was an almost inconceivable situation to witness.
+
+        p We pressed all alarm buttons and after a while my wife just yelled at a passing doctor. He came to check on her, said one word and left. After five minutes he came back, started to undress her so he could administer a pain killer. No curtains or dividers in place. I just turned away so I wouldn't see. What a mess. Of course we didn't know her situation, maybe she is there every week and manipulates everyone to give her care. I'm trying not to judge.
+
+        p Around the same time a known homeless guy came in, smelling up the place. He demanded food from a special bag he normally get's. They didn't have any tonight and he wasn't having it. He yelled and started throwing things. The nurses where great with him but I was ready to help as he came to close to the patients. When he finally left the doctor came to give us the good news: "no embolism". She would create all paperwork and we would be out of there soonish.
+
+        p After another thirty minutes we walked out into the cold air and found the scooter. Relieved and with the wife at the wheel (of course) we drove into the night. She hadn't eaten in twelve hours and we decided to grab a quick "Macdo" (French for McDonalds). It was the only thing that was open at 1am.
+
+        p A scoot and a Macdo. So French...
+
+        +author( '2018-03-27', 'March 27th, 2018' )
+        .fb-comments( data-href="http://timbenniks.nl/an-evening-to-remember.html" data-numposts="5" data-colorscheme="light" )
+
+block custom_scripts
+  div#fb-root
+  script.
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=233758450111961";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
